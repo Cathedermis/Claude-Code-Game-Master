@@ -11,7 +11,8 @@
       "cha"
     ],
     "vitals": [
-      "hp"
+      "hp",
+      "rot"
     ]
   },
   "progression": {
@@ -106,6 +107,27 @@
           {
             "min": 14,
             "reaction": "Devoted: treats you as kin of the Bearing; will take real risks for you."
+          }
+        ]
+      }
+    },
+    {
+      "primitive": "named_track",
+      "name": "Carrion Rot",
+      "config": {
+        "max": 6,
+        "thresholds": [
+          {
+            "at": 2,
+            "consequence": "Cravings: raw marrow and carrion smell like supper. WIS save DC 12 to refuse when it is offered or near."
+          },
+          {
+            "at": 4,
+            "consequence": "The rot shows (grey veins, a sweet-sick smell, a shadow that lags). Disadvantage on Bearer Standing rolls with anyone who notices, and any Hollow Choir member within a street can sense you."
+          },
+          {
+            "at": 6,
+            "consequence": "Hollow-sung: the Carrion Queen's hymn fills the empty places. The character is lost to her and becomes an NPC of the Choir (run the Death Protocol hand-off)."
           }
         ]
       }

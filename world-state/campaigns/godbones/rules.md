@@ -24,3 +24,10 @@ Opening reaction of townsfolk: 2d6 + standing (-3 to +3). Bearer's Ring or a kno
 
 ## Marrow
 Common currency of the trade alongside coin. A thumb-vial of raw marrow sells for about 5 sp; refined lamp-marrow about 2 gp.
+
+## Carrion Rot (0-6, PC vital `rot`)
+Stolen Choir power rots the thief.
+- **Harvest:** when you kill a Choir disciple you may eat their last breath to take one of their powers. +1 Rot, and a CON save DC 13 or +1 more.
+- **Using a stolen power:** +1 Rot per use unless the power says otherwise.
+- **Thresholds:** 2 cravings · 4 visible rot, Choir can sense you within a street · 6 Hollow-sung (character lost).
+- **Lowering Rot:** not yet known. Rumor says the Chapel, the Tutors, and the Hearthfather himself each have an answer, and each answer costs something.

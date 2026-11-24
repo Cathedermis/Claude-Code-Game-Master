@@ -1,4 +1,11 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": "dba071ac",
+      "consequence": "Deacon Vane recognizes Brother Quell's vertebrae prayer-cord on Thane's wrist and knows he killed a disciple. She says nothing, smiles, and sends word to the Choir.",
+      "trigger": "Deacon Ilsabet Vane gets a clear look at Thane's left wrist",
+      "created": "2026-11-24T09:01:37.812624+00:00"
+    }
+  ],
   "resolved": []
 }

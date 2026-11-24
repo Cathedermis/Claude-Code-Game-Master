@@ -1,0 +1,77 @@
+{
+  "id": "thane-hearthless",
+  "name": "Thane Hearthless",
+  "race": "Human (Hearthblood, a distant descendant of Aldrumm)",
+  "class": "Godkin Hunter",
+  "level": 2,
+  "hp": {
+    "current": 20,
+    "max": 20
+  },
+  "ac": 14,
+  "stats": {
+    "str": 14,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 13,
+    "cha": 12
+  },
+  "skills": {
+    "athletics": 4,
+    "survival": 3,
+    "perception": 3,
+    "intimidation": 3,
+    "stealth": 2,
+    "insight": 1
+  },
+  "equipment": [
+    "Longsword (1d8+2 slashing)",
+    "Hunting knife (1d4+2, thrown 20/60)",
+    "Studded leather armor (AC 14 with DEX)",
+    "Traveler's pack (bedroll, rope, 3 days rations, flint)",
+    "Marrow lamp (cracked)",
+    "Disciple's prayer-cord of tiny vertebrae (taken from his one kill)",
+    "Map of the Weeping Valley, hand-drawn from dreams"
+  ],
+  "features": [
+    "Hearthblood: you dream Aldrumm's dreams. Marrow warms and brightens in your presence. Once per long rest, ask the GM one question about the god's body or past and get a true but dreamlike answer.",
+    "Second Wind (1/short rest): bonus action, regain 1d10+2 HP.",
+    "Hunter's Mark of Endings (1/short rest): bonus action, mark a creature; your weapon hits deal +1d6 to it for 1 minute. Against Choir members you also know where they are while within 60 ft.",
+    "STOLEN: The Lagging Shadow (harvested from Choir disciple Brother Quell): bonus action, step into your own shadow and out of another shadow within 30 ft you can see. +1 Carrion Rot per use."
+  ],
+  "background": "Outsider from beyond the Weeping Valley",
+  "alignment": "",
+  "bonds": "",
+  "flaws": "",
+  "ideals": "",
+  "traits": "",
+  "notes": "Killed one Hollow Choir disciple, Brother Quell, on the Spine Road eleven days ago and ate his last breath. Has not told anyone his lineage. Followed a dream of a warm red room under a chapel to Godbones.",
+  "gold": 12,
+  "xp": 300,
+  "visual_appearance": {
+    "sex": "male",
+    "age": "late twenties",
+    "race": "human",
+    "species": "human (faint divine blood)",
+    "hair": "dark auburn, shoulder length, tied back with a strip of leather",
+    "face": "weathered and angular, short beard, an old scar through one eyebrow",
+    "eyes": "deep amber that glow faintly like marrow-light when he dreams or is angry",
+    "clothing": "travel-worn studded leather over a faded hearth-red tunic, a heavy grey road cloak",
+    "gear": "longsword on the hip, hunting knife at the boot, a prayer-cord of tiny vertebrae wound around his left wrist, cracked marrow lamp on his pack",
+    "demeanor": "quiet, watchful, carries himself like someone owed a debt by the world",
+    "size": "tall and lean-muscled"
+  },
+  "saves": {
+    "str": 4,
+    "dex": 2,
+    "con": 4,
+    "int": 0,
+    "wis": 1,
+    "cha": 1
+  },
+  "rot": {
+    "current": 1,
+    "max": 6
+  }
+}
