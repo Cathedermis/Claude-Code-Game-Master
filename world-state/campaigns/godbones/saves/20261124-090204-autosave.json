@@ -1,0 +1,704 @@
+{
+  "save_version": 1,
+  "name": "autosave",
+  "created": "2026-11-24T09:02:04.925805+00:00",
+  "session_number": 0,
+  "snapshot": {
+    "campaign-overview.json": {
+      "campaign_name": "Godbones",
+      "genre": "Fantasy",
+      "tone": {
+        "horror": 25,
+        "comedy": 40,
+        "drama": 35
+      },
+      "current_date": "3rd of Harvestwane, Year 302 of the Bearing",
+      "time_of_day": "Midday",
+      "player_position": {
+        "current_location": "Rib Row",
+        "previous_location": null
+      },
+      "current_character": "Thane Hearthless",
+      "session_count": 0,
+      "play_pack": {
+        "whose_story": "Pip Haddersley, a street kid who has started speaking the dead god's language in his sleep, and everyone who wants him for it",
+        "room": "Rib Row",
+        "present": [
+          "Mother Gristle",
+          "Pip Haddersley",
+          "Deacon Ilsabet Vane"
+        ],
+        "exits": [
+          "Gristle's Pickles & Preserves",
+          "The Marrow Pits",
+          "The Chapel of the Long Wake"
+        ],
+        "hook": "Midday on market day, Pip Haddersley collapses in the middle of Rib Row and, still asleep, speaks one word of Marrowtongue. Every marrow lamp on the street flares white and a baker's window shatters. Deacon Ilsabet Vane is already kneeling beside him, offering to carry the poor child to the Chapel for care. Mother Gristle, in her shop doorway, has gone very still.",
+        "offstage": [
+          "Warden Osric Hallowmere",
+          "Brannoc Tull",
+          "Brother Pellam Smudge",
+          "The Spine Road",
+          "The Skull",
+          "The Open Hand",
+          "Pelvis Fen"
+        ],
+        "primer": "The Hollow Choir is hunting for the exact location of Aldrumm's true heart, which the Heartstone points to but does not reveal. Pip has been dreaming the god's dreams, and today the dream spoke through him: he now knows words of Marrowtongue nobody taught him, and his dreams are a map to the heart. Deacon Vane (secretly Choir) wants him inside the Chapel, quietly, today. Mother Gristle (Lantern Tutor) recognizes a natural speaker and knows an untrained one will either burn himself out on the Toll or get taken. The player arrives in the middle of this. If nobody intervenes, Vane takes Pip to the Chapel and the Choir clock advances."
+      },
+      "opening_hook": {
+        "location": "Rib Row",
+        "hook": "Midday on market day, Pip Haddersley collapses in the middle of Rib Row and, still asleep, speaks one word of Marrowtongue. Every marrow lamp on the street flares white and a baker's window shatters. Deacon Ilsabet Vane is already kneeling beside him, offering to carry the poor child to the Chapel for care. Mother Gristle, in her shop doorway, has gone very still."
+      },
+      "opening_matched_to_pc": true
+    },
+    "npcs.json": {
+      "Mother Gristle": {
+        "name": "Mother Gristle",
+        "description": "Ancient Lantern Tutor of the Marrowtongue. Runs Gristle's Pickles & Preserves on Rib Row as cover; the back room is a schoolroom for dangerous words. Takes one apprentice a decade and has buried several.",
+        "attitude": "neutral",
+        "tags": {
+          "locations": [
+            "Rib Row"
+          ],
+          "quests": []
+        },
+        "goal": "Get Pip away from the Chapel and teach him before the Toll or the Choir kills him",
+        "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
+        "current_mood": "very still, which in Gristle is the same as shouting",
+        "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
+        "visual_appearance": {
+          "sex": "female",
+          "age": "very old, somewhere past ninety",
+          "race": "human",
+          "species": "human",
+          "hair": "thin white hair scraped into a tight bun, held with a bone pin",
+          "face": "deeply lined, hooked nose, a faint burn scar across one cheek shaped like a word",
+          "eyes": "pale grey, sharp, unblinking",
+          "clothing": "stained brine-apron over a black wool dress, rolled sleeves",
+          "gear": "a ladle she holds like a weapon, a ring of jar keys, a vial of marrow on a cord",
+          "demeanor": "still and watchful, coiled like a spring",
+          "size": "small and bent but wiry"
+        }
+      },
+      "Pip Haddersley": {
+        "name": "Pip Haddersley",
+        "description": "Street urchin and part-time marrow-thief, about eleven. For a month he has dreamed the god's dreams every night. Today the dream spoke through him in Marrowtongue.",
+        "attitude": "neutral",
+        "tags": {
+          "locations": [
+            "Rib Row"
+          ],
+          "quests": []
+        },
+        "goal": "Not get locked up; find out why the dreams keep showing him a warm red room under the Chapel",
+        "secret": "His dreams are a map to Aldrumm's true heart, and he has been drawing it in chalk on the underside of the Rib Row bridge",
+        "current_mood": "unconscious, then terrified and pretending not to be",
+        "voice": "Fast gutter slang, bargains for everything, goes very quiet and formal when the dream-words come",
+        "visual_appearance": {
+          "sex": "male",
+          "age": "about eleven",
+          "race": "human",
+          "species": "human",
+          "hair": "dirty straw-blond mop, badly self-cut",
+          "face": "thin, freckled, chalk smudges, a split lip healing",
+          "eyes": "hazel, glowing faint amber when he dreams",
+          "clothing": "oversized patched coat with too many pockets, bare feet wrapped in rags",
+          "gear": "a chalk stub, a scraping knife, a stolen thumb-vial of marrow",
+          "demeanor": "wary, quick, brave in short bursts",
+          "size": "small and underfed"
+        }
+      },
+      "Deacon Ilsabet Vane": {
+        "name": "Deacon Ilsabet Vane",
+        "description": "Rising star of the Chapel of the Long Wake. Warm, attentive, remembers everyone's name and their children's names. Beloved on Rib Row.",
+        "attitude": "neutral",
+        "tags": {
+          "locations": [
+            "Rib Row"
+          ],
+          "quests": []
+        },
+        "goal": "Get Pip inside the Chapel today, quietly, with the town's blessing",
+        "secret": "She belongs to the Hollow Choir. She sings the Carrion Queen's hymn under her breath when she thinks no one is near, and her shadow is a half-second late",
+        "current_mood": "tender concern, perfectly performed",
+        "voice": "Soft, kind, unhurried; uses 'we' and 'together'; never once raises her voice, even when threatening",
+        "visual_appearance": {
+          "sex": "female",
+          "age": "mid-thirties",
+          "race": "human",
+          "species": "human",
+          "hair": "glossy black hair in a neat braided crown",
+          "face": "lovely and open, gentle smile, a small mole by the lip",
+          "eyes": "dark brown, warm, a little too steady",
+          "clothing": "pale ivory Chapel vestments trimmed in amber thread, spotless",
+          "gear": "a bone censer on a chain, a prayer-cord of tiny vertebrae",
+          "demeanor": "serene, tender, endlessly patient",
+          "size": "tall and graceful"
+        }
+      }
+    },
+    "locations.json": {
+      "Rib Row": {
+        "name": "Rib Row",
+        "position": "Pip Haddersley, a street kid who has started speaking the dead god's language in his sleep, and everyone who wants him for it",
+        "description": "The Hollow Choir is hunting for the exact location of Aldrumm's true heart, which the Heartstone points to but does not reveal. Pip has been dreaming the god's dreams, and today the dream spoke through him: he now knows words of Marrowtongue nobody taught him, and his dreams are a map to the heart. Deacon Vane (secretly Choir) wants him inside the Chapel, quietly, today. Mother Gristle (Lantern Tutor) recognizes a natural speaker and knows an untrained one will either burn himself out on the Toll or get taken. The player arrives in the middle of this. If nobody intervenes, Vane takes Pip to the Chapel and the Choir clock advances.",
+        "connections": [
+          {
+            "to": "Gristle's Pickles & Preserves",
+            "path": "visible from here"
+          },
+          {
+            "to": "The Marrow Pits",
+            "path": "visible from here"
+          },
+          {
+            "to": "The Chapel of the Long Wake",
+            "path": "visible from here"
+          }
+        ]
+      },
+      "Gristle's Pickles & Preserves": {
+        "name": "Gristle's Pickles & Preserves",
+        "position": "exit from Rib Row",
+        "description": "",
+        "connections": [
+          {
+            "to": "Rib Row",
+            "path": "visible from here"
+          }
+        ]
+      },
+      "The Marrow Pits": {
+        "name": "The Marrow Pits",
+        "position": "exit from Rib Row",
+        "description": "",
+        "connections": [
+          {
+            "to": "Rib Row",
+            "path": "visible from here"
+          }
+        ]
+      },
+      "The Chapel of the Long Wake": {
+        "name": "The Chapel of the Long Wake",
+        "position": "exit from Rib Row",
+        "description": "",
+        "connections": [
+          {
+            "to": "Rib Row",
+            "path": "visible from here"
+          }
+        ]
+      }
+    },
+    "facts.json": {
+      "plot_local": [
+        {
+          "fact": "Thane Hearthless killed Hollow Choir disciple Brother Quell on the Spine Road eleven days ago and harvested his Lagging Shadow power. The Choir has not found the body.",
+          "timestamp": "2026-11-24T09:01:37.673228+00:00"
+        }
+      ],
+      "lore": [
+        {
+          "fact": "Thane Hearthless carries Aldrumm's blood (Hearthblood). Nobody in Godbones knows yet.",
+          "timestamp": "2026-11-24T09:01:37.739954+00:00"
+        }
+      ]
+    },
+    "consequences.json": {
+      "active": [
+        {
+          "id": "dba071ac",
+          "consequence": "Deacon Vane recognizes Brother Quell's vertebrae prayer-cord on Thane's wrist and knows he killed a disciple. She says nothing, smiles, and sends word to the Choir.",
+          "trigger": "Deacon Ilsabet Vane gets a clear look at Thane's left wrist",
+          "created": "2026-11-24T09:01:37.812624+00:00"
+        }
+      ],
+      "resolved": []
+    },
+    "ruleset.json": {
+      "name": "Godbones",
+      "kit": "custom",
+      "stat_schema": {
+        "attributes": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ],
+        "vitals": [
+          "hp",
+          "rot"
+        ]
+      },
+      "progression": {
+        "model": "xp-levels"
+      },
+      "resolution": {
+        "model": "d20-vs-dc"
+      },
+      "active_agents": [
+        "monster-manual",
+        "rules-master",
+        "loot-dropper",
+        "gear-master",
+        "npc-builder"
+      ],
+      "rules_doc": "rules.md",
+      "systems": [
+        {
+          "primitive": "price_roll",
+          "name": "The Toll",
+          "config": {
+            "dice": "1d20",
+            "modifier": 0,
+            "ladder": [
+              {
+                "min_roll": 15,
+                "cost": "A clean working. A dull ache behind the eyes, nothing more."
+              },
+              {
+                "min_roll": 10,
+                "cost": "Winded and shaking: 1 level of exhaustion until a short rest."
+              },
+              {
+                "min_roll": 5,
+                "cost": "The body pays in blood: lose 1d8 HP per spell tier and gain 1 level of exhaustion."
+              },
+              {
+                "min_roll": 0,
+                "cost": "Collapse: drop to 0 HP and begin dying. The working still completes."
+              },
+              {
+                "min_roll": -100,
+                "cost": "The bill comes due in full: the caster dies unless someone shares the cost (an ally can pay half)."
+              }
+            ]
+          }
+        },
+        {
+          "primitive": "named_track",
+          "name": "The Stirring",
+          "config": {
+            "max": 6,
+            "thresholds": [
+              {
+                "at": 2,
+                "consequence": "Shared dreams: the whole town dreams the same dream of Aldrumm that night; the Chapel announces a miracle and raises the dream-blessing fee."
+              },
+              {
+                "at": 4,
+                "consequence": "Bone-quake: the Ribcage shifts. Rib Row tilts, a Marrow Pit collapses, and the Hollow Choir learns exactly where the heart is."
+              },
+              {
+                "at": 6,
+                "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes."
+              }
+            ]
+          }
+        },
+        {
+          "primitive": "reaction_roll",
+          "name": "Bearer Standing",
+          "config": {
+            "dice": "2d6",
+            "modifier": 0,
+            "tiers": [
+              {
+                "min": -100,
+                "reaction": "Hostile: calls the watch, slams the door, or worse."
+              },
+              {
+                "min": 5,
+                "reaction": "Cold: civil but unhelpful, wants payment or proof first."
+              },
+              {
+                "min": 8,
+                "reaction": "Neutral: will deal fairly, will not take risks for you."
+              },
+              {
+                "min": 11,
+                "reaction": "Warm: offers help, gossip, or a discount."
+              },
+              {
+                "min": 14,
+                "reaction": "Devoted: treats you as kin of the Bearing; will take real risks for you."
+              }
+            ]
+          }
+        },
+        {
+          "primitive": "named_track",
+          "name": "Carrion Rot",
+          "config": {
+            "max": 6,
+            "thresholds": [
+              {
+                "at": 2,
+                "consequence": "Cravings: raw marrow and carrion smell like supper. WIS save DC 12 to refuse when it is offered or near."
+              },
+              {
+                "at": 4,
+                "consequence": "The rot shows (grey veins, a sweet-sick smell, a shadow that lags). Disadvantage on Bearer Standing rolls with anyone who notices, and any Hollow Choir member within a street can sense you."
+              },
+              {
+                "at": 6,
+                "consequence": "Hollow-sung: the Carrion Queen's hymn fills the empty places. The character is lost to her and becomes an NPC of the Choir (run the Death Protocol hand-off)."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "world-bible.json": {
+      "name": "Godbones",
+      "confirmed": true,
+      "voice": {
+        "style": "Pratchett-style: warm, dry, omniscient narrator who knows exactly how absurd everyone is and likes them anyway. Long sentences that wander and then land a punchline in the last four words. Grand mythic statements immediately undercut by small domestic detail. Wry asides that state the obvious nobody wanted said. Plain, concrete diction, no purple prose. Humor carries the darkness instead of hiding it.",
+        "vocab": [
+          "the Ribcage",
+          "marrow",
+          "the Long Wake",
+          "Bearer blood",
+          "the Toll",
+          "Marrowtongue",
+          "tutor",
+          "the Stirring",
+          "the Carrion Queen",
+          "tithe-scrapers"
+        ],
+        "sample_passages": [
+          "Three hundred years ago the god Aldrumm fell out of the sky, which is the sort of thing that happens to gods eventually, and landed across the Weeping Valley like a dropped coat. The people of the valley did what people always do with a disaster: they waited a respectful week, then moved in.",
+          "The Chapel of the Long Wake held that Aldrumm was merely sleeping. This was a comfort to the faithful and a considerable relief to the Chapel's accountants, since nobody tithes to a corpse.",
+          "Magic, old Mother Gristle told her apprentices, is very simple. You say the true name of a thing in the god's own tongue, and the thing listens. Then it sends you the bill. Most people who die of magic, she added, die of not reading the bill."
+        ]
+      },
+      "tone": "Dark with humor. Death, debt, and divine murder are real and lethal; the people living through them are petty, funny, stubborn, and kind at inconvenient moments.",
+      "themes": [
+        "living off the dead: a whole town that eats, burns, and sells pieces of its god",
+        "inheritance and lineage: who gets to own a god's body, and who did the actual hauling",
+        "faith as a business: the Chapel needs Aldrumm asleep, not dead and not awake",
+        "the price of power: every word of magic is paid for in the caster's own body",
+        "an unfinished murder: the goddess who killed Aldrumm has not stopped working"
+      ],
+      "factions": {
+        "nodes": [
+          {
+            "id": "wardens",
+            "name": "The Wardens of the Sternum",
+            "summary": "Council of the old Bearer families whose ancestors hauled the god's body. Hold hereditary rights to the bones and collect the marrow tithe. Pompous, inbred, genuinely brave when cornered."
+          },
+          {
+            "id": "chapel",
+            "name": "The Chapel of the Long Wake",
+            "summary": "Insists Aldrumm is only sleeping. Sells dream-blessings, keeps the Heartstone, and quietly bans the Marrowtongue as blasphemy (and competition)."
+          },
+          {
+            "id": "guild",
+            "name": "The Marrow Guild",
+            "summary": "Tithe-scrapers and pit-crews who mine glowing marrow from the bones for lamps, medicine, and magic. Working people with sore backs and long memories."
+          },
+          {
+            "id": "tutors",
+            "name": "The Lantern Tutors",
+            "summary": "The handful of licensed teachers of the Marrowtongue. Scarce, expensive, and each one a little odd from years of paying the Toll."
+          },
+          {
+            "id": "choir",
+            "name": "The Hollow Choir",
+            "summary": "Servants of the Carrion Queen, the goddess who killed Aldrumm. They want his heart, and they are patient, polite, and already in town."
+          }
+        ],
+        "edges": [
+          {
+            "from": "guild",
+            "to": "wardens",
+            "relation": "tithe dispute; the Guild does the digging, the Wardens take the cut"
+          },
+          {
+            "from": "chapel",
+            "to": "tutors",
+            "relation": "condemns as blasphemers, yet secretly hires them"
+          },
+          {
+            "from": "wardens",
+            "to": "tutors",
+            "relation": "license and tax"
+          },
+          {
+            "from": "choir",
+            "to": "chapel",
+            "relation": "has infiltrated; wants the Heartstone it guards"
+          }
+        ]
+      },
+      "geography": {
+        "nodes": [
+          {
+            "id": "ribrow",
+            "name": "Rib Row",
+            "summary": "The starting street: a market lane built along the inside curve of the seventh rib. Shops are carved into the bone; the street slopes, so everything rolls downhill eventually, including reputations."
+          },
+          {
+            "id": "pits",
+            "name": "The Marrow Pits",
+            "summary": "Bore-holes into the great rib bones where the Guild scrapes glowing marrow. Warm, humming, and occasionally dreaming."
+          },
+          {
+            "id": "chapel_loc",
+            "name": "The Chapel of the Long Wake",
+            "summary": "Built over the god's still heart-cavity at the center of the Ribcage."
+          },
+          {
+            "id": "spine",
+            "name": "The Spine Road",
+            "summary": "The old road running along the god's backbone out of the Ribcage toward the north."
+          },
+          {
+            "id": "skull",
+            "name": "The Skull",
+            "summary": "A sealed hill of bone a day north. Nobody goes in. People who say they have are lying or changed."
+          },
+          {
+            "id": "hand",
+            "name": "The Open Hand",
+            "summary": "Five finger-bones jutting out of farmland to the east; a rival village lives in the palm."
+          },
+          {
+            "id": "fen",
+            "name": "Pelvis Fen",
+            "summary": "Marshland south of the hips. Bad smells, worse neighbors."
+          }
+        ],
+        "edges": [
+          {
+            "from": "ribrow",
+            "to": "pits",
+            "adjacency": "down a stair cut into the rib"
+          },
+          {
+            "from": "ribrow",
+            "to": "chapel_loc",
+            "adjacency": "a short climb toward the sternum"
+          },
+          {
+            "from": "chapel_loc",
+            "to": "spine",
+            "adjacency": "the Spine Road starts behind the Chapel"
+          },
+          {
+            "from": "spine",
+            "to": "skull",
+            "adjacency": "a day's walk north along the vertebrae"
+          }
+        ]
+      },
+      "timeline": [
+        "The Last Quarrel: the gods fight; the Carrion Queen kills Aldrumm the Hearthfather",
+        "The Fall: Aldrumm lands across the Weeping Valley",
+        "The Bearing: twelve families drag the body into position and claim it (roughly 300 years ago)",
+        "The town of Godbones is built inside the ribcage; the Chapel of the Long Wake is founded",
+        "Now: marrow yields are dropping, dreams are shared across town, and the Hollow Choir has arrived"
+      ],
+      "pantheon": [
+        {
+          "name": "Aldrumm the Hearthfather",
+          "note": "The dead (sleeping?) god of hearth, harvest, and keeping promises. His bones are the town."
+        },
+        {
+          "name": "The Carrion Queen",
+          "note": "Goddess of endings and scavengers. Killed Aldrumm in the Last Quarrel and wants to finish eating."
+        },
+        {
+          "name": "Old Tamsin of the Crossroads",
+          "note": "Trickster goddess who sat the Quarrel out. Still sells advice at bad prices."
+        }
+      ],
+      "signature_systems": [
+        "Marrowtongue magic: speak a thing's true name in the dead god's language and it obeys. Infinitely flexible, but every working is paid from the caster's own body (the Toll). Bigger ambition, bigger bill. Untutored casters pay extra.",
+        "The Toll: a price roll after every working; ranges from a headache to collapse to death.",
+        "The Stirring: a town-wide meter of how close Aldrumm is to waking. Big magic near the bones and desecration push it up. Thresholds bring shared dreams, bone-quakes, and finally an opened eye.",
+        "Bearer Standing: NPC reactions are shifted by your lineage and reputation with the old families."
+      ],
+      "index": {
+        "npcs": [
+          {
+            "name": "Mother Gristle",
+            "note": "Ancient Lantern Tutor of the Marrowtongue who runs a pickle shop on Rib Row as cover and takes one apprentice a decade."
+          },
+          {
+            "name": "Warden Osric Hallowmere",
+            "note": "Head of the senior Bearer family; pompous, broke, and desperate to keep the tithe flowing."
+          },
+          {
+            "name": "Deacon Ilsabet Vane",
+            "note": "Rising star of the Chapel of the Long Wake, very warm, very helpful, secretly of the Hollow Choir."
+          },
+          {
+            "name": "Brannoc Tull",
+            "note": "Foreman of the Marrow Guild, built like a door, organizing a strike nobody is supposed to call a strike."
+          },
+          {
+            "name": "Pip Haddersley",
+            "note": "Street urchin and marrow-thief who has been having the god's dreams every night."
+          },
+          {
+            "name": "Brother Pellam Smudge",
+            "note": "The Chapel's underpaid illuminator, who paints everything that happens and gets most of it slightly wrong."
+          }
+        ],
+        "locations": [
+          {
+            "name": "Rib Row",
+            "note": "The market lane along the seventh rib; the opening stage."
+          },
+          {
+            "name": "Gristle's Pickles & Preserves",
+            "note": "Mother Gristle's shop; the back room is a schoolroom for dangerous words."
+          },
+          {
+            "name": "The Marrow Pits",
+            "note": "Guild mines bored into the ribs."
+          },
+          {
+            "name": "The Chapel of the Long Wake",
+            "note": "Built over the heart-cavity; holds the Heartstone."
+          },
+          {
+            "name": "The Skull",
+            "note": "Sealed bone hill a day north; forbidden."
+          }
+        ],
+        "items": [
+          {
+            "name": "The Heartstone",
+            "note": "Crystallized last heartbeat of Aldrumm, kept by the Chapel; the Hollow Choir wants it."
+          },
+          {
+            "name": "Marrow lamp",
+            "note": "Common lantern burning refined god-marrow; warm amber light, faint humming."
+          },
+          {
+            "name": "Bearer's Ring",
+            "note": "Bone signet proving descent from one of the twelve hauling families."
+          }
+        ],
+        "monsters": [
+          {
+            "name": "Marrow-mites",
+            "note": "Dog-sized pale insects that burrow in the bones and eat marrow, and occasionally miners."
+          },
+          {
+            "name": "The Hollow-sung",
+            "note": "People the Choir has emptied out and filled with the Carrion Queen's hymn; polite, tireless, wrong."
+          },
+          {
+            "name": "Bone-wight",
+            "note": "A Bearer ancestor's ghost bound into a rib; furious about property lines."
+          }
+        ]
+      }
+    },
+    "threat-clocks.json": {
+      "The Hollow Choir claims Aldrumm's heart": {
+        "current": 0,
+        "max": 4,
+        "advance_on": "time",
+        "consequence": "The Choir finds the true heart through stolen dreams and the Heartstone, and the Carrion Queen begins to finish her meal. The Stirring jumps to 4, and the Ribcage starts to die for good."
+      }
+    },
+    "campaign-memory.json": {
+      "entries": [],
+      "entries_hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "embeddings": []
+    },
+    "chronicler.json": {
+      "name": "Brother Pellam Smudge",
+      "style": "In the style of a classic 1980s oil-painted fantasy paperback cover, thick visible brushstrokes and warm hand-painted figures, but lit from below by the sickly amber-and-ivory glow of living god-marrow, with deep violet shadows pooling between colossal curved rib bones that frame every scene like cathedral arches.",
+      "persona": "Illuminator-in-residence to the Chapel of the Long Wake, paid by the canvas and paid badly. Earnest, devout, flatters whoever commissioned the piece, adds a halo to anyone who tips, and signs every work with a small apologetic note about the varnish."
+    },
+    "rules.md": "# Godbones: House Rules\n\nCore: d20 + stat mod (+ proficiency where it fits) vs DC (10 easy, 15 moderate, 20 hard, 25 brutal). D&D-style HP, AC, death saves.\n\n## Marrowtongue (magic)\n- Speak the true name of a thing in the dead god's tongue and it obeys. Any effect is possible; the cost scales with ambition.\n- **Know the word first.** Casting needs the right words. Words come from a Lantern Tutor (safe, slow, expensive) or from guessing (INT or WIS check, DC by how obscure the word is; on a fail the word means something else).\n- **Casting check:** INT (studied) or WIS (instinctive) vs DC set by the effect's scale.\n- **Spell tier (severity for the Toll):**\n  - 0 Cantrip-scale: light a wick, warm your hands, find a dropped key.\n  - 2 Minor: shove a person, mend a bone-crack, silence a room.\n  - 5 Major: hurl someone across a street, heal a mortal wound, put out a house fire.\n  - 9 Grand: bend a rib, still a crowd, speak to the dead god.\n  - 14 Mythic: anything a god would hesitate over.\n- **Untutored:** +3 severity until a Tutor has taught you at least the basics of the word.\n- **Near the bones:** a Major-or-larger working inside the Ribcage advances The Stirring by 1 (Grand or larger by 2).\n- **The Toll:** after the working, roll the Toll (price roll) with severity = tier (+3 if untutored). Read the ladder. An ally who knows even one word can take half the cost.\n\n## The Stirring (0-6)\nTown-wide meter of how close Aldrumm is to waking. Rises from big magic near the bones, desecration, and Choir rites. Thresholds: 2 shared dreams, 4 bone-quake, 6 an eye opens.\n\n## Bearer Standing\nOpening reaction of townsfolk: 2d6 + standing (-3 to +3). Bearer's Ring or a known kindness to the old families raises it; a known slight lowers it.\n\n## Marrow\nCommon currency of the trade alongside coin. A thumb-vial of raw marrow sells for about 5 sp; refined lamp-marrow about 2 gp.\n\n## Carrion Rot (0-6, PC vital `rot`)\nStolen Choir power rots the thief.\n- **Harvest:** when you kill a Choir disciple you may eat their last breath to take one of their powers. +1 Rot, and a CON save DC 13 or +1 more.\n- **Using a stolen power:** +1 Rot per use unless the power says otherwise.\n- **Thresholds:** 2 cravings · 4 visible rot, Choir can sense you within a street · 6 Hollow-sung (character lost).\n- **Lowering Rot:** not yet known. Rumor says the Chapel, the Tutors, and the Hearthfather himself each have an answer, and each answer costs something.\n",
+    "session-log.md": "# Session Log - Godbones\n\n*A new adventure begins...*\n\n---\n\n## World Summary\nThree hundred years ago the god Aldrumm the Hearthfather was killed by the Carrion Queen and fell across the Weeping Valley. Twelve Bearer families dragged the body into place and built the town of Godbones inside the ribcage. The Chapel of the Long Wake insists he is only sleeping. Marrow yields are dropping, the town shares dreams, and the Hollow Choir has arrived.\n\n- **Starting location:** Rib Row, market lane along the seventh rib. Midday, market day, 3rd of Harvestwane, Year 302 of the Bearing.\n- **On stage:** Mother Gristle (Lantern Tutor, pickle shop), Pip Haddersley (street kid speaking Marrowtongue in his sleep), Deacon Ilsabet Vane (Chapel, secretly Hollow Choir).\n- **Hook:** Pip collapses mid-street and speaks a word of the god's tongue; lamps flare, a window shatters. Vane wants to carry him to the Chapel \"for care.\" Gristle has gone very still.\n- **Threat clock:** The Hollow Choir claims Aldrumm's heart (0/4).\n\n---\n",
+    "characters": {
+      "character": {
+        "id": "thane-hearthless",
+        "name": "Thane Hearthless",
+        "race": "Human (Hearthblood, a distant descendant of Aldrumm)",
+        "class": "Godkin Hunter",
+        "level": 2,
+        "hp": {
+          "current": 20,
+          "max": 20
+        },
+        "ac": 14,
+        "stats": {
+          "str": 14,
+          "dex": 15,
+          "con": 14,
+          "int": 10,
+          "wis": 13,
+          "cha": 12
+        },
+        "skills": {
+          "athletics": 4,
+          "survival": 3,
+          "perception": 3,
+          "intimidation": 3,
+          "stealth": 2,
+          "insight": 1
+        },
+        "equipment": [
+          "Longsword (1d8+2 slashing)",
+          "Hunting knife (1d4+2, thrown 20/60)",
+          "Studded leather armor (AC 14 with DEX)",
+          "Traveler's pack (bedroll, rope, 3 days rations, flint)",
+          "Marrow lamp (cracked)",
+          "Disciple's prayer-cord of tiny vertebrae (taken from his one kill)",
+          "Map of the Weeping Valley, hand-drawn from dreams"
+        ],
+        "features": [
+          "Hearthblood: you dream Aldrumm's dreams. Marrow warms and brightens in your presence. Once per long rest, ask the GM one question about the god's body or past and get a true but dreamlike answer.",
+          "Second Wind (1/short rest): bonus action, regain 1d10+2 HP.",
+          "Hunter's Mark of Endings (1/short rest): bonus action, mark a creature; your weapon hits deal +1d6 to it for 1 minute. Against Choir members you also know where they are while within 60 ft.",
+          "STOLEN: The Lagging Shadow (harvested from Choir disciple Brother Quell): bonus action, step into your own shadow and out of another shadow within 30 ft you can see. +1 Carrion Rot per use."
+        ],
+        "background": "Outsider from beyond the Weeping Valley",
+        "alignment": "",
+        "bonds": "",
+        "flaws": "",
+        "ideals": "",
+        "traits": "",
+        "notes": "Killed one Hollow Choir disciple, Brother Quell, on the Spine Road eleven days ago and ate his last breath. Has not told anyone his lineage. Followed a dream of a warm red room under a chapel to Godbones.",
+        "gold": 12,
+        "xp": 300,
+        "visual_appearance": {
+          "sex": "male",
+          "age": "late twenties",
+          "race": "human",
+          "species": "human (faint divine blood)",
+          "hair": "dark auburn, shoulder length, tied back with a strip of leather",
+          "face": "weathered and angular, short beard, an old scar through one eyebrow",
+          "eyes": "deep amber that glow faintly like marrow-light when he dreams or is angry",
+          "clothing": "travel-worn studded leather over a faded hearth-red tunic, a heavy grey road cloak",
+          "gear": "longsword on the hip, hunting knife at the boot, a prayer-cord of tiny vertebrae wound around his left wrist, cracked marrow lamp on his pack",
+          "demeanor": "quiet, watchful, carries himself like someone owed a debt by the world",
+          "size": "tall and lean-muscled"
+        },
+        "saves": {
+          "str": 4,
+          "dex": 2,
+          "con": 4,
+          "int": 0,
+          "wis": 1,
+          "cha": 1
+        },
+        "rot": {
+          "current": 1,
+          "max": 6
+        }
+      }
+    }
+  }
+}

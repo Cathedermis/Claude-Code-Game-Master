@@ -25,7 +25,13 @@
       "gear": "a ladle she holds like a weapon, a ring of jar keys, a vial of marrow on a cord",
       "demeanor": "still and watchful, coiled like a spring",
       "size": "small and bent but wiry"
-    }
+    },
+    "events": [
+      {
+        "event": "A stranger (Thane) whose cracked marrow lamp lit up when Pip spoke came straight to her shop instead of to the boy. She is wary: wants proof he is what the lamp says before she trusts him.",
+        "timestamp": "2026-11-24T18:54:53.215743+00:00"
+      }
+    ]
   },
   "Pip Haddersley": {
     "name": "Pip Haddersley",
