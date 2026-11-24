@@ -7,7 +7,7 @@
   "class": "Gutter Dreamer",
   "hp": {
     "current": 0,
-    "max": 9
+    "max": 15
   },
   "ac": 13,
   "stats": {
@@ -63,7 +63,9 @@
     "Natural Speaker: dreams words of Marrowtongue untaught. Knows the hearth-word (UNTUTORED: +3 Toll severity). Casts with WIS (+2), no proficiency yet.",
     "Dream-map: knows the way through the god's body to the door with the hand-shaped lock, from a month of drawing it. Can find it awake, in the dark, by feel.",
     "Small and Quick: fits through gaps adults cannot; advantage on Stealth in crowds and on Rib Row.",
-    "Gutter Knowledge: knows every alley, drain, rooftop, and fence on Rib Row, and who will buy stolen marrow."
+    "Gutter Knowledge: knows every alley, drain, rooftop, and fence on Rib Row, and who will buy stolen marrow.",
+    "The waking-word (rise / stand / open your eyes), UNTUTORED: spoken once, at the heart, to wake Aldrumm. Rouse the sleeping, steady the dying, shake off a spell. Near the bones it can move the Stirring.",
+    "Woke the God: Aldrumm knows Pip by name and owes him a kept promise."
   ],
   "silver": 0,
   "copper": 7,
