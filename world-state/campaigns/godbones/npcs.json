@@ -46,6 +46,10 @@
       {
         "event": "Day two: taught Thane the binding-word and made him proficient. Shouted STOP at the right moment when it misfired.",
         "timestamp": "2026-11-24T19:42:11.467428+00:00"
+      },
+      {
+        "event": "Seeing Vane at her door, deliberately goaded her into swearing an oath out loud, so Thane could bind her to it.",
+        "timestamp": "2026-11-24T20:08:52.467030+00:00"
       }
     ]
   },
@@ -110,6 +114,12 @@
       "gear": "a bone censer on a chain, a prayer-cord of tiny vertebrae",
       "demeanor": "serene, tender, endlessly patient",
       "size": "tall and graceful"
-    }
+    },
+    "events": [
+      {
+        "event": "Visited Gristle's shop at dusk asking about the self-lit stove. Heard someone hiding in the back room (an onion rolled out under the curtain). Has not seen who. Under pressure from Gristle, publicly swore Pip would be home in his own bed, whole and himself, by tomorrow's supper bell.",
+        "timestamp": "2026-11-24T20:08:52.381243+00:00"
+      }
+    ]
   }
 }
