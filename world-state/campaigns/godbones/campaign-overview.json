@@ -6,14 +6,14 @@
     "comedy": 40,
     "drama": 35
   },
-  "current_date": "4th of Harvestwane, Year 302 of the Bearing",
-  "time_of_day": "Evening",
+  "current_date": "5th of Harvestwane, Year 302 of the Bearing",
+  "time_of_day": "Dawn",
   "player_position": {
-    "current_location": "Gristle's Pickles & Preserves",
-    "previous_location": "Rib Row",
-    "arrival_time": "2026-11-24 19:42:11 UTC"
+    "current_location": "The Quiet Rooms",
+    "previous_location": "The Quiet Rooms",
+    "arrival_time": "2026-11-24 20:24:18 UTC"
   },
-  "current_character": "Thane Hearthless",
+  "current_character": "Pip Haddersley",
   "session_count": 0,
   "play_pack": {
     "whose_story": "Pip Haddersley, a street kid who has started speaking the dead god's language in his sleep, and everyone who wants him for it",

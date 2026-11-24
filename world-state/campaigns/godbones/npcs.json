@@ -11,7 +11,7 @@
     },
     "goal": "Keep Thane's body out of the Choir's hands, get Pip home, and make the Carrion Queen's deacon regret every word of that oath",
     "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
-    "current_mood": "grieving, furious, very still",
+    "current_mood": "unconscious, then barely holding together",
     "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
     "visual_appearance": {
       "sex": "female",
@@ -58,6 +58,10 @@
       {
         "event": "Thane died under her hands, and at the last he pushed her hand away so she would not pay the bill with him. She wrote his name in a box on the back-room wall and did not cross it out.",
         "timestamp": "2026-11-24T20:20:54.960973+00:00"
+      },
+      {
+        "event": "Night of the 4th: the Hollow-sung broke in and took Thane's body. She held the back room until she could not. Found at dawn unconscious among the broken jars, alive.",
+        "timestamp": "2026-11-24T20:24:18.408864+00:00"
       }
     ]
   },
@@ -97,7 +101,10 @@
         "event": "In the shared dream he watched the lamp man burn from the inside and the god turn toward him and away. He knows the lamp man is the reason he goes home tomorrow.",
         "timestamp": "2026-11-24T20:20:55.148319+00:00"
       }
-    ]
+    ],
+    "is_player_character": true,
+    "is_party_member": false,
+    "became_pc": true
   },
   "Deacon Ilsabet Vane": {
     "name": "Deacon Ilsabet Vane",
@@ -147,6 +154,10 @@
       {
         "event": "Watched Thane Hearthless burn himself out in the dream, and thanked him for lighting the door. She knows his body is in Gristle's shop.",
         "timestamp": "2026-11-24T20:20:55.232592+00:00"
+      },
+      {
+        "event": "Dawn on the 5th: the Choir opened the heart's door a crack with Thane's dead hand. She is still bound to return Pip home, whole and himself, by supper.",
+        "timestamp": "2026-11-24T20:24:18.608971+00:00"
       }
     ]
   }

@@ -5,18 +5,6 @@
       "consequence": "Thane's blood-oath to Gristle bites: if he ever forces the Stirring up by 2 or more in a single act, his Hearthblood burns (lose 2d6 HP, and Gristle knows instantly).",
       "trigger": "Thane deliberately pushes The Stirring up by 2 or more at once",
       "created": "2026-11-24T19:24:34.890842+00:00"
-    },
-    {
-      "id": "c9faf1f4",
-      "consequence": "The Hollow Choir sends the Hollow-sung for Mother Gristle at her shop: polite, tireless, at the door after midnight.",
-      "trigger": "the night after Vane reports to the Choir (the next time a night passes with Gristle at her shop)",
-      "created": "2026-11-24T20:13:15.153926+00:00"
-    },
-    {
-      "id": "c5c38d6d",
-      "consequence": "The Hollow Choir comes for Thane's body: the lock on the heart's door is shaped like an open hand, and a Hearthblood hand, even a dead one, might fit it.",
-      "trigger": "the Choir moves on the heart's door, or anyone goes looking for Thane's body",
-      "created": "2026-11-24T20:20:54.864703+00:00"
     }
   ],
   "resolved": [
@@ -26,6 +14,27 @@
       "trigger": "Deacon Ilsabet Vane gets a clear look at Thane's left wrist",
       "created": "2026-11-24T09:01:37.812624+00:00",
       "resolved": "2026-11-24T20:18:37.707915+00:00"
+    },
+    {
+      "id": "c9faf1f4",
+      "consequence": "The Hollow Choir sends the Hollow-sung for Mother Gristle at her shop: polite, tireless, at the door after midnight.",
+      "trigger": "the night after Vane reports to the Choir (the next time a night passes with Gristle at her shop)",
+      "created": "2026-11-24T20:13:15.153926+00:00",
+      "resolved": "2026-11-24T20:24:17.929733+00:00"
+    },
+    {
+      "id": "c5c38d6d",
+      "consequence": "The Hollow Choir comes for Thane's body: the lock on the heart's door is shaped like an open hand, and a Hearthblood hand, even a dead one, might fit it.",
+      "trigger": "the Choir moves on the heart's door, or anyone goes looking for Thane's body",
+      "created": "2026-11-24T20:20:54.864703+00:00",
+      "resolved": "2026-11-24T20:24:18.013260+00:00"
+    },
+    {
+      "id": "3bef9d3f",
+      "consequence": "[Clock — The Hollow Choir claims Aldrumm's heart] The Choir finds the true heart through stolen dreams and the Heartstone, and the Carrion Queen begins to finish her meal. The Stirring jumps to 4, and the Ribcage starts to die for good.",
+      "trigger": "the The Hollow Choir claims Aldrumm's heart clock ran out",
+      "created": "2026-11-24T20:23:56.106554+00:00",
+      "resolved": "2026-11-24T20:24:18.091897+00:00"
     }
   ]
 }

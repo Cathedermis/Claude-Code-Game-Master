@@ -50,5 +50,16 @@
         "path": "visible from here"
       }
     ]
+  },
+  "The Quiet Rooms": {
+    "position": "unknown",
+    "connections": [
+      {
+        "to": "The Quiet Rooms",
+        "path": "traveled"
+      }
+    ],
+    "description": "",
+    "discovered": "2026-11-24 20:24:18 UTC"
   }
 }

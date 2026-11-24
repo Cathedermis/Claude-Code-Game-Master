@@ -1,93 +1,83 @@
 {
-  "id": "thane-hearthless",
-  "name": "Thane Hearthless",
-  "race": "Human (Hearthblood, a distant descendant of Aldrumm)",
-  "class": "Godkin Hunter",
-  "level": 2,
+  "status": "alive",
+  "voice": [],
+  "origin": "canon",
+  "name": "Pip Haddersley",
+  "race": "Human",
+  "class": "Gutter Dreamer",
   "hp": {
-    "current": 0,
-    "max": 20
+    "current": 9,
+    "max": 9
   },
-  "ac": 14,
+  "ac": 13,
   "stats": {
-    "str": 14,
-    "dex": 15,
-    "con": 14,
-    "int": 10,
-    "wis": 13,
-    "cha": 12
+    "str": 8,
+    "dex": 16,
+    "con": 12,
+    "int": 11,
+    "wis": 15,
+    "cha": 13
   },
-  "skills": {
-    "athletics": 4,
-    "survival": 3,
-    "perception": 3,
-    "intimidation": 3,
-    "stealth": 2,
-    "insight": 1,
-    "marrowtongue": 3
-  },
+  "level": 1,
+  "gold": 0,
   "equipment": [
-    "Longsword (1d8+2 slashing)",
-    "Hunting knife (1d4+2, thrown 20/60)",
-    "Studded leather armor (AC 14 with DEX)",
-    "Traveler's pack (bedroll, rope, 3 days rations, flint)",
-    "Marrow lamp (cracked)",
-    "Disciple's prayer-cord of tiny vertebrae (taken from his one kill)",
-    "Map of the Weeping Valley, hand-drawn from dreams"
+    "Scraping knife (1d4+3 piercing, finesse)",
+    "Chalk stub",
+    "Stolen thumb-vial of raw marrow (worth ~5 sp)",
+    "Oversized patched coat with too many pockets",
+    "Rag foot-wraps"
   ],
-  "features": [
-    "Hearthblood: you dream Aldrumm's dreams. Marrow warms and brightens in your presence. Once per long rest, ask the GM one question about the god's body or past and get a true but dreamlike answer.",
-    "Second Wind (1/short rest): bonus action, regain 1d10+2 HP.",
-    "Hunter's Mark of Endings (1/short rest): bonus action, mark a creature; your weapon hits deal +1d6 to it for 1 minute. Against Choir members you also know where they are while within 60 ft.",
-    "STOLEN: The Lagging Shadow (harvested from Choir disciple Brother Quell): bonus action, step into your own shadow and out of another shadow within 30 ft you can see. +1 Carrion Rot per use.",
-    "Marrowtongue (tutored by Mother Gristle): the hearth-word (kindling / home-fire) is TUTORED, no +3 untutored Toll for it.",
-    "The Stopping (Gristle's grammar): once per working, abort a spell before the Toll lands; pay only the first rung (a dull ache) and the spell fails.",
-    "Marrowtongue proficiency: +2 proficiency on Marrowtongue casting checks (WIS: +1 +2 = +3).",
-    "The binding-word (promise / oath / the thing that holds), TUTORED: bind a door shut, a wound closed, a knot fast, or a person to a promise they have spoken. Tier depends on what is bound."
-  ],
-  "background": "Outsider from beyond the Weeping Valley",
-  "alignment": "",
-  "bonds": "",
-  "flaws": "",
-  "ideals": "",
-  "traits": "",
-  "notes": "Killed one Hollow Choir disciple, Brother Quell, on the Spine Road eleven days ago and ate his last breath. Has not told anyone his lineage. Followed a dream of a warm red room under a chapel to Godbones.",
-  "gold": 12,
+  "conditions": [],
+  "id": "pip-haddersley",
+  "background": "Rib Row street kid and part-time marrow-thief",
+  "concept": "An eleven-year-old street kid who dreams the dead god's dreams and speaks his words without being taught",
   "xp": {
-    "current": 600,
-    "next_level": 900
+    "current": 0,
+    "next_level": 300
   },
-  "visual_appearance": {
-    "sex": "male",
-    "age": "late twenties",
-    "race": "human",
-    "species": "human (faint divine blood)",
-    "hair": "dark auburn, shoulder length, tied back with a strip of leather",
-    "face": "weathered and angular, short beard, an old scar through one eyebrow",
-    "eyes": "deep amber that glow faintly like marrow-light when he dreams or is angry",
-    "clothing": "travel-worn studded leather over a faded hearth-red tunic, a heavy grey road cloak",
-    "gear": "longsword on the hip, hunting knife at the boot, a prayer-cord of tiny vertebrae wound around his left wrist, cracked marrow lamp on his pack",
-    "demeanor": "quiet, watchful, carries himself like someone owed a debt by the world",
-    "size": "tall and lean-muscled"
-  },
+  "speed": 30,
+  "proficiency_bonus": 2,
   "saves": {
-    "str": 4,
-    "dex": 2,
-    "con": 4,
+    "str": -1,
+    "dex": 5,
+    "con": 1,
     "int": 0,
-    "wis": 1,
+    "wis": 2,
     "cha": 1
   },
+  "skills": {
+    "stealth": 5,
+    "sleight_of_hand": 5,
+    "acrobatics": 5,
+    "perception": 4,
+    "insight": 4,
+    "deception": 3
+  },
   "rot": {
-    "current": 1,
+    "current": 0,
     "max": 6
   },
-  "current_location": "Gristle's Pickles & Preserves",
-  "status": "dead",
-  "conditions": [
-    "exhaustion 1 (the Toll)",
-    "unconscious, DYING (0 HP, death saves: 0 successes / 1 failure)"
+  "features": [
+    "Natural Speaker: dreams words of Marrowtongue untaught. Knows the hearth-word (UNTUTORED: +3 Toll severity). Casts with WIS (+2), no proficiency yet.",
+    "Dream-map: knows the way through the god's body to the door with the hand-shaped lock, from a month of drawing it. Can find it awake, in the dark, by feel.",
+    "Small and Quick: fits through gaps adults cannot; advantage on Stealth in crowds and on Rib Row.",
+    "Gutter Knowledge: knows every alley, drain, rooftop, and fence on Rib Row, and who will buy stolen marrow."
   ],
-  "died_at": "2026-11-24T20:20:54.588134+00:00",
-  "cause": "Paid the Toll in full for a failed Grand working, calling Aldrumm into the town's shared dream to burn the Carrion Queen's deacon. Pushed Gristle's hand away so she would not share the bill."
+  "silver": 0,
+  "copper": 7,
+  "notes": "Saw the lamp man (Thane) die in the shared dream on the night of the 4th. Deacon Vane is magically bound to have him home, whole and himself, by supper on the 5th.",
+  "visual_appearance": {
+    "sex": "male",
+    "age": "about eleven",
+    "race": "human",
+    "species": "human",
+    "hair": "dirty straw-blond mop, badly self-cut",
+    "face": "thin, freckled, chalk smudges, a split lip healing",
+    "eyes": "hazel, glowing faint amber when he dreams",
+    "clothing": "oversized patched coat with too many pockets, bare feet wrapped in rags",
+    "gear": "a chalk stub, a scraping knife, a stolen thumb-vial of marrow",
+    "demeanor": "wary, quick, brave in short bursts",
+    "size": "small and underfed"
+  },
+  "current_location": "The Quiet Rooms"
 }
