@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-24T19:19:30.852795+00:00",
+  "created": "2026-11-24T20:09:17.164115+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -12,11 +12,12 @@
         "comedy": 40,
         "drama": 35
       },
-      "current_date": "3rd of Harvestwane, Year 302 of the Bearing",
-      "time_of_day": "Midday",
+      "current_date": "4th of Harvestwane, Year 302 of the Bearing",
+      "time_of_day": "Evening",
       "player_position": {
-        "current_location": "Rib Row",
-        "previous_location": null
+        "current_location": "Gristle's Pickles & Preserves",
+        "previous_location": "Rib Row",
+        "arrival_time": "2026-11-24 19:42:11 UTC"
       },
       "current_character": "Thane Hearthless",
       "session_count": 0,
@@ -91,6 +92,18 @@
           {
             "event": "Thane let the boy go into the Chapel to stay for lessons, saying Pip is lost for now and the ritual takes days. She thinks that is cold, possibly correct, and very like a god's kin. She respects it a little less than she understands it.",
             "timestamp": "2026-11-24T19:19:03.835698+00:00"
+          },
+          {
+            "event": "Thane swore the blood-oath to wake the god slow. Day one of training: taught him the hearth-word properly and the Stopping.",
+            "timestamp": "2026-11-24T19:24:35.369949+00:00"
+          },
+          {
+            "event": "Day two: taught Thane the binding-word and made him proficient. Shouted STOP at the right moment when it misfired.",
+            "timestamp": "2026-11-24T19:42:11.467428+00:00"
+          },
+          {
+            "event": "Seeing Vane at her door, deliberately goaded her into swearing an oath out loud, so Thane could bind her to it.",
+            "timestamp": "2026-11-24T20:08:52.467030+00:00"
           }
         ]
       },
@@ -134,7 +147,8 @@
         "attitude": "neutral",
         "tags": {
           "locations": [
-            "Rib Row"
+            "Rib Row",
+            "Gristle's Pickles & Preserves"
           ],
           "quests": []
         },
@@ -154,7 +168,13 @@
           "gear": "a bone censer on a chain, a prayer-cord of tiny vertebrae",
           "demeanor": "serene, tender, endlessly patient",
           "size": "tall and graceful"
-        }
+        },
+        "events": [
+          {
+            "event": "Visited Gristle's shop at dusk asking about the self-lit stove. Heard someone hiding in the back room (an onion rolled out under the curtain). Has not seen who. Under pressure from Gristle, publicly swore Pip would be home in his own bed, whole and himself, by tomorrow's supper bell.",
+            "timestamp": "2026-11-24T20:08:52.381243+00:00"
+          }
+        ]
       }
     },
     "locations.json": {
@@ -244,6 +264,16 @@
         {
           "fact": "The Chapel bell stopped. Deacon Vane took Pip into the Chapel's Quiet Rooms. Thane chose to stay and seek a real Marrowtongue apprenticeship from Gristle rather than chase the procession.",
           "timestamp": "2026-11-24T19:19:03.646570+00:00"
+        },
+        {
+          "fact": "Training day two: Thane's first binding-word test misfired (bound his own jaw); he used the Stopping. By evening he was proficient and could bind reliably. At dusk Deacon Ilsabet Vane knocked at the front of Gristle's shop, asking about the stove that relit itself.",
+          "timestamp": "2026-11-24T19:42:11.371537+00:00"
+        }
+      ],
+      "player_choices": [
+        {
+          "fact": "Thane swore on his Hearthblood to Mother Gristle that when he wakes Aldrumm, he will wake him slow, so the god does not roll over the town. In return she teaches him Marrowtongue.",
+          "timestamp": "2026-11-24T19:24:34.796048+00:00"
         }
       ]
     },
@@ -254,6 +284,12 @@
           "consequence": "Deacon Vane recognizes Brother Quell's vertebrae prayer-cord on Thane's wrist and knows he killed a disciple. She says nothing, smiles, and sends word to the Choir.",
           "trigger": "Deacon Ilsabet Vane gets a clear look at Thane's left wrist",
           "created": "2026-11-24T09:01:37.812624+00:00"
+        },
+        {
+          "id": "6a1a42e7",
+          "consequence": "Thane's blood-oath to Gristle bites: if he ever forces the Stirring up by 2 or more in a single act, his Hearthblood burns (lose 2d6 HP, and Gristle knows instantly).",
+          "trigger": "Thane deliberately pushes The Stirring up by 2 or more at once",
+          "created": "2026-11-24T19:24:34.890842+00:00"
         }
       ],
       "resolved": []
@@ -645,7 +681,7 @@
     },
     "threat-clocks.json": {
       "The Hollow Choir claims Aldrumm's heart": {
-        "current": 1,
+        "current": 2,
         "max": 4,
         "advance_on": "time",
         "consequence": "The Choir finds the true heart through stolen dreams and the Heartstone, and the Carrion Queen begins to finish her meal. The Stirring jumps to 4, and the Ribcage starts to die for good."
@@ -695,7 +731,8 @@
           "perception": 3,
           "intimidation": 3,
           "stealth": 2,
-          "insight": 1
+          "insight": 1,
+          "marrowtongue": 3
         },
         "equipment": [
           "Longsword (1d8+2 slashing)",
@@ -710,7 +747,11 @@
           "Hearthblood: you dream Aldrumm's dreams. Marrow warms and brightens in your presence. Once per long rest, ask the GM one question about the god's body or past and get a true but dreamlike answer.",
           "Second Wind (1/short rest): bonus action, regain 1d10+2 HP.",
           "Hunter's Mark of Endings (1/short rest): bonus action, mark a creature; your weapon hits deal +1d6 to it for 1 minute. Against Choir members you also know where they are while within 60 ft.",
-          "STOLEN: The Lagging Shadow (harvested from Choir disciple Brother Quell): bonus action, step into your own shadow and out of another shadow within 30 ft you can see. +1 Carrion Rot per use."
+          "STOLEN: The Lagging Shadow (harvested from Choir disciple Brother Quell): bonus action, step into your own shadow and out of another shadow within 30 ft you can see. +1 Carrion Rot per use.",
+          "Marrowtongue (tutored by Mother Gristle): the hearth-word (kindling / home-fire) is TUTORED, no +3 untutored Toll for it.",
+          "The Stopping (Gristle's grammar): once per working, abort a spell before the Toll lands; pay only the first rung (a dull ache) and the spell fails.",
+          "Marrowtongue proficiency: +2 proficiency on Marrowtongue casting checks (WIS: +1 +2 = +3).",
+          "The binding-word (promise / oath / the thing that holds), TUTORED: bind a door shut, a wound closed, a knot fast, or a person to a promise they have spoken. Tier depends on what is bound."
         ],
         "background": "Outsider from beyond the Weeping Valley",
         "alignment": "",
@@ -745,7 +786,8 @@
         "rot": {
           "current": 1,
           "max": 6
-        }
+        },
+        "current_location": "Gristle's Pickles & Preserves"
       }
     }
   }
