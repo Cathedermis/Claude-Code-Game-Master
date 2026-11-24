@@ -185,5 +185,37 @@
       ],
       "quests": []
     }
+  },
+  "Aldrumm the Hearthfather": {
+    "description": "The god of hearth, harvest, and kept promises, killed by the Carrion Queen 300 years ago; his bones are the town of Godbones. Now awake, one eye open in the Skull. Speaks through the bones, slow and vast, like weather that has learned grief.",
+    "attitude": "friendly",
+    "created": "2026-11-24T20:34:21.036518+00:00",
+    "events": [
+      {
+        "event": "Woken by Pip Haddersley at the heart. Mourns Thane, whom he called by name as he died. Told Pip: he cannot wake further without crushing the town in his ribs; he needs the Heartstone (his last heartbeat, kept by the Chapel) brought to the heart's door to seal it against the Queen forever; and he owes Pip one kept promise, which Pip may name.",
+        "timestamp": "2026-11-24T20:34:21.211933+00:00"
+      }
+    ],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    },
+    "goal": "Keep his house (the town in his ribs) standing; shut the Carrion Queen out for good with his last heartbeat, the Heartstone; keep every promise he owes",
+    "secret": "If he wakes any further than one eye, he cannot help but move, and the town inside him dies",
+    "current_mood": "grieving his grandson, bewildered, tender, and very angry at the door",
+    "voice": "Slow, enormous, few words; calls people by what they are to him (little hearth, child-who-kept-faith); never lies"
   }
 }

@@ -87,6 +87,10 @@
       {
         "to": "The Marrow Vein (beneath the Chapel)",
         "path": "traveled"
+      },
+      {
+        "to": "The Heart-Cavity",
+        "path": "traveled"
       }
     ],
     "description": "",

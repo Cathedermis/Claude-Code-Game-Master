@@ -1,12 +1,12 @@
 {
-  "status": "dying",
+  "status": "alive",
   "voice": [],
   "origin": "canon",
   "name": "Pip Haddersley",
   "race": "Human",
   "class": "Gutter Dreamer",
   "hp": {
-    "current": 0,
+    "current": 1,
     "max": 15
   },
   "ac": 13,
@@ -27,9 +27,7 @@
     "Oversized patched coat with too many pockets",
     "Rag foot-wraps"
   ],
-  "conditions": [
-    "unconscious (stable at 0 HP; stabilized by a freed acolyte; wakes with 1 HP in 1d4 hours)"
-  ],
+  "conditions": [],
   "id": "pip-haddersley",
   "background": "Rib Row street kid and part-time marrow-thief",
   "concept": "An eleven-year-old street kid who dreams the dead god's dreams and speaks his words without being taught",
