@@ -11,6 +11,12 @@
       "consequence": "Thane's blood-oath to Gristle bites: if he ever forces the Stirring up by 2 or more in a single act, his Hearthblood burns (lose 2d6 HP, and Gristle knows instantly).",
       "trigger": "Thane deliberately pushes The Stirring up by 2 or more at once",
       "created": "2026-11-24T19:24:34.890842+00:00"
+    },
+    {
+      "id": "c9faf1f4",
+      "consequence": "The Hollow Choir sends the Hollow-sung for Mother Gristle at her shop: polite, tireless, at the door after midnight.",
+      "trigger": "the night after Vane reports to the Choir (the next time a night passes with Gristle at her shop)",
+      "created": "2026-11-24T20:13:15.153926+00:00"
     }
   ],
   "resolved": []

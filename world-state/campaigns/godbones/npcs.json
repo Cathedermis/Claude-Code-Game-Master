@@ -11,7 +11,7 @@
     },
     "goal": "Get Pip away from the Chapel and teach him before the Toll or the Choir kills him",
     "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
-    "current_mood": "shaken, and for the first time in decades, hopeful",
+    "current_mood": "hurt, exposed, and grimly delighted",
     "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
     "visual_appearance": {
       "sex": "female",
@@ -50,6 +50,10 @@
       {
         "event": "Seeing Vane at her door, deliberately goaded her into swearing an oath out loud, so Thane could bind her to it.",
         "timestamp": "2026-11-24T20:08:52.467030+00:00"
+      },
+      {
+        "event": "Shared the Toll with Thane in front of Deacon Vane, blowing her own cover. Took the other half (badly hurt, nose bleeding, two more fingers gone numb). Stabilized Thane. She is now a marked woman and knows it.",
+        "timestamp": "2026-11-24T20:13:14.986314+00:00"
       }
     ]
   },
@@ -100,7 +104,7 @@
     },
     "goal": "Get Pip inside the Chapel today, quietly, with the town's blessing",
     "secret": "She belongs to the Hollow Choir. She sings the Carrion Queen's hymn under her breath when she thinks no one is near, and her shadow is a half-second late",
-    "current_mood": "tender concern, perfectly performed",
+    "current_mood": "shaken, furious, and bound; smiling anyway",
     "voice": "Soft, kind, unhurried; uses 'we' and 'together'; never once raises her voice, even when threatening",
     "visual_appearance": {
       "sex": "female",
@@ -123,6 +127,10 @@
       {
         "event": "Heard someone behind Gristle's curtain speak a word of Marrowtongue right after her oath, and felt the god himself lean in. She knows a Hearthblood-strength speaker is hiding in Gristle's shop.",
         "timestamp": "2026-11-24T20:11:02.183288+00:00"
+      },
+      {
+        "event": "BOUND by the binding-word and Aldrumm's own hand to her oath: Pip home in his own bed, whole and himself, by tomorrow's supper bell. Saw Gristle share the Toll. Left the shop without drawing the curtain, white-faced, promising Gristle 'we will speak again.'",
+        "timestamp": "2026-11-24T20:13:14.824420+00:00"
       }
     ]
   }
