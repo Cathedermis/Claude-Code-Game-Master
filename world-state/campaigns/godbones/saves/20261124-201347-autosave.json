@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-24T19:42:41.528026+00:00",
+  "created": "2026-11-24T20:13:47.320023+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -65,7 +65,7 @@
         },
         "goal": "Get Pip away from the Chapel and teach him before the Toll or the Choir kills him",
         "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
-        "current_mood": "shaken, and for the first time in decades, hopeful",
+        "current_mood": "hurt, exposed, and grimly delighted",
         "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
         "visual_appearance": {
           "sex": "female",
@@ -100,6 +100,14 @@
           {
             "event": "Day two: taught Thane the binding-word and made him proficient. Shouted STOP at the right moment when it misfired.",
             "timestamp": "2026-11-24T19:42:11.467428+00:00"
+          },
+          {
+            "event": "Seeing Vane at her door, deliberately goaded her into swearing an oath out loud, so Thane could bind her to it.",
+            "timestamp": "2026-11-24T20:08:52.467030+00:00"
+          },
+          {
+            "event": "Shared the Toll with Thane in front of Deacon Vane, blowing her own cover. Took the other half (badly hurt, nose bleeding, two more fingers gone numb). Stabilized Thane. She is now a marked woman and knows it.",
+            "timestamp": "2026-11-24T20:13:14.986314+00:00"
           }
         ]
       },
@@ -150,7 +158,7 @@
         },
         "goal": "Get Pip inside the Chapel today, quietly, with the town's blessing",
         "secret": "She belongs to the Hollow Choir. She sings the Carrion Queen's hymn under her breath when she thinks no one is near, and her shadow is a half-second late",
-        "current_mood": "tender concern, perfectly performed",
+        "current_mood": "shaken, furious, and bound; smiling anyway",
         "voice": "Soft, kind, unhurried; uses 'we' and 'together'; never once raises her voice, even when threatening",
         "visual_appearance": {
           "sex": "female",
@@ -164,7 +172,21 @@
           "gear": "a bone censer on a chain, a prayer-cord of tiny vertebrae",
           "demeanor": "serene, tender, endlessly patient",
           "size": "tall and graceful"
-        }
+        },
+        "events": [
+          {
+            "event": "Visited Gristle's shop at dusk asking about the self-lit stove. Heard someone hiding in the back room (an onion rolled out under the curtain). Has not seen who. Under pressure from Gristle, publicly swore Pip would be home in his own bed, whole and himself, by tomorrow's supper bell.",
+            "timestamp": "2026-11-24T20:08:52.381243+00:00"
+          },
+          {
+            "event": "Heard someone behind Gristle's curtain speak a word of Marrowtongue right after her oath, and felt the god himself lean in. She knows a Hearthblood-strength speaker is hiding in Gristle's shop.",
+            "timestamp": "2026-11-24T20:11:02.183288+00:00"
+          },
+          {
+            "event": "BOUND by the binding-word and Aldrumm's own hand to her oath: Pip home in his own bed, whole and himself, by tomorrow's supper bell. Saw Gristle share the Toll. Left the shop without drawing the curtain, white-faced, promising Gristle 'we will speak again.'",
+            "timestamp": "2026-11-24T20:13:14.824420+00:00"
+          }
+        ]
       }
     },
     "locations.json": {
@@ -258,6 +280,14 @@
         {
           "fact": "Training day two: Thane's first binding-word test misfired (bound his own jaw); he used the Stopping. By evening he was proficient and could bind reliably. At dusk Deacon Ilsabet Vane knocked at the front of Gristle's shop, asking about the stove that relit itself.",
           "timestamp": "2026-11-24T19:42:11.371537+00:00"
+        },
+        {
+          "fact": "Thane reached for Aldrumm a second time to bind Deacon Vane to her oath (cast 18 vs DC 15, success). Calling the god moved the Stirring +2 (now 3/6), crossing 2: tonight the whole town shares a dream of Aldrumm. His blood-oath to Gristle burned him for 6 HP. The Toll came up as Collapse (0 HP); the working is held on his tongue, not yet tied off.",
+          "timestamp": "2026-11-24T20:11:02.097718+00:00"
+        },
+        {
+          "fact": "Thane took Gristle's hand to share the Toll: took 18, dropped to 0 HP, failed one death save, and Gristle stabilized him (Medicine 18). Exhaustion 1. The binding HELD: Deacon Vane is compelled to return Pip home, whole and himself, by tomorrow's supper bell. Vane saw Gristle pay half the Toll and now knows Gristle is a Marrowtongue speaker allied with the hidden Hearthblood.",
+          "timestamp": "2026-11-24T20:13:14.718579+00:00"
         }
       ],
       "player_choices": [
@@ -280,6 +310,12 @@
           "consequence": "Thane's blood-oath to Gristle bites: if he ever forces the Stirring up by 2 or more in a single act, his Hearthblood burns (lose 2d6 HP, and Gristle knows instantly).",
           "trigger": "Thane deliberately pushes The Stirring up by 2 or more at once",
           "created": "2026-11-24T19:24:34.890842+00:00"
+        },
+        {
+          "id": "c9faf1f4",
+          "consequence": "The Hollow Choir sends the Hollow-sung for Mother Gristle at her shop: polite, tireless, at the door after midnight.",
+          "trigger": "the night after Vane reports to the Choir (the next time a night passes with Gristle at her shop)",
+          "created": "2026-11-24T20:13:15.153926+00:00"
         }
       ],
       "resolved": []
@@ -677,7 +713,7 @@
         "consequence": "The Choir finds the true heart through stolen dreams and the Heartstone, and the Carrion Queen begins to finish her meal. The Stirring jumps to 4, and the Ribcage starts to die for good."
       },
       "The Stirring": {
-        "current": 1,
+        "current": 3,
         "max": 6,
         "advance_on": "event",
         "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)"
@@ -703,7 +739,7 @@
         "class": "Godkin Hunter",
         "level": 2,
         "hp": {
-          "current": 20,
+          "current": 0,
           "max": 20
         },
         "ac": 14,
@@ -751,7 +787,10 @@
         "traits": "",
         "notes": "Killed one Hollow Choir disciple, Brother Quell, on the Spine Road eleven days ago and ate his last breath. Has not told anyone his lineage. Followed a dream of a warm red room under a chapel to Godbones.",
         "gold": 12,
-        "xp": 300,
+        "xp": {
+          "current": 600,
+          "next_level": 900
+        },
         "visual_appearance": {
           "sex": "male",
           "age": "late twenties",
@@ -777,7 +816,12 @@
           "current": 1,
           "max": 6
         },
-        "current_location": "Gristle's Pickles & Preserves"
+        "current_location": "Gristle's Pickles & Preserves",
+        "status": "dying",
+        "conditions": [
+          "unconscious (stable, stabilized by Gristle; wakes with 1 HP in 1d4 hours)",
+          "exhaustion 1 (the Toll)"
+        ]
       }
     }
   }
