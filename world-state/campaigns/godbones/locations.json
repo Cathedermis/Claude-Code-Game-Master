@@ -1,1 +1,54 @@
-{}
+{
+  "Rib Row": {
+    "name": "Rib Row",
+    "position": "Pip Haddersley, a street kid who has started speaking the dead god's language in his sleep, and everyone who wants him for it",
+    "description": "The Hollow Choir is hunting for the exact location of Aldrumm's true heart, which the Heartstone points to but does not reveal. Pip has been dreaming the god's dreams, and today the dream spoke through him: he now knows words of Marrowtongue nobody taught him, and his dreams are a map to the heart. Deacon Vane (secretly Choir) wants him inside the Chapel, quietly, today. Mother Gristle (Lantern Tutor) recognizes a natural speaker and knows an untrained one will either burn himself out on the Toll or get taken. The player arrives in the middle of this. If nobody intervenes, Vane takes Pip to the Chapel and the Choir clock advances.",
+    "connections": [
+      {
+        "to": "Gristle's Pickles & Preserves",
+        "path": "visible from here"
+      },
+      {
+        "to": "The Marrow Pits",
+        "path": "visible from here"
+      },
+      {
+        "to": "The Chapel of the Long Wake",
+        "path": "visible from here"
+      }
+    ]
+  },
+  "Gristle's Pickles & Preserves": {
+    "name": "Gristle's Pickles & Preserves",
+    "position": "exit from Rib Row",
+    "description": "",
+    "connections": [
+      {
+        "to": "Rib Row",
+        "path": "visible from here"
+      }
+    ]
+  },
+  "The Marrow Pits": {
+    "name": "The Marrow Pits",
+    "position": "exit from Rib Row",
+    "description": "",
+    "connections": [
+      {
+        "to": "Rib Row",
+        "path": "visible from here"
+      }
+    ]
+  },
+  "The Chapel of the Long Wake": {
+    "name": "The Chapel of the Long Wake",
+    "position": "exit from Rib Row",
+    "description": "",
+    "connections": [
+      {
+        "to": "Rib Row",
+        "path": "visible from here"
+      }
+    ]
+  }
+}

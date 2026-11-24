@@ -1,1 +1,86 @@
-{}
+{
+  "Mother Gristle": {
+    "name": "Mother Gristle",
+    "description": "Ancient Lantern Tutor of the Marrowtongue. Runs Gristle's Pickles & Preserves on Rib Row as cover; the back room is a schoolroom for dangerous words. Takes one apprentice a decade and has buried several.",
+    "attitude": "neutral",
+    "tags": {
+      "locations": [
+        "Rib Row"
+      ],
+      "quests": []
+    },
+    "goal": "Get Pip away from the Chapel and teach him before the Toll or the Choir kills him",
+    "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
+    "current_mood": "very still, which in Gristle is the same as shouting",
+    "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
+    "visual_appearance": {
+      "sex": "female",
+      "age": "very old, somewhere past ninety",
+      "race": "human",
+      "species": "human",
+      "hair": "thin white hair scraped into a tight bun, held with a bone pin",
+      "face": "deeply lined, hooked nose, a faint burn scar across one cheek shaped like a word",
+      "eyes": "pale grey, sharp, unblinking",
+      "clothing": "stained brine-apron over a black wool dress, rolled sleeves",
+      "gear": "a ladle she holds like a weapon, a ring of jar keys, a vial of marrow on a cord",
+      "demeanor": "still and watchful, coiled like a spring",
+      "size": "small and bent but wiry"
+    }
+  },
+  "Pip Haddersley": {
+    "name": "Pip Haddersley",
+    "description": "Street urchin and part-time marrow-thief, about eleven. For a month he has dreamed the god's dreams every night. Today the dream spoke through him in Marrowtongue.",
+    "attitude": "neutral",
+    "tags": {
+      "locations": [
+        "Rib Row"
+      ],
+      "quests": []
+    },
+    "goal": "Not get locked up; find out why the dreams keep showing him a warm red room under the Chapel",
+    "secret": "His dreams are a map to Aldrumm's true heart, and he has been drawing it in chalk on the underside of the Rib Row bridge",
+    "current_mood": "unconscious, then terrified and pretending not to be",
+    "voice": "Fast gutter slang, bargains for everything, goes very quiet and formal when the dream-words come",
+    "visual_appearance": {
+      "sex": "male",
+      "age": "about eleven",
+      "race": "human",
+      "species": "human",
+      "hair": "dirty straw-blond mop, badly self-cut",
+      "face": "thin, freckled, chalk smudges, a split lip healing",
+      "eyes": "hazel, glowing faint amber when he dreams",
+      "clothing": "oversized patched coat with too many pockets, bare feet wrapped in rags",
+      "gear": "a chalk stub, a scraping knife, a stolen thumb-vial of marrow",
+      "demeanor": "wary, quick, brave in short bursts",
+      "size": "small and underfed"
+    }
+  },
+  "Deacon Ilsabet Vane": {
+    "name": "Deacon Ilsabet Vane",
+    "description": "Rising star of the Chapel of the Long Wake. Warm, attentive, remembers everyone's name and their children's names. Beloved on Rib Row.",
+    "attitude": "neutral",
+    "tags": {
+      "locations": [
+        "Rib Row"
+      ],
+      "quests": []
+    },
+    "goal": "Get Pip inside the Chapel today, quietly, with the town's blessing",
+    "secret": "She belongs to the Hollow Choir. She sings the Carrion Queen's hymn under her breath when she thinks no one is near, and her shadow is a half-second late",
+    "current_mood": "tender concern, perfectly performed",
+    "voice": "Soft, kind, unhurried; uses 'we' and 'together'; never once raises her voice, even when threatening",
+    "visual_appearance": {
+      "sex": "female",
+      "age": "mid-thirties",
+      "race": "human",
+      "species": "human",
+      "hair": "glossy black hair in a neat braided crown",
+      "face": "lovely and open, gentle smile, a small mole by the lip",
+      "eyes": "dark brown, warm, a little too steady",
+      "clothing": "pale ivory Chapel vestments trimmed in amber thread, spotless",
+      "gear": "a bone censer on a chain, a prayer-cord of tiny vertebrae",
+      "demeanor": "serene, tender, endlessly patient",
+      "size": "tall and graceful"
+    }
+  }
+}

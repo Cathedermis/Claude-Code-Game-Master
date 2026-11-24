@@ -1,0 +1,114 @@
+{
+  "name": "Godbones",
+  "kit": "custom",
+  "stat_schema": {
+    "attributes": [
+      "str",
+      "dex",
+      "con",
+      "int",
+      "wis",
+      "cha"
+    ],
+    "vitals": [
+      "hp"
+    ]
+  },
+  "progression": {
+    "model": "xp-levels"
+  },
+  "resolution": {
+    "model": "d20-vs-dc"
+  },
+  "active_agents": [
+    "monster-manual",
+    "rules-master",
+    "loot-dropper",
+    "gear-master",
+    "npc-builder"
+  ],
+  "rules_doc": "rules.md",
+  "systems": [
+    {
+      "primitive": "price_roll",
+      "name": "The Toll",
+      "config": {
+        "dice": "1d20",
+        "modifier": 0,
+        "ladder": [
+          {
+            "min_roll": 15,
+            "cost": "A clean working. A dull ache behind the eyes, nothing more."
+          },
+          {
+            "min_roll": 10,
+            "cost": "Winded and shaking: 1 level of exhaustion until a short rest."
+          },
+          {
+            "min_roll": 5,
+            "cost": "The body pays in blood: lose 1d8 HP per spell tier and gain 1 level of exhaustion."
+          },
+          {
+            "min_roll": 0,
+            "cost": "Collapse: drop to 0 HP and begin dying. The working still completes."
+          },
+          {
+            "min_roll": -100,
+            "cost": "The bill comes due in full: the caster dies unless someone shares the cost (an ally can pay half)."
+          }
+        ]
+      }
+    },
+    {
+      "primitive": "named_track",
+      "name": "The Stirring",
+      "config": {
+        "max": 6,
+        "thresholds": [
+          {
+            "at": 2,
+            "consequence": "Shared dreams: the whole town dreams the same dream of Aldrumm that night; the Chapel announces a miracle and raises the dream-blessing fee."
+          },
+          {
+            "at": 4,
+            "consequence": "Bone-quake: the Ribcage shifts. Rib Row tilts, a Marrow Pit collapses, and the Hollow Choir learns exactly where the heart is."
+          },
+          {
+            "at": 6,
+            "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes."
+          }
+        ]
+      }
+    },
+    {
+      "primitive": "reaction_roll",
+      "name": "Bearer Standing",
+      "config": {
+        "dice": "2d6",
+        "modifier": 0,
+        "tiers": [
+          {
+            "min": -100,
+            "reaction": "Hostile: calls the watch, slams the door, or worse."
+          },
+          {
+            "min": 5,
+            "reaction": "Cold: civil but unhelpful, wants payment or proof first."
+          },
+          {
+            "min": 8,
+            "reaction": "Neutral: will deal fairly, will not take risks for you."
+          },
+          {
+            "min": 11,
+            "reaction": "Warm: offers help, gossip, or a discount."
+          },
+          {
+            "min": 14,
+            "reaction": "Devoted: treats you as kin of the Bearing; will take real risks for you."
+          }
+        ]
+      }
+    }
+  ]
+}
