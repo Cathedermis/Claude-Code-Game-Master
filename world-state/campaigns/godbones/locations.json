@@ -57,9 +57,24 @@
       {
         "to": "The Quiet Rooms",
         "path": "traveled"
+      },
+      {
+        "to": "The Marrow Vein (beneath the Chapel)",
+        "path": "traveled"
       }
     ],
     "description": "",
     "discovered": "2026-11-24 20:24:18 UTC"
+  },
+  "The Marrow Vein (beneath the Chapel)": {
+    "position": "unknown",
+    "connections": [
+      {
+        "to": "The Quiet Rooms",
+        "path": "traveled"
+      }
+    ],
+    "description": "",
+    "discovered": "2026-11-24 20:27:27 UTC"
   }
 }

@@ -5,6 +5,12 @@
       "consequence": "Thane's blood-oath to Gristle bites: if he ever forces the Stirring up by 2 or more in a single act, his Hearthblood burns (lose 2d6 HP, and Gristle knows instantly).",
       "trigger": "Thane deliberately pushes The Stirring up by 2 or more at once",
       "created": "2026-11-24T19:24:34.890842+00:00"
+    },
+    {
+      "id": "ec94dc49",
+      "consequence": "Aldrumm, god of kept promises, holds Pip to his offer: at the heart, the god will try to wake THROUGH Pip. Waking him that way will push the Stirring to 6 and cost Pip dearly (the Toll of a god's waking, unless shared).",
+      "trigger": "Pip reaches Aldrumm's heart or the door with the hand-shaped lock",
+      "created": "2026-11-24T20:27:27.338004+00:00"
     }
   ],
   "resolved": [
