@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-24T08:53:16.861760+00:00",
+  "created": "2026-11-24T18:56:31.683026+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -18,7 +18,7 @@
         "current_location": "Rib Row",
         "previous_location": null
       },
-      "current_character": null,
+      "current_character": "Thane Hearthless",
       "session_count": 0,
       "play_pack": {
         "whose_story": "Pip Haddersley, a street kid who has started speaking the dead god's language in his sleep, and everyone who wants him for it",
@@ -78,7 +78,13 @@
           "gear": "a ladle she holds like a weapon, a ring of jar keys, a vial of marrow on a cord",
           "demeanor": "still and watchful, coiled like a spring",
           "size": "small and bent but wiry"
-        }
+        },
+        "events": [
+          {
+            "event": "A stranger (Thane) whose cracked marrow lamp lit up when Pip spoke came straight to her shop instead of to the boy. She is wary: wants proof he is what the lamp says before she trusts him.",
+            "timestamp": "2026-11-24T18:54:53.215743+00:00"
+          }
+        ]
       },
       "Pip Haddersley": {
         "name": "Pip Haddersley",
@@ -191,9 +197,35 @@
         ]
       }
     },
-    "facts.json": {},
+    "facts.json": {
+      "plot_local": [
+        {
+          "fact": "Thane Hearthless killed Hollow Choir disciple Brother Quell on the Spine Road eleven days ago and harvested his Lagging Shadow power. The Choir has not found the body.",
+          "timestamp": "2026-11-24T09:01:37.673228+00:00"
+        }
+      ],
+      "lore": [
+        {
+          "fact": "Thane Hearthless carries Aldrumm's blood (Hearthblood). Nobody in Godbones knows yet.",
+          "timestamp": "2026-11-24T09:01:37.739954+00:00"
+        }
+      ],
+      "session_events": [
+        {
+          "fact": "Deacon Vane, helped by two market porters, is carrying the unconscious Pip up the climb toward the Chapel of the Long Wake. She did not notice Thane's wrist.",
+          "timestamp": "2026-11-24T18:54:53.290858+00:00"
+        }
+      ]
+    },
     "consequences.json": {
-      "active": [],
+      "active": [
+        {
+          "id": "dba071ac",
+          "consequence": "Deacon Vane recognizes Brother Quell's vertebrae prayer-cord on Thane's wrist and knows he killed a disciple. She says nothing, smiles, and sends word to the Choir.",
+          "trigger": "Deacon Ilsabet Vane gets a clear look at Thane's left wrist",
+          "created": "2026-11-24T09:01:37.812624+00:00"
+        }
+      ],
       "resolved": []
     },
     "ruleset.json": {
@@ -209,7 +241,8 @@
           "cha"
         ],
         "vitals": [
-          "hp"
+          "hp",
+          "rot"
         ]
       },
       "progression": {
@@ -304,6 +337,27 @@
               {
                 "min": 14,
                 "reaction": "Devoted: treats you as kin of the Bearing; will take real risks for you."
+              }
+            ]
+          }
+        },
+        {
+          "primitive": "named_track",
+          "name": "Carrion Rot",
+          "config": {
+            "max": 6,
+            "thresholds": [
+              {
+                "at": 2,
+                "consequence": "Cravings: raw marrow and carrion smell like supper. WIS save DC 12 to refuse when it is offered or near."
+              },
+              {
+                "at": 4,
+                "consequence": "The rot shows (grey veins, a sweet-sick smell, a shadow that lags). Disadvantage on Bearer Standing rolls with anyone who notices, and any Hollow Choir member within a street can sense you."
+              },
+              {
+                "at": 6,
+                "consequence": "Hollow-sung: the Carrion Queen's hymn fills the empty places. The character is lost to her and becomes an NPC of the Choir (run the Death Protocol hand-off)."
               }
             ]
           }
@@ -577,7 +631,86 @@
       "style": "In the style of a classic 1980s oil-painted fantasy paperback cover, thick visible brushstrokes and warm hand-painted figures, but lit from below by the sickly amber-and-ivory glow of living god-marrow, with deep violet shadows pooling between colossal curved rib bones that frame every scene like cathedral arches.",
       "persona": "Illuminator-in-residence to the Chapel of the Long Wake, paid by the canvas and paid badly. Earnest, devout, flatters whoever commissioned the piece, adds a halo to anyone who tips, and signs every work with a small apologetic note about the varnish."
     },
-    "rules.md": "# Godbones: House Rules\n\nCore: d20 + stat mod (+ proficiency where it fits) vs DC (10 easy, 15 moderate, 20 hard, 25 brutal). D&D-style HP, AC, death saves.\n\n## Marrowtongue (magic)\n- Speak the true name of a thing in the dead god's tongue and it obeys. Any effect is possible; the cost scales with ambition.\n- **Know the word first.** Casting needs the right words. Words come from a Lantern Tutor (safe, slow, expensive) or from guessing (INT or WIS check, DC by how obscure the word is; on a fail the word means something else).\n- **Casting check:** INT (studied) or WIS (instinctive) vs DC set by the effect's scale.\n- **Spell tier (severity for the Toll):**\n  - 0 Cantrip-scale: light a wick, warm your hands, find a dropped key.\n  - 2 Minor: shove a person, mend a bone-crack, silence a room.\n  - 5 Major: hurl someone across a street, heal a mortal wound, put out a house fire.\n  - 9 Grand: bend a rib, still a crowd, speak to the dead god.\n  - 14 Mythic: anything a god would hesitate over.\n- **Untutored:** +3 severity until a Tutor has taught you at least the basics of the word.\n- **Near the bones:** a Major-or-larger working inside the Ribcage advances The Stirring by 1 (Grand or larger by 2).\n- **The Toll:** after the working, roll the Toll (price roll) with severity = tier (+3 if untutored). Read the ladder. An ally who knows even one word can take half the cost.\n\n## The Stirring (0-6)\nTown-wide meter of how close Aldrumm is to waking. Rises from big magic near the bones, desecration, and Choir rites. Thresholds: 2 shared dreams, 4 bone-quake, 6 an eye opens.\n\n## Bearer Standing\nOpening reaction of townsfolk: 2d6 + standing (-3 to +3). Bearer's Ring or a known kindness to the old families raises it; a known slight lowers it.\n\n## Marrow\nCommon currency of the trade alongside coin. A thumb-vial of raw marrow sells for about 5 sp; refined lamp-marrow about 2 gp.\n",
-    "session-log.md": "# Session Log - Godbones\n\n*A new adventure begins...*\n\n---\n\n## World Summary\nThree hundred years ago the god Aldrumm the Hearthfather was killed by the Carrion Queen and fell across the Weeping Valley. Twelve Bearer families dragged the body into place and built the town of Godbones inside the ribcage. The Chapel of the Long Wake insists he is only sleeping. Marrow yields are dropping, the town shares dreams, and the Hollow Choir has arrived.\n\n- **Starting location:** Rib Row, market lane along the seventh rib. Midday, market day, 3rd of Harvestwane, Year 302 of the Bearing.\n- **On stage:** Mother Gristle (Lantern Tutor, pickle shop), Pip Haddersley (street kid speaking Marrowtongue in his sleep), Deacon Ilsabet Vane (Chapel, secretly Hollow Choir).\n- **Hook:** Pip collapses mid-street and speaks a word of the god's tongue; lamps flare, a window shatters. Vane wants to carry him to the Chapel \"for care.\" Gristle has gone very still.\n- **Threat clock:** The Hollow Choir claims Aldrumm's heart (0/4).\n\n---\n"
+    "rules.md": "# Godbones: House Rules\n\nCore: d20 + stat mod (+ proficiency where it fits) vs DC (10 easy, 15 moderate, 20 hard, 25 brutal). D&D-style HP, AC, death saves.\n\n## Marrowtongue (magic)\n- Speak the true name of a thing in the dead god's tongue and it obeys. Any effect is possible; the cost scales with ambition.\n- **Know the word first.** Casting needs the right words. Words come from a Lantern Tutor (safe, slow, expensive) or from guessing (INT or WIS check, DC by how obscure the word is; on a fail the word means something else).\n- **Casting check:** INT (studied) or WIS (instinctive) vs DC set by the effect's scale.\n- **Spell tier (severity for the Toll):**\n  - 0 Cantrip-scale: light a wick, warm your hands, find a dropped key.\n  - 2 Minor: shove a person, mend a bone-crack, silence a room.\n  - 5 Major: hurl someone across a street, heal a mortal wound, put out a house fire.\n  - 9 Grand: bend a rib, still a crowd, speak to the dead god.\n  - 14 Mythic: anything a god would hesitate over.\n- **Untutored:** +3 severity until a Tutor has taught you at least the basics of the word.\n- **Near the bones:** a Major-or-larger working inside the Ribcage advances The Stirring by 1 (Grand or larger by 2).\n- **The Toll:** after the working, roll the Toll (price roll) with severity = tier (+3 if untutored). Read the ladder. An ally who knows even one word can take half the cost.\n\n## The Stirring (0-6)\nTown-wide meter of how close Aldrumm is to waking. Rises from big magic near the bones, desecration, and Choir rites. Thresholds: 2 shared dreams, 4 bone-quake, 6 an eye opens.\n\n## Bearer Standing\nOpening reaction of townsfolk: 2d6 + standing (-3 to +3). Bearer's Ring or a known kindness to the old families raises it; a known slight lowers it.\n\n## Marrow\nCommon currency of the trade alongside coin. A thumb-vial of raw marrow sells for about 5 sp; refined lamp-marrow about 2 gp.\n\n## Carrion Rot (0-6, PC vital `rot`)\nStolen Choir power rots the thief.\n- **Harvest:** when you kill a Choir disciple you may eat their last breath to take one of their powers. +1 Rot, and a CON save DC 13 or +1 more.\n- **Using a stolen power:** +1 Rot per use unless the power says otherwise.\n- **Thresholds:** 2 cravings · 4 visible rot, Choir can sense you within a street · 6 Hollow-sung (character lost).\n- **Lowering Rot:** not yet known. Rumor says the Chapel, the Tutors, and the Hearthfather himself each have an answer, and each answer costs something.\n",
+    "session-log.md": "# Session Log - Godbones\n\n*A new adventure begins...*\n\n---\n\n## World Summary\nThree hundred years ago the god Aldrumm the Hearthfather was killed by the Carrion Queen and fell across the Weeping Valley. Twelve Bearer families dragged the body into place and built the town of Godbones inside the ribcage. The Chapel of the Long Wake insists he is only sleeping. Marrow yields are dropping, the town shares dreams, and the Hollow Choir has arrived.\n\n- **Starting location:** Rib Row, market lane along the seventh rib. Midday, market day, 3rd of Harvestwane, Year 302 of the Bearing.\n- **On stage:** Mother Gristle (Lantern Tutor, pickle shop), Pip Haddersley (street kid speaking Marrowtongue in his sleep), Deacon Ilsabet Vane (Chapel, secretly Hollow Choir).\n- **Hook:** Pip collapses mid-street and speaks a word of the god's tongue; lamps flare, a window shatters. Vane wants to carry him to the Chapel \"for care.\" Gristle has gone very still.\n- **Threat clock:** The Hollow Choir claims Aldrumm's heart (0/4).\n\n---\n",
+    "characters": {
+      "character": {
+        "id": "thane-hearthless",
+        "name": "Thane Hearthless",
+        "race": "Human (Hearthblood, a distant descendant of Aldrumm)",
+        "class": "Godkin Hunter",
+        "level": 2,
+        "hp": {
+          "current": 20,
+          "max": 20
+        },
+        "ac": 14,
+        "stats": {
+          "str": 14,
+          "dex": 15,
+          "con": 14,
+          "int": 10,
+          "wis": 13,
+          "cha": 12
+        },
+        "skills": {
+          "athletics": 4,
+          "survival": 3,
+          "perception": 3,
+          "intimidation": 3,
+          "stealth": 2,
+          "insight": 1
+        },
+        "equipment": [
+          "Longsword (1d8+2 slashing)",
+          "Hunting knife (1d4+2, thrown 20/60)",
+          "Studded leather armor (AC 14 with DEX)",
+          "Traveler's pack (bedroll, rope, 3 days rations, flint)",
+          "Marrow lamp (cracked)",
+          "Disciple's prayer-cord of tiny vertebrae (taken from his one kill)",
+          "Map of the Weeping Valley, hand-drawn from dreams"
+        ],
+        "features": [
+          "Hearthblood: you dream Aldrumm's dreams. Marrow warms and brightens in your presence. Once per long rest, ask the GM one question about the god's body or past and get a true but dreamlike answer.",
+          "Second Wind (1/short rest): bonus action, regain 1d10+2 HP.",
+          "Hunter's Mark of Endings (1/short rest): bonus action, mark a creature; your weapon hits deal +1d6 to it for 1 minute. Against Choir members you also know where they are while within 60 ft.",
+          "STOLEN: The Lagging Shadow (harvested from Choir disciple Brother Quell): bonus action, step into your own shadow and out of another shadow within 30 ft you can see. +1 Carrion Rot per use."
+        ],
+        "background": "Outsider from beyond the Weeping Valley",
+        "alignment": "",
+        "bonds": "",
+        "flaws": "",
+        "ideals": "",
+        "traits": "",
+        "notes": "Killed one Hollow Choir disciple, Brother Quell, on the Spine Road eleven days ago and ate his last breath. Has not told anyone his lineage. Followed a dream of a warm red room under a chapel to Godbones.",
+        "gold": 12,
+        "xp": 300,
+        "visual_appearance": {
+          "sex": "male",
+          "age": "late twenties",
+          "race": "human",
+          "species": "human (faint divine blood)",
+          "hair": "dark auburn, shoulder length, tied back with a strip of leather",
+          "face": "weathered and angular, short beard, an old scar through one eyebrow",
+          "eyes": "deep amber that glow faintly like marrow-light when he dreams or is angry",
+          "clothing": "travel-worn studded leather over a faded hearth-red tunic, a heavy grey road cloak",
+          "gear": "longsword on the hip, hunting knife at the boot, a prayer-cord of tiny vertebrae wound around his left wrist, cracked marrow lamp on his pack",
+          "demeanor": "quiet, watchful, carries himself like someone owed a debt by the world",
+          "size": "tall and lean-muscled"
+        },
+        "saves": {
+          "str": 4,
+          "dex": 2,
+          "con": 4,
+          "int": 0,
+          "wis": 1,
+          "cha": 1
+        },
+        "rot": {
+          "current": 1,
+          "max": 6
+        }
+      }
+    }
   }
 }

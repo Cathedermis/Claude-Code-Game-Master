@@ -11,7 +11,7 @@
     },
     "goal": "Get Pip away from the Chapel and teach him before the Toll or the Choir kills him",
     "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
-    "current_mood": "very still, which in Gristle is the same as shouting",
+    "current_mood": "shaken, and for the first time in decades, hopeful",
     "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
     "visual_appearance": {
       "sex": "female",
@@ -30,6 +30,10 @@
       {
         "event": "A stranger (Thane) whose cracked marrow lamp lit up when Pip spoke came straight to her shop instead of to the boy. She is wary: wants proof he is what the lamp says before she trusts him.",
         "timestamp": "2026-11-24T18:54:53.215743+00:00"
+      },
+      {
+        "event": "Thane told her he is Aldrumm's grandson, that Aldrumm is waking, and that Deacon Vane serves the Carrion Queen. Then he spoke the hearth-word untaught and the god answered him; her own scar lit up. She now believes him, and is frightened of what that means.",
+        "timestamp": "2026-11-24T19:12:57.352262+00:00"
       }
     ]
   },
