@@ -85,7 +85,7 @@
   "current_location": "Gristle's Pickles & Preserves",
   "status": "dying",
   "conditions": [
-    "unconscious (stable, stabilized by Gristle; wakes with 1 HP in 1d4 hours)",
-    "exhaustion 1 (the Toll)"
+    "exhaustion 1 (the Toll)",
+    "unconscious, DYING (0 HP, death saves: 0 successes / 1 failure)"
   ]
 }

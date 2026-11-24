@@ -1,12 +1,12 @@
 {
   "The Hollow Choir claims Aldrumm's heart": {
-    "current": 2,
+    "current": 3,
     "max": 4,
     "advance_on": "time",
     "consequence": "The Choir finds the true heart through stolen dreams and the Heartstone, and the Carrion Queen begins to finish her meal. The Stirring jumps to 4, and the Ribcage starts to die for good."
   },
   "The Stirring": {
-    "current": 3,
+    "current": 5,
     "max": 6,
     "advance_on": "event",
     "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)"
