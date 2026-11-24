@@ -19,11 +19,6 @@ eggs/
 # Package Managers
 .pnpm-store/
 
-# Campaign Data (Personal/Runtime)
-world-state/campaigns/*
-!world-state/campaigns/.gitkeep
-world-state/active-campaign.txt
-
 # Source Material (User-provided documents for import)
 source-material/*
 !source-material/.gitkeep
