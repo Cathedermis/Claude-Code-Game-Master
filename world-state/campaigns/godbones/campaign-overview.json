@@ -7,10 +7,11 @@
     "drama": 35
   },
   "current_date": "4th of Harvestwane, Year 302 of the Bearing",
-  "time_of_day": "Dawn",
+  "time_of_day": "Evening",
   "player_position": {
-    "current_location": "Rib Row",
-    "previous_location": null
+    "current_location": "Gristle's Pickles & Preserves",
+    "previous_location": "Rib Row",
+    "arrival_time": "2026-11-24 19:42:11 UTC"
   },
   "current_character": "Thane Hearthless",
   "session_count": 0,

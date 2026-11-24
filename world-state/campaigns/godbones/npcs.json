@@ -42,6 +42,10 @@
       {
         "event": "Thane swore the blood-oath to wake the god slow. Day one of training: taught him the hearth-word properly and the Stopping.",
         "timestamp": "2026-11-24T19:24:35.369949+00:00"
+      },
+      {
+        "event": "Day two: taught Thane the binding-word and made him proficient. Shouted STOP at the right moment when it misfired.",
+        "timestamp": "2026-11-24T19:42:11.467428+00:00"
       }
     ]
   },
@@ -85,7 +89,8 @@
     "attitude": "neutral",
     "tags": {
       "locations": [
-        "Rib Row"
+        "Rib Row",
+        "Gristle's Pickles & Preserves"
       ],
       "quests": []
     },

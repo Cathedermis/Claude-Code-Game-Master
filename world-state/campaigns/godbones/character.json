@@ -23,7 +23,8 @@
     "perception": 3,
     "intimidation": 3,
     "stealth": 2,
-    "insight": 1
+    "insight": 1,
+    "marrowtongue": 3
   },
   "equipment": [
     "Longsword (1d8+2 slashing)",
@@ -40,7 +41,9 @@
     "Hunter's Mark of Endings (1/short rest): bonus action, mark a creature; your weapon hits deal +1d6 to it for 1 minute. Against Choir members you also know where they are while within 60 ft.",
     "STOLEN: The Lagging Shadow (harvested from Choir disciple Brother Quell): bonus action, step into your own shadow and out of another shadow within 30 ft you can see. +1 Carrion Rot per use.",
     "Marrowtongue (tutored by Mother Gristle): the hearth-word (kindling / home-fire) is TUTORED, no +3 untutored Toll for it.",
-    "The Stopping (Gristle's grammar): once per working, abort a spell before the Toll lands; pay only the first rung (a dull ache) and the spell fails."
+    "The Stopping (Gristle's grammar): once per working, abort a spell before the Toll lands; pay only the first rung (a dull ache) and the spell fails.",
+    "Marrowtongue proficiency: +2 proficiency on Marrowtongue casting checks (WIS: +1 +2 = +3).",
+    "The binding-word (promise / oath / the thing that holds), TUTORED: bind a door shut, a wound closed, a knot fast, or a person to a promise they have spoken. Tier depends on what is bound."
   ],
   "background": "Outsider from beyond the Weeping Valley",
   "alignment": "",
@@ -75,5 +78,6 @@
   "rot": {
     "current": 1,
     "max": 6
-  }
+  },
+  "current_location": "Gristle's Pickles & Preserves"
 }
