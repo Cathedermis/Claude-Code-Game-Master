@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-24T18:55:12.549723+00:00",
+  "created": "2026-11-24T19:19:30.852795+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -64,7 +64,7 @@
         },
         "goal": "Get Pip away from the Chapel and teach him before the Toll or the Choir kills him",
         "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
-        "current_mood": "very still, which in Gristle is the same as shouting",
+        "current_mood": "shaken, and for the first time in decades, hopeful",
         "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
         "visual_appearance": {
           "sex": "female",
@@ -83,6 +83,14 @@
           {
             "event": "A stranger (Thane) whose cracked marrow lamp lit up when Pip spoke came straight to her shop instead of to the boy. She is wary: wants proof he is what the lamp says before she trusts him.",
             "timestamp": "2026-11-24T18:54:53.215743+00:00"
+          },
+          {
+            "event": "Thane told her he is Aldrumm's grandson, that Aldrumm is waking, and that Deacon Vane serves the Carrion Queen. Then he spoke the hearth-word untaught and the god answered him; her own scar lit up. She now believes him, and is frightened of what that means.",
+            "timestamp": "2026-11-24T19:12:57.352262+00:00"
+          },
+          {
+            "event": "Thane let the boy go into the Chapel to stay for lessons, saying Pip is lost for now and the ritual takes days. She thinks that is cold, possibly correct, and very like a god's kin. She respects it a little less than she understands it.",
+            "timestamp": "2026-11-24T19:19:03.835698+00:00"
           }
         ]
       },
@@ -112,7 +120,13 @@
           "gear": "a chalk stub, a scraping knife, a stolen thumb-vial of marrow",
           "demeanor": "wary, quick, brave in short bursts",
           "size": "small and underfed"
-        }
+        },
+        "events": [
+          {
+            "event": "Carried unconscious into the Chapel's Quiet Rooms by Deacon Vane while the stranger with the glowing lamp watched and did not come.",
+            "timestamp": "2026-11-24T19:19:03.947600+00:00"
+          }
+        ]
       },
       "Deacon Ilsabet Vane": {
         "name": "Deacon Ilsabet Vane",
@@ -202,18 +216,34 @@
         {
           "fact": "Thane Hearthless killed Hollow Choir disciple Brother Quell on the Spine Road eleven days ago and harvested his Lagging Shadow power. The Choir has not found the body.",
           "timestamp": "2026-11-24T09:01:37.673228+00:00"
+        },
+        {
+          "fact": "The Choir needs Pip alive and dreaming: each night he dreams in the Quiet Rooms, they map more of the way to Aldrumm's true heart (Choir clock ticks once per day).",
+          "timestamp": "2026-11-24T19:19:03.717632+00:00"
         }
       ],
       "lore": [
         {
           "fact": "Thane Hearthless carries Aldrumm's blood (Hearthblood). Nobody in Godbones knows yet.",
           "timestamp": "2026-11-24T09:01:37.739954+00:00"
+        },
+        {
+          "fact": "Pip's word is a Marrowtongue hearth-word (kindling / home-fire). Mother Gristle's cheek scar is the same word, burned in when she learned it.",
+          "timestamp": "2026-11-24T19:12:57.242823+00:00"
         }
       ],
       "session_events": [
         {
           "fact": "Deacon Vane, helped by two market porters, is carrying the unconscious Pip up the climb toward the Chapel of the Long Wake. She did not notice Thane's wrist.",
           "timestamp": "2026-11-24T18:54:53.290858+00:00"
+        },
+        {
+          "fact": "Thane spoke Pip's word (a hearth-word of Marrowtongue) untutored in Gristle's doorway, reaching for Aldrumm. Nat 20: Aldrumm answered and paid half the Toll. Gristle's cold stove roared alight and the word-shaped burn scar on her cheek glowed. The Stirring rose to 1.",
+          "timestamp": "2026-11-24T19:12:57.163165+00:00"
+        },
+        {
+          "fact": "The Chapel bell stopped. Deacon Vane took Pip into the Chapel's Quiet Rooms. Thane chose to stay and seek a real Marrowtongue apprenticeship from Gristle rather than chase the procession.",
+          "timestamp": "2026-11-24T19:19:03.646570+00:00"
         }
       ]
     },
@@ -615,10 +645,16 @@
     },
     "threat-clocks.json": {
       "The Hollow Choir claims Aldrumm's heart": {
-        "current": 0,
+        "current": 1,
         "max": 4,
         "advance_on": "time",
         "consequence": "The Choir finds the true heart through stolen dreams and the Heartstone, and the Carrion Queen begins to finish her meal. The Stirring jumps to 4, and the Ribcage starts to die for good."
+      },
+      "The Stirring": {
+        "current": 1,
+        "max": 6,
+        "advance_on": "event",
+        "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)"
       }
     },
     "campaign-memory.json": {

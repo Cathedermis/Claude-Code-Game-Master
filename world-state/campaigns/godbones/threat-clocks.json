@@ -1,6 +1,6 @@
 {
   "The Hollow Choir claims Aldrumm's heart": {
-    "current": 1,
+    "current": 2,
     "max": 4,
     "advance_on": "time",
     "consequence": "The Choir finds the true heart through stolen dreams and the Heartstone, and the Carrion Queen begins to finish her meal. The Stirring jumps to 4, and the Ribcage starts to die for good."

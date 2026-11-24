@@ -32,5 +32,11 @@
       "fact": "The Chapel bell stopped. Deacon Vane took Pip into the Chapel's Quiet Rooms. Thane chose to stay and seek a real Marrowtongue apprenticeship from Gristle rather than chase the procession.",
       "timestamp": "2026-11-24T19:19:03.646570+00:00"
     }
+  ],
+  "player_choices": [
+    {
+      "fact": "Thane swore on his Hearthblood to Mother Gristle that when he wakes Aldrumm, he will wake him slow, so the god does not roll over the town. In return she teaches him Marrowtongue.",
+      "timestamp": "2026-11-24T19:24:34.796048+00:00"
+    }
   ]
 }

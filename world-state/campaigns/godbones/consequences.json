@@ -5,6 +5,12 @@
       "consequence": "Deacon Vane recognizes Brother Quell's vertebrae prayer-cord on Thane's wrist and knows he killed a disciple. She says nothing, smiles, and sends word to the Choir.",
       "trigger": "Deacon Ilsabet Vane gets a clear look at Thane's left wrist",
       "created": "2026-11-24T09:01:37.812624+00:00"
+    },
+    {
+      "id": "6a1a42e7",
+      "consequence": "Thane's blood-oath to Gristle bites: if he ever forces the Stirring up by 2 or more in a single act, his Hearthblood burns (lose 2d6 HP, and Gristle knows instantly).",
+      "trigger": "Thane deliberately pushes The Stirring up by 2 or more at once",
+      "created": "2026-11-24T19:24:34.890842+00:00"
     }
   ],
   "resolved": []
