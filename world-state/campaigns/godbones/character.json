@@ -83,9 +83,11 @@
     "max": 6
   },
   "current_location": "Gristle's Pickles & Preserves",
-  "status": "dying",
+  "status": "dead",
   "conditions": [
     "exhaustion 1 (the Toll)",
     "unconscious, DYING (0 HP, death saves: 0 successes / 1 failure)"
-  ]
+  ],
+  "died_at": "2026-11-24T20:20:54.588134+00:00",
+  "cause": "Paid the Toll in full for a failed Grand working, calling Aldrumm into the town's shared dream to burn the Carrion Queen's deacon. Pushed Gristle's hand away so she would not share the bill."
 }

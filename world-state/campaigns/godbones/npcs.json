@@ -9,9 +9,9 @@
       ],
       "quests": []
     },
-    "goal": "Get Pip away from the Chapel and teach him before the Toll or the Choir kills him",
+    "goal": "Keep Thane's body out of the Choir's hands, get Pip home, and make the Carrion Queen's deacon regret every word of that oath",
     "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
-    "current_mood": "hurt, exposed, and grimly delighted",
+    "current_mood": "grieving, furious, very still",
     "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
     "visual_appearance": {
       "sex": "female",
@@ -54,6 +54,10 @@
       {
         "event": "Shared the Toll with Thane in front of Deacon Vane, blowing her own cover. Took the other half (badly hurt, nose bleeding, two more fingers gone numb). Stabilized Thane. She is now a marked woman and knows it.",
         "timestamp": "2026-11-24T20:13:14.986314+00:00"
+      },
+      {
+        "event": "Thane died under her hands, and at the last he pushed her hand away so she would not pay the bill with him. She wrote his name in a box on the back-room wall and did not cross it out.",
+        "timestamp": "2026-11-24T20:20:54.960973+00:00"
       }
     ]
   },
@@ -88,6 +92,10 @@
       {
         "event": "Carried unconscious into the Chapel's Quiet Rooms by Deacon Vane while the stranger with the glowing lamp watched and did not come.",
         "timestamp": "2026-11-24T19:19:03.947600+00:00"
+      },
+      {
+        "event": "In the shared dream he watched the lamp man burn from the inside and the god turn toward him and away. He knows the lamp man is the reason he goes home tomorrow.",
+        "timestamp": "2026-11-24T20:20:55.148319+00:00"
       }
     ]
   },
@@ -135,6 +143,10 @@
       {
         "event": "In the town's shared dream she saw Thane's face and Brother Quell's vertebrae cord on his wrist. She now knows the hidden speaker is Quell's killer, and that he is Hearthblood. Felt the bone-quake and learned where the heart is.",
         "timestamp": "2026-11-24T20:18:37.820982+00:00"
+      },
+      {
+        "event": "Watched Thane Hearthless burn himself out in the dream, and thanked him for lighting the door. She knows his body is in Gristle's shop.",
+        "timestamp": "2026-11-24T20:20:55.232592+00:00"
       }
     ]
   }

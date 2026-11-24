@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-24T20:13:47.320023+00:00",
+  "created": "2026-11-24T20:19:16.762837+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -185,6 +185,10 @@
           {
             "event": "BOUND by the binding-word and Aldrumm's own hand to her oath: Pip home in his own bed, whole and himself, by tomorrow's supper bell. Saw Gristle share the Toll. Left the shop without drawing the curtain, white-faced, promising Gristle 'we will speak again.'",
             "timestamp": "2026-11-24T20:13:14.824420+00:00"
+          },
+          {
+            "event": "In the town's shared dream she saw Thane's face and Brother Quell's vertebrae cord on his wrist. She now knows the hidden speaker is Quell's killer, and that he is Hearthblood. Felt the bone-quake and learned where the heart is.",
+            "timestamp": "2026-11-24T20:18:37.820982+00:00"
           }
         ]
       }
@@ -252,6 +256,10 @@
         {
           "fact": "The Choir needs Pip alive and dreaming: each night he dreams in the Quiet Rooms, they map more of the way to Aldrumm's true heart (Choir clock ticks once per day).",
           "timestamp": "2026-11-24T19:19:03.717632+00:00"
+        },
+        {
+          "fact": "BONE-QUAKE (Stirring 4): Rib Row tilted several degrees; sealed Marrow Pit Number Nine collapsed, opening a shaft down toward the heart-cavity. The Hollow Choir now knows exactly where the true heart is: behind a door set in the bone with a lock shaped like an open hand.",
+          "timestamp": "2026-11-24T20:18:37.610457+00:00"
         }
       ],
       "lore": [
@@ -288,6 +296,10 @@
         {
           "fact": "Thane took Gristle's hand to share the Toll: took 18, dropped to 0 HP, failed one death save, and Gristle stabilized him (Medicine 18). Exhaustion 1. The binding HELD: Deacon Vane is compelled to return Pip home, whole and himself, by tomorrow's supper bell. Vane saw Gristle pay half the Toll and now knows Gristle is a Marrowtongue speaker allied with the hidden Hearthblood.",
           "timestamp": "2026-11-24T20:13:14.718579+00:00"
+        },
+        {
+          "fact": "In the shared dream Thane tried to burn Deacon Vane with the hearth-word and invite Aldrumm in (Grand working). Cast 7 vs DC 20: FAILED. The reach still moved the Stirring +2 (now 5/6). His oath burned him for 10 at 0 HP: one death-save failure, no longer stable. The Toll came due in full (death unless shared). Vane saw his face and the vertebrae cord in the dream.",
+          "timestamp": "2026-11-24T20:18:37.535043+00:00"
         }
       ],
       "player_choices": [
@@ -299,12 +311,6 @@
     },
     "consequences.json": {
       "active": [
-        {
-          "id": "dba071ac",
-          "consequence": "Deacon Vane recognizes Brother Quell's vertebrae prayer-cord on Thane's wrist and knows he killed a disciple. She says nothing, smiles, and sends word to the Choir.",
-          "trigger": "Deacon Ilsabet Vane gets a clear look at Thane's left wrist",
-          "created": "2026-11-24T09:01:37.812624+00:00"
-        },
         {
           "id": "6a1a42e7",
           "consequence": "Thane's blood-oath to Gristle bites: if he ever forces the Stirring up by 2 or more in a single act, his Hearthblood burns (lose 2d6 HP, and Gristle knows instantly).",
@@ -318,7 +324,15 @@
           "created": "2026-11-24T20:13:15.153926+00:00"
         }
       ],
-      "resolved": []
+      "resolved": [
+        {
+          "id": "dba071ac",
+          "consequence": "Deacon Vane recognizes Brother Quell's vertebrae prayer-cord on Thane's wrist and knows he killed a disciple. She says nothing, smiles, and sends word to the Choir.",
+          "trigger": "Deacon Ilsabet Vane gets a clear look at Thane's left wrist",
+          "created": "2026-11-24T09:01:37.812624+00:00",
+          "resolved": "2026-11-24T20:18:37.707915+00:00"
+        }
+      ]
     },
     "ruleset.json": {
       "name": "Godbones",
@@ -707,13 +721,13 @@
     },
     "threat-clocks.json": {
       "The Hollow Choir claims Aldrumm's heart": {
-        "current": 2,
+        "current": 3,
         "max": 4,
         "advance_on": "time",
         "consequence": "The Choir finds the true heart through stolen dreams and the Heartstone, and the Carrion Queen begins to finish her meal. The Stirring jumps to 4, and the Ribcage starts to die for good."
       },
       "The Stirring": {
-        "current": 3,
+        "current": 5,
         "max": 6,
         "advance_on": "event",
         "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)"
@@ -819,8 +833,8 @@
         "current_location": "Gristle's Pickles & Preserves",
         "status": "dying",
         "conditions": [
-          "unconscious (stable, stabilized by Gristle; wakes with 1 HP in 1d4 hours)",
-          "exhaustion 1 (the Toll)"
+          "exhaustion 1 (the Toll)",
+          "unconscious, DYING (0 HP, death saves: 0 successes / 1 failure)"
         ]
       }
     }
