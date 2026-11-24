@@ -1,12 +1,12 @@
 {
-  "status": "alive",
+  "status": "dying",
   "voice": [],
   "origin": "canon",
   "name": "Pip Haddersley",
   "race": "Human",
   "class": "Gutter Dreamer",
   "hp": {
-    "current": 9,
+    "current": 0,
     "max": 9
   },
   "ac": 13,
@@ -18,7 +18,7 @@
     "wis": 15,
     "cha": 13
   },
-  "level": 1,
+  "level": 2,
   "gold": 0,
   "equipment": [
     "Scraping knife (1d4+3 piercing, finesse)",
@@ -27,13 +27,15 @@
     "Oversized patched coat with too many pockets",
     "Rag foot-wraps"
   ],
-  "conditions": [],
+  "conditions": [
+    "unconscious (stable at 0 HP; stabilized by a freed acolyte; wakes with 1 HP in 1d4 hours)"
+  ],
   "id": "pip-haddersley",
   "background": "Rib Row street kid and part-time marrow-thief",
   "concept": "An eleven-year-old street kid who dreams the dead god's dreams and speaks his words without being taught",
   "xp": {
-    "current": 0,
-    "next_level": 300
+    "current": 400,
+    "next_level": 900
   },
   "speed": 30,
   "proficiency_bonus": 2,
@@ -79,5 +81,5 @@
     "demeanor": "wary, quick, brave in short bursts",
     "size": "small and underfed"
   },
-  "current_location": "The Marrow Vein (beneath the Chapel)"
+  "current_location": "The Heart-Cavity"
 }

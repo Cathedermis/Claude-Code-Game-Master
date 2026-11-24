@@ -160,5 +160,30 @@
         "timestamp": "2026-11-24T20:24:18.608971+00:00"
       }
     ]
+  },
+  "Acolyte Benedek Thrupp": {
+    "description": "Young Chapel acolyte, one of the four Hollow-sung freed when Aldrumm woke. Remembers nothing of the last month except the tune. Stabilized Pip with shaking hands.",
+    "attitude": "friendly",
+    "created": "2026-11-24T20:30:35.767293+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [
+        "The Heart-Cavity"
+      ],
+      "quests": []
+    }
   }
 }

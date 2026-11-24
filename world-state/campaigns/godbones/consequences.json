@@ -7,10 +7,10 @@
       "created": "2026-11-24T19:24:34.890842+00:00"
     },
     {
-      "id": "ec94dc49",
-      "consequence": "Aldrumm, god of kept promises, holds Pip to his offer: at the heart, the god will try to wake THROUGH Pip. Waking him that way will push the Stirring to 6 and cost Pip dearly (the Toll of a god's waking, unless shared).",
-      "trigger": "Pip reaches Aldrumm's heart or the door with the hand-shaped lock",
-      "created": "2026-11-24T20:27:27.338004+00:00"
+      "id": "9263225d",
+      "consequence": "[Clock — The Stirring] Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)",
+      "trigger": "the The Stirring clock ran out",
+      "created": "2026-11-24T20:30:35.195947+00:00"
     }
   ],
   "resolved": [
@@ -41,6 +41,13 @@
       "trigger": "the The Hollow Choir claims Aldrumm's heart clock ran out",
       "created": "2026-11-24T20:23:56.106554+00:00",
       "resolved": "2026-11-24T20:24:18.091897+00:00"
+    },
+    {
+      "id": "ec94dc49",
+      "consequence": "Aldrumm, god of kept promises, holds Pip to his offer: at the heart, the god will try to wake THROUGH Pip. Waking him that way will push the Stirring to 6 and cost Pip dearly (the Toll of a god's waking, unless shared).",
+      "trigger": "Pip reaches Aldrumm's heart or the door with the hand-shaped lock",
+      "created": "2026-11-24T20:27:27.338004+00:00",
+      "resolved": "2026-11-24T20:30:35.296373+00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-24T20:19:16.762837+00:00",
+  "created": "2026-11-24T20:28:03.959684+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -12,14 +12,14 @@
         "comedy": 40,
         "drama": 35
       },
-      "current_date": "4th of Harvestwane, Year 302 of the Bearing",
-      "time_of_day": "Evening",
+      "current_date": "5th of Harvestwane, Year 302 of the Bearing",
+      "time_of_day": "Dawn",
       "player_position": {
-        "current_location": "Gristle's Pickles & Preserves",
-        "previous_location": "Rib Row",
-        "arrival_time": "2026-11-24 19:42:11 UTC"
+        "current_location": "The Marrow Vein (beneath the Chapel)",
+        "previous_location": "The Quiet Rooms",
+        "arrival_time": "2026-11-24 20:27:27 UTC"
       },
-      "current_character": "Thane Hearthless",
+      "current_character": "Pip Haddersley",
       "session_count": 0,
       "play_pack": {
         "whose_story": "Pip Haddersley, a street kid who has started speaking the dead god's language in his sleep, and everyone who wants him for it",
@@ -63,9 +63,9 @@
           ],
           "quests": []
         },
-        "goal": "Get Pip away from the Chapel and teach him before the Toll or the Choir kills him",
+        "goal": "Keep Thane's body out of the Choir's hands, get Pip home, and make the Carrion Queen's deacon regret every word of that oath",
         "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
-        "current_mood": "hurt, exposed, and grimly delighted",
+        "current_mood": "unconscious, then barely holding together",
         "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
         "visual_appearance": {
           "sex": "female",
@@ -108,6 +108,14 @@
           {
             "event": "Shared the Toll with Thane in front of Deacon Vane, blowing her own cover. Took the other half (badly hurt, nose bleeding, two more fingers gone numb). Stabilized Thane. She is now a marked woman and knows it.",
             "timestamp": "2026-11-24T20:13:14.986314+00:00"
+          },
+          {
+            "event": "Thane died under her hands, and at the last he pushed her hand away so she would not pay the bill with him. She wrote his name in a box on the back-room wall and did not cross it out.",
+            "timestamp": "2026-11-24T20:20:54.960973+00:00"
+          },
+          {
+            "event": "Night of the 4th: the Hollow-sung broke in and took Thane's body. She held the back room until she could not. Found at dawn unconscious among the broken jars, alive.",
+            "timestamp": "2026-11-24T20:24:18.408864+00:00"
           }
         ]
       },
@@ -142,8 +150,15 @@
           {
             "event": "Carried unconscious into the Chapel's Quiet Rooms by Deacon Vane while the stranger with the glowing lamp watched and did not come.",
             "timestamp": "2026-11-24T19:19:03.947600+00:00"
+          },
+          {
+            "event": "In the shared dream he watched the lamp man burn from the inside and the god turn toward him and away. He knows the lamp man is the reason he goes home tomorrow.",
+            "timestamp": "2026-11-24T20:20:55.148319+00:00"
           }
-        ]
+        ],
+        "is_player_character": true,
+        "is_party_member": false,
+        "became_pc": true
       },
       "Deacon Ilsabet Vane": {
         "name": "Deacon Ilsabet Vane",
@@ -189,6 +204,14 @@
           {
             "event": "In the town's shared dream she saw Thane's face and Brother Quell's vertebrae cord on his wrist. She now knows the hidden speaker is Quell's killer, and that he is Hearthblood. Felt the bone-quake and learned where the heart is.",
             "timestamp": "2026-11-24T20:18:37.820982+00:00"
+          },
+          {
+            "event": "Watched Thane Hearthless burn himself out in the dream, and thanked him for lighting the door. She knows his body is in Gristle's shop.",
+            "timestamp": "2026-11-24T20:20:55.232592+00:00"
+          },
+          {
+            "event": "Dawn on the 5th: the Choir opened the heart's door a crack with Thane's dead hand. She is still bound to return Pip home, whole and himself, by supper.",
+            "timestamp": "2026-11-24T20:24:18.608971+00:00"
           }
         ]
       }
@@ -245,6 +268,32 @@
             "path": "visible from here"
           }
         ]
+      },
+      "The Quiet Rooms": {
+        "position": "unknown",
+        "connections": [
+          {
+            "to": "The Quiet Rooms",
+            "path": "traveled"
+          },
+          {
+            "to": "The Marrow Vein (beneath the Chapel)",
+            "path": "traveled"
+          }
+        ],
+        "description": "",
+        "discovered": "2026-11-24 20:24:18 UTC"
+      },
+      "The Marrow Vein (beneath the Chapel)": {
+        "position": "unknown",
+        "connections": [
+          {
+            "to": "The Quiet Rooms",
+            "path": "traveled"
+          }
+        ],
+        "description": "",
+        "discovered": "2026-11-24 20:27:27 UTC"
       }
     },
     "facts.json": {
@@ -260,6 +309,14 @@
         {
           "fact": "BONE-QUAKE (Stirring 4): Rib Row tilted several degrees; sealed Marrow Pit Number Nine collapsed, opening a shaft down toward the heart-cavity. The Hollow Choir now knows exactly where the true heart is: behind a door set in the bone with a lock shaped like an open hand.",
           "timestamp": "2026-11-24T20:18:37.610457+00:00"
+        },
+        {
+          "fact": "Aldrumm felt his grandson die inside his own dream. Three hundred years asleep, and the first thing he has woken enough to feel is grief.",
+          "timestamp": "2026-11-24T20:20:54.772129+00:00"
+        },
+        {
+          "fact": "CHOIR CLOCK FULL (dawn, 5th of Harvestwane): the Hollow Choir went down the collapsed shaft of Pit Nine to the heart's door and pressed Thane's dead Hearthblood hand to the lock. The door opened a crack. The Carrion Queen has begun to feed. Across Godbones every marrow lamp is dimming and the bones have begun, very slowly, to grey.",
+          "timestamp": "2026-11-24T20:24:18.236491+00:00"
         }
       ],
       "lore": [
@@ -300,12 +357,28 @@
         {
           "fact": "In the shared dream Thane tried to burn Deacon Vane with the hearth-word and invite Aldrumm in (Grand working). Cast 7 vs DC 20: FAILED. The reach still moved the Stirring +2 (now 5/6). His oath burned him for 10 at 0 HP: one death-save failure, no longer stable. The Toll came due in full (death unless shared). Vane saw his face and the vertebrae cord in the dream.",
           "timestamp": "2026-11-24T20:18:37.535043+00:00"
+        },
+        {
+          "fact": "Thane Hearthless, Aldrumm's many-times-grandson, died on a pallet in the back room of Gristle's Pickles & Preserves on the night of the 4th of Harvestwane, Year 302, paying the Toll in full. At the end he let go of Gristle's hand so she would not die with him.",
+          "timestamp": "2026-11-24T20:20:54.688302+00:00"
+        },
+        {
+          "fact": "After midnight on the 4th, the Hollow-sung came to Gristle's shop. Gristle held the back door with the binding-word (14 vs 15, failed by one): they broke through the front, took Thane's body, and left Gristle unconscious and badly hurt among the broken jars. She lives.",
+          "timestamp": "2026-11-24T20:24:18.164556+00:00"
+        },
+        {
+          "fact": "Answer to Pip's prayer: the grey patch of dying bone by his bed went soft and warm along an old marrow-vein seam. Pip scraped through with his knife (Stealth 17 vs 13), unheard by the Hollow-sung acolyte outside, and dropped into a warm marrow vein leading down toward the heart.",
+          "timestamp": "2026-11-24T20:27:27.428315+00:00"
         }
       ],
       "player_choices": [
         {
           "fact": "Thane swore on his Hearthblood to Mother Gristle that when he wakes Aldrumm, he will wake him slow, so the god does not roll over the town. In return she teaches him Marrowtongue.",
           "timestamp": "2026-11-24T19:24:34.796048+00:00"
+        },
+        {
+          "fact": "Pip prayed to Aldrumm for all the hearths of Godbones, asked him for guidance, and offered himself to wake the god when he reaches the heart.",
+          "timestamp": "2026-11-24T20:27:27.247391+00:00"
         }
       ]
     },
@@ -318,10 +391,10 @@
           "created": "2026-11-24T19:24:34.890842+00:00"
         },
         {
-          "id": "c9faf1f4",
-          "consequence": "The Hollow Choir sends the Hollow-sung for Mother Gristle at her shop: polite, tireless, at the door after midnight.",
-          "trigger": "the night after Vane reports to the Choir (the next time a night passes with Gristle at her shop)",
-          "created": "2026-11-24T20:13:15.153926+00:00"
+          "id": "ec94dc49",
+          "consequence": "Aldrumm, god of kept promises, holds Pip to his offer: at the heart, the god will try to wake THROUGH Pip. Waking him that way will push the Stirring to 6 and cost Pip dearly (the Toll of a god's waking, unless shared).",
+          "trigger": "Pip reaches Aldrumm's heart or the door with the hand-shaped lock",
+          "created": "2026-11-24T20:27:27.338004+00:00"
         }
       ],
       "resolved": [
@@ -331,6 +404,27 @@
           "trigger": "Deacon Ilsabet Vane gets a clear look at Thane's left wrist",
           "created": "2026-11-24T09:01:37.812624+00:00",
           "resolved": "2026-11-24T20:18:37.707915+00:00"
+        },
+        {
+          "id": "c9faf1f4",
+          "consequence": "The Hollow Choir sends the Hollow-sung for Mother Gristle at her shop: polite, tireless, at the door after midnight.",
+          "trigger": "the night after Vane reports to the Choir (the next time a night passes with Gristle at her shop)",
+          "created": "2026-11-24T20:13:15.153926+00:00",
+          "resolved": "2026-11-24T20:24:17.929733+00:00"
+        },
+        {
+          "id": "c5c38d6d",
+          "consequence": "The Hollow Choir comes for Thane's body: the lock on the heart's door is shaped like an open hand, and a Hearthblood hand, even a dead one, might fit it.",
+          "trigger": "the Choir moves on the heart's door, or anyone goes looking for Thane's body",
+          "created": "2026-11-24T20:20:54.864703+00:00",
+          "resolved": "2026-11-24T20:24:18.013260+00:00"
+        },
+        {
+          "id": "3bef9d3f",
+          "consequence": "[Clock — The Hollow Choir claims Aldrumm's heart] The Choir finds the true heart through stolen dreams and the Heartstone, and the Carrion Queen begins to finish her meal. The Stirring jumps to 4, and the Ribcage starts to die for good.",
+          "trigger": "the The Hollow Choir claims Aldrumm's heart clock ran out",
+          "created": "2026-11-24T20:23:56.106554+00:00",
+          "resolved": "2026-11-24T20:24:18.091897+00:00"
         }
       ]
     },
@@ -720,17 +814,17 @@
       }
     },
     "threat-clocks.json": {
-      "The Hollow Choir claims Aldrumm's heart": {
-        "current": 3,
-        "max": 4,
-        "advance_on": "time",
-        "consequence": "The Choir finds the true heart through stolen dreams and the Heartstone, and the Carrion Queen begins to finish her meal. The Stirring jumps to 4, and the Ribcage starts to die for good."
-      },
       "The Stirring": {
         "current": 5,
         "max": 6,
         "advance_on": "event",
         "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)"
+      },
+      "The Carrion Queen devours Aldrumm's heart": {
+        "current": 0,
+        "max": 4,
+        "advance_on": "time",
+        "consequence": "Aldrumm dies for good. The marrow goes dark, the bones of the Ribcage begin to crumble, and Godbones dies with its god."
       }
     },
     "campaign-memory.json": {
@@ -747,96 +841,181 @@
     "session-log.md": "# Session Log - Godbones\n\n*A new adventure begins...*\n\n---\n\n## World Summary\nThree hundred years ago the god Aldrumm the Hearthfather was killed by the Carrion Queen and fell across the Weeping Valley. Twelve Bearer families dragged the body into place and built the town of Godbones inside the ribcage. The Chapel of the Long Wake insists he is only sleeping. Marrow yields are dropping, the town shares dreams, and the Hollow Choir has arrived.\n\n- **Starting location:** Rib Row, market lane along the seventh rib. Midday, market day, 3rd of Harvestwane, Year 302 of the Bearing.\n- **On stage:** Mother Gristle (Lantern Tutor, pickle shop), Pip Haddersley (street kid speaking Marrowtongue in his sleep), Deacon Ilsabet Vane (Chapel, secretly Hollow Choir).\n- **Hook:** Pip collapses mid-street and speaks a word of the god's tongue; lamps flare, a window shatters. Vane wants to carry him to the Chapel \"for care.\" Gristle has gone very still.\n- **Threat clock:** The Hollow Choir claims Aldrumm's heart (0/4).\n\n---\n",
     "characters": {
       "character": {
-        "id": "thane-hearthless",
-        "name": "Thane Hearthless",
-        "race": "Human (Hearthblood, a distant descendant of Aldrumm)",
-        "class": "Godkin Hunter",
-        "level": 2,
+        "status": "alive",
+        "voice": [],
+        "origin": "canon",
+        "name": "Pip Haddersley",
+        "race": "Human",
+        "class": "Gutter Dreamer",
         "hp": {
-          "current": 0,
-          "max": 20
+          "current": 9,
+          "max": 9
         },
-        "ac": 14,
+        "ac": 13,
         "stats": {
-          "str": 14,
-          "dex": 15,
-          "con": 14,
-          "int": 10,
-          "wis": 13,
-          "cha": 12
+          "str": 8,
+          "dex": 16,
+          "con": 12,
+          "int": 11,
+          "wis": 15,
+          "cha": 13
         },
-        "skills": {
-          "athletics": 4,
-          "survival": 3,
-          "perception": 3,
-          "intimidation": 3,
-          "stealth": 2,
-          "insight": 1,
-          "marrowtongue": 3
-        },
+        "level": 1,
+        "gold": 0,
         "equipment": [
-          "Longsword (1d8+2 slashing)",
-          "Hunting knife (1d4+2, thrown 20/60)",
-          "Studded leather armor (AC 14 with DEX)",
-          "Traveler's pack (bedroll, rope, 3 days rations, flint)",
-          "Marrow lamp (cracked)",
-          "Disciple's prayer-cord of tiny vertebrae (taken from his one kill)",
-          "Map of the Weeping Valley, hand-drawn from dreams"
+          "Scraping knife (1d4+3 piercing, finesse)",
+          "Chalk stub",
+          "Stolen thumb-vial of raw marrow (worth ~5 sp)",
+          "Oversized patched coat with too many pockets",
+          "Rag foot-wraps"
         ],
-        "features": [
-          "Hearthblood: you dream Aldrumm's dreams. Marrow warms and brightens in your presence. Once per long rest, ask the GM one question about the god's body or past and get a true but dreamlike answer.",
-          "Second Wind (1/short rest): bonus action, regain 1d10+2 HP.",
-          "Hunter's Mark of Endings (1/short rest): bonus action, mark a creature; your weapon hits deal +1d6 to it for 1 minute. Against Choir members you also know where they are while within 60 ft.",
-          "STOLEN: The Lagging Shadow (harvested from Choir disciple Brother Quell): bonus action, step into your own shadow and out of another shadow within 30 ft you can see. +1 Carrion Rot per use.",
-          "Marrowtongue (tutored by Mother Gristle): the hearth-word (kindling / home-fire) is TUTORED, no +3 untutored Toll for it.",
-          "The Stopping (Gristle's grammar): once per working, abort a spell before the Toll lands; pay only the first rung (a dull ache) and the spell fails.",
-          "Marrowtongue proficiency: +2 proficiency on Marrowtongue casting checks (WIS: +1 +2 = +3).",
-          "The binding-word (promise / oath / the thing that holds), TUTORED: bind a door shut, a wound closed, a knot fast, or a person to a promise they have spoken. Tier depends on what is bound."
-        ],
-        "background": "Outsider from beyond the Weeping Valley",
-        "alignment": "",
-        "bonds": "",
-        "flaws": "",
-        "ideals": "",
-        "traits": "",
-        "notes": "Killed one Hollow Choir disciple, Brother Quell, on the Spine Road eleven days ago and ate his last breath. Has not told anyone his lineage. Followed a dream of a warm red room under a chapel to Godbones.",
-        "gold": 12,
+        "conditions": [],
+        "id": "pip-haddersley",
+        "background": "Rib Row street kid and part-time marrow-thief",
+        "concept": "An eleven-year-old street kid who dreams the dead god's dreams and speaks his words without being taught",
         "xp": {
-          "current": 600,
-          "next_level": 900
+          "current": 0,
+          "next_level": 300
         },
-        "visual_appearance": {
-          "sex": "male",
-          "age": "late twenties",
-          "race": "human",
-          "species": "human (faint divine blood)",
-          "hair": "dark auburn, shoulder length, tied back with a strip of leather",
-          "face": "weathered and angular, short beard, an old scar through one eyebrow",
-          "eyes": "deep amber that glow faintly like marrow-light when he dreams or is angry",
-          "clothing": "travel-worn studded leather over a faded hearth-red tunic, a heavy grey road cloak",
-          "gear": "longsword on the hip, hunting knife at the boot, a prayer-cord of tiny vertebrae wound around his left wrist, cracked marrow lamp on his pack",
-          "demeanor": "quiet, watchful, carries himself like someone owed a debt by the world",
-          "size": "tall and lean-muscled"
-        },
+        "speed": 30,
+        "proficiency_bonus": 2,
         "saves": {
-          "str": 4,
-          "dex": 2,
-          "con": 4,
+          "str": -1,
+          "dex": 5,
+          "con": 1,
           "int": 0,
-          "wis": 1,
+          "wis": 2,
           "cha": 1
         },
+        "skills": {
+          "stealth": 5,
+          "sleight_of_hand": 5,
+          "acrobatics": 5,
+          "perception": 4,
+          "insight": 4,
+          "deception": 3
+        },
         "rot": {
-          "current": 1,
+          "current": 0,
           "max": 6
         },
-        "current_location": "Gristle's Pickles & Preserves",
-        "status": "dying",
-        "conditions": [
-          "exhaustion 1 (the Toll)",
-          "unconscious, DYING (0 HP, death saves: 0 successes / 1 failure)"
-        ]
+        "features": [
+          "Natural Speaker: dreams words of Marrowtongue untaught. Knows the hearth-word (UNTUTORED: +3 Toll severity). Casts with WIS (+2), no proficiency yet.",
+          "Dream-map: knows the way through the god's body to the door with the hand-shaped lock, from a month of drawing it. Can find it awake, in the dark, by feel.",
+          "Small and Quick: fits through gaps adults cannot; advantage on Stealth in crowds and on Rib Row.",
+          "Gutter Knowledge: knows every alley, drain, rooftop, and fence on Rib Row, and who will buy stolen marrow."
+        ],
+        "silver": 0,
+        "copper": 7,
+        "notes": "Saw the lamp man (Thane) die in the shared dream on the night of the 4th. Deacon Vane is magically bound to have him home, whole and himself, by supper on the 5th.",
+        "visual_appearance": {
+          "sex": "male",
+          "age": "about eleven",
+          "race": "human",
+          "species": "human",
+          "hair": "dirty straw-blond mop, badly self-cut",
+          "face": "thin, freckled, chalk smudges, a split lip healing",
+          "eyes": "hazel, glowing faint amber when he dreams",
+          "clothing": "oversized patched coat with too many pockets, bare feet wrapped in rags",
+          "gear": "a chalk stub, a scraping knife, a stolen thumb-vial of marrow",
+          "demeanor": "wary, quick, brave in short bursts",
+          "size": "small and underfed"
+        },
+        "current_location": "The Marrow Vein (beneath the Chapel)"
       }
+    },
+    "fallen/thane-hearthless.json": {
+      "id": "thane-hearthless",
+      "name": "Thane Hearthless",
+      "race": "Human (Hearthblood, a distant descendant of Aldrumm)",
+      "class": "Godkin Hunter",
+      "level": 2,
+      "hp": {
+        "current": 0,
+        "max": 20
+      },
+      "ac": 14,
+      "stats": {
+        "str": 14,
+        "dex": 15,
+        "con": 14,
+        "int": 10,
+        "wis": 13,
+        "cha": 12
+      },
+      "skills": {
+        "athletics": 4,
+        "survival": 3,
+        "perception": 3,
+        "intimidation": 3,
+        "stealth": 2,
+        "insight": 1,
+        "marrowtongue": 3
+      },
+      "equipment": [
+        "Longsword (1d8+2 slashing)",
+        "Hunting knife (1d4+2, thrown 20/60)",
+        "Studded leather armor (AC 14 with DEX)",
+        "Traveler's pack (bedroll, rope, 3 days rations, flint)",
+        "Marrow lamp (cracked)",
+        "Disciple's prayer-cord of tiny vertebrae (taken from his one kill)",
+        "Map of the Weeping Valley, hand-drawn from dreams"
+      ],
+      "features": [
+        "Hearthblood: you dream Aldrumm's dreams. Marrow warms and brightens in your presence. Once per long rest, ask the GM one question about the god's body or past and get a true but dreamlike answer.",
+        "Second Wind (1/short rest): bonus action, regain 1d10+2 HP.",
+        "Hunter's Mark of Endings (1/short rest): bonus action, mark a creature; your weapon hits deal +1d6 to it for 1 minute. Against Choir members you also know where they are while within 60 ft.",
+        "STOLEN: The Lagging Shadow (harvested from Choir disciple Brother Quell): bonus action, step into your own shadow and out of another shadow within 30 ft you can see. +1 Carrion Rot per use.",
+        "Marrowtongue (tutored by Mother Gristle): the hearth-word (kindling / home-fire) is TUTORED, no +3 untutored Toll for it.",
+        "The Stopping (Gristle's grammar): once per working, abort a spell before the Toll lands; pay only the first rung (a dull ache) and the spell fails.",
+        "Marrowtongue proficiency: +2 proficiency on Marrowtongue casting checks (WIS: +1 +2 = +3).",
+        "The binding-word (promise / oath / the thing that holds), TUTORED: bind a door shut, a wound closed, a knot fast, or a person to a promise they have spoken. Tier depends on what is bound."
+      ],
+      "background": "Outsider from beyond the Weeping Valley",
+      "alignment": "",
+      "bonds": "",
+      "flaws": "",
+      "ideals": "",
+      "traits": "",
+      "notes": "Killed one Hollow Choir disciple, Brother Quell, on the Spine Road eleven days ago and ate his last breath. Has not told anyone his lineage. Followed a dream of a warm red room under a chapel to Godbones.",
+      "gold": 12,
+      "xp": {
+        "current": 600,
+        "next_level": 900
+      },
+      "visual_appearance": {
+        "sex": "male",
+        "age": "late twenties",
+        "race": "human",
+        "species": "human (faint divine blood)",
+        "hair": "dark auburn, shoulder length, tied back with a strip of leather",
+        "face": "weathered and angular, short beard, an old scar through one eyebrow",
+        "eyes": "deep amber that glow faintly like marrow-light when he dreams or is angry",
+        "clothing": "travel-worn studded leather over a faded hearth-red tunic, a heavy grey road cloak",
+        "gear": "longsword on the hip, hunting knife at the boot, a prayer-cord of tiny vertebrae wound around his left wrist, cracked marrow lamp on his pack",
+        "demeanor": "quiet, watchful, carries himself like someone owed a debt by the world",
+        "size": "tall and lean-muscled"
+      },
+      "saves": {
+        "str": 4,
+        "dex": 2,
+        "con": 4,
+        "int": 0,
+        "wis": 1,
+        "cha": 1
+      },
+      "rot": {
+        "current": 1,
+        "max": 6
+      },
+      "current_location": "Gristle's Pickles & Preserves",
+      "status": "dead",
+      "conditions": [
+        "exhaustion 1 (the Toll)",
+        "unconscious, DYING (0 HP, death saves: 0 successes / 1 failure)"
+      ],
+      "died_at": "2026-11-24T20:20:54.588134+00:00",
+      "cause": "Paid the Toll in full for a failed Grand working, calling Aldrumm into the town's shared dream to burn the Carrion Queen's deacon. Pushed Gristle's hand away so she would not share the bill."
     }
   }
 }

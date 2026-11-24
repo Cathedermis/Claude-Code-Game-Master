@@ -72,9 +72,24 @@
       {
         "to": "The Quiet Rooms",
         "path": "traveled"
+      },
+      {
+        "to": "The Heart-Cavity",
+        "path": "traveled"
       }
     ],
     "description": "",
     "discovered": "2026-11-24 20:27:27 UTC"
+  },
+  "The Heart-Cavity": {
+    "position": "unknown",
+    "connections": [
+      {
+        "to": "The Marrow Vein (beneath the Chapel)",
+        "path": "traveled"
+      }
+    ],
+    "description": "",
+    "discovered": "2026-11-24 20:30:36 UTC"
   }
 }

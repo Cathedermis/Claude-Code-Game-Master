@@ -1,14 +1,15 @@
 {
   "The Stirring": {
-    "current": 5,
+    "current": 6,
     "max": 6,
     "advance_on": "event",
-    "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)"
+    "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)",
+    "consequence_fired": "9263225d"
   },
-  "The Carrion Queen devours Aldrumm's heart": {
+  "The Carrion Queen forces the door again": {
     "current": 0,
-    "max": 4,
+    "max": 6,
     "advance_on": "time",
-    "consequence": "Aldrumm dies for good. The marrow goes dark, the bones of the Ribcage begin to crumble, and Godbones dies with its god."
+    "consequence": "The Queen, starved and furious, breaks the heart's door from the far side. No hand needed this time."
   }
 }
