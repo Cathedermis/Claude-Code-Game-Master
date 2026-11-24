@@ -34,6 +34,10 @@
       {
         "event": "Thane told her he is Aldrumm's grandson, that Aldrumm is waking, and that Deacon Vane serves the Carrion Queen. Then he spoke the hearth-word untaught and the god answered him; her own scar lit up. She now believes him, and is frightened of what that means.",
         "timestamp": "2026-11-24T19:12:57.352262+00:00"
+      },
+      {
+        "event": "Thane let the boy go into the Chapel to stay for lessons, saying Pip is lost for now and the ritual takes days. She thinks that is cold, possibly correct, and very like a god's kin. She respects it a little less than she understands it.",
+        "timestamp": "2026-11-24T19:19:03.835698+00:00"
       }
     ]
   },
@@ -63,7 +67,13 @@
       "gear": "a chalk stub, a scraping knife, a stolen thumb-vial of marrow",
       "demeanor": "wary, quick, brave in short bursts",
       "size": "small and underfed"
-    }
+    },
+    "events": [
+      {
+        "event": "Carried unconscious into the Chapel's Quiet Rooms by Deacon Vane while the stranger with the glowing lamp watched and did not come.",
+        "timestamp": "2026-11-24T19:19:03.947600+00:00"
+      }
+    ]
   },
   "Deacon Ilsabet Vane": {
     "name": "Deacon Ilsabet Vane",

@@ -3,6 +3,10 @@
     {
       "fact": "Thane Hearthless killed Hollow Choir disciple Brother Quell on the Spine Road eleven days ago and harvested his Lagging Shadow power. The Choir has not found the body.",
       "timestamp": "2026-11-24T09:01:37.673228+00:00"
+    },
+    {
+      "fact": "The Choir needs Pip alive and dreaming: each night he dreams in the Quiet Rooms, they map more of the way to Aldrumm's true heart (Choir clock ticks once per day).",
+      "timestamp": "2026-11-24T19:19:03.717632+00:00"
     }
   ],
   "lore": [
@@ -23,6 +27,10 @@
     {
       "fact": "Thane spoke Pip's word (a hearth-word of Marrowtongue) untutored in Gristle's doorway, reaching for Aldrumm. Nat 20: Aldrumm answered and paid half the Toll. Gristle's cold stove roared alight and the word-shaped burn scar on her cheek glowed. The Stirring rose to 1.",
       "timestamp": "2026-11-24T19:12:57.163165+00:00"
+    },
+    {
+      "fact": "The Chapel bell stopped. Deacon Vane took Pip into the Chapel's Quiet Rooms. Thane chose to stay and seek a real Marrowtongue apprenticeship from Gristle rather than chase the procession.",
+      "timestamp": "2026-11-24T19:19:03.646570+00:00"
     }
   ]
 }
