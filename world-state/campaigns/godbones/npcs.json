@@ -198,6 +198,10 @@
       {
         "event": "Pip asked him which promise was better, teaching or keeping Thane. He answered honestly: he WANTS to keep Thane, that wish is his grief and not Pip's need. He can give words but cannot teach the Stopping (gods never stop), so Gristle must still teach grammar. Nobody but him can keep Thane. A kept Thane would be a hearth-light that never goes out, and the Queen's grey cannot abide hearth-light.",
         "timestamp": "2026-11-25T07:22:09.561650+00:00"
+      },
+      {
+        "event": "Pip asked him to keep Thane: 'give him his grandson, who died to get me out.' He kept it. Thane's lamp will never go out, and every hearth in Godbones knows Thane's name. He is grateful to Pip beyond words, and less alone.",
+        "timestamp": "2026-11-25T07:50:38.985885+00:00"
       }
     ],
     "visual_appearance": {
@@ -219,7 +223,7 @@
     },
     "goal": "Keep his house (the town in his ribs) standing; shut the Carrion Queen out for good with his last heartbeat, the Heartstone; keep every promise he owes",
     "secret": "If he wakes any further than one eye, he cannot help but move, and the town inside him dies",
-    "current_mood": "grieving his grandson, bewildered, tender, and very angry at the door",
+    "current_mood": "grieving, but no longer alone; fiercely grateful to the little hearth",
     "voice": "Slow, enormous, few words; calls people by what they are to him (little hearth, child-who-kept-faith); never lies"
   }
 }

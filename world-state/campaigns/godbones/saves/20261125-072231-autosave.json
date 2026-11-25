@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-24T20:28:03.959684+00:00",
+  "created": "2026-11-25T07:22:31.427376+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -13,11 +13,11 @@
         "drama": 35
       },
       "current_date": "5th of Harvestwane, Year 302 of the Bearing",
-      "time_of_day": "Dawn",
+      "time_of_day": "Late morning",
       "player_position": {
-        "current_location": "The Marrow Vein (beneath the Chapel)",
-        "previous_location": "The Quiet Rooms",
-        "arrival_time": "2026-11-24 20:27:27 UTC"
+        "current_location": "The Heart-Cavity",
+        "previous_location": "The Heart-Cavity",
+        "arrival_time": "2026-11-24 20:34:21 UTC"
       },
       "current_character": "Pip Haddersley",
       "session_count": 0,
@@ -214,6 +214,67 @@
             "timestamp": "2026-11-24T20:24:18.608971+00:00"
           }
         ]
+      },
+      "Acolyte Benedek Thrupp": {
+        "description": "Young Chapel acolyte, one of the four Hollow-sung freed when Aldrumm woke. Remembers nothing of the last month except the tune. Stabilized Pip with shaking hands.",
+        "attitude": "friendly",
+        "created": "2026-11-24T20:30:35.767293+00:00",
+        "events": [],
+        "visual_appearance": {
+          "sex": "",
+          "age": "",
+          "race": "",
+          "species": "",
+          "hair": "",
+          "face": "",
+          "eyes": "",
+          "clothing": "",
+          "gear": "",
+          "demeanor": "",
+          "size": ""
+        },
+        "tags": {
+          "locations": [
+            "The Heart-Cavity"
+          ],
+          "quests": []
+        }
+      },
+      "Aldrumm the Hearthfather": {
+        "description": "The god of hearth, harvest, and kept promises, killed by the Carrion Queen 300 years ago; his bones are the town of Godbones. Now awake, one eye open in the Skull. Speaks through the bones, slow and vast, like weather that has learned grief.",
+        "attitude": "friendly",
+        "created": "2026-11-24T20:34:21.036518+00:00",
+        "events": [
+          {
+            "event": "Woken by Pip Haddersley at the heart. Mourns Thane, whom he called by name as he died. Told Pip: he cannot wake further without crushing the town in his ribs; he needs the Heartstone (his last heartbeat, kept by the Chapel) brought to the heart's door to seal it against the Queen forever; and he owes Pip one kept promise, which Pip may name.",
+            "timestamp": "2026-11-24T20:34:21.211933+00:00"
+          },
+          {
+            "event": "Pip asked him which promise was better, teaching or keeping Thane. He answered honestly: he WANTS to keep Thane, that wish is his grief and not Pip's need. He can give words but cannot teach the Stopping (gods never stop), so Gristle must still teach grammar. Nobody but him can keep Thane. A kept Thane would be a hearth-light that never goes out, and the Queen's grey cannot abide hearth-light.",
+            "timestamp": "2026-11-25T07:22:09.561650+00:00"
+          }
+        ],
+        "visual_appearance": {
+          "sex": "",
+          "age": "",
+          "race": "",
+          "species": "",
+          "hair": "",
+          "face": "",
+          "eyes": "",
+          "clothing": "",
+          "gear": "",
+          "demeanor": "",
+          "size": ""
+        },
+        "tags": {
+          "locations": [],
+          "quests": []
+        },
+        "goal": "Keep his house (the town in his ribs) standing; shut the Carrion Queen out for good with his last heartbeat, the Heartstone; keep every promise he owes",
+        "secret": "If he wakes any further than one eye, he cannot help but move, and the town inside him dies",
+        "current_mood": "grieving his grandson, bewildered, tender, and very angry at the door",
+        "voice": "Slow, enormous, few words; calls people by what they are to him (little hearth, child-who-kept-faith); never lies"
       }
     },
     "locations.json": {
@@ -290,10 +351,29 @@
           {
             "to": "The Quiet Rooms",
             "path": "traveled"
+          },
+          {
+            "to": "The Heart-Cavity",
+            "path": "traveled"
           }
         ],
         "description": "",
         "discovered": "2026-11-24 20:27:27 UTC"
+      },
+      "The Heart-Cavity": {
+        "position": "unknown",
+        "connections": [
+          {
+            "to": "The Marrow Vein (beneath the Chapel)",
+            "path": "traveled"
+          },
+          {
+            "to": "The Heart-Cavity",
+            "path": "traveled"
+          }
+        ],
+        "description": "",
+        "discovered": "2026-11-24 20:30:36 UTC"
       }
     },
     "facts.json": {
@@ -369,6 +449,10 @@
         {
           "fact": "Answer to Pip's prayer: the grey patch of dying bone by his bed went soft and warm along an old marrow-vein seam. Pip scraped through with his knife (Stealth 17 vs 13), unheard by the Hollow-sung acolyte outside, and dropped into a warm marrow vein leading down toward the heart.",
           "timestamp": "2026-11-24T20:27:27.428315+00:00"
+        },
+        {
+          "fact": "Pip kept his vow at the heart-cavity: Aldrumm woke THROUGH him (cast 20 vs DC 20). The god shared the Toll; Pip collapsed to 0 HP, went 1 success / 1 failure on death saves, and was stabilized by a freed acolyte. THE STIRRING HIT 6: Aldrumm opened one eye. His hearth-fire burned the Carrion Queen's hymn out of the four Hollow-sung (now ordinary, dazed acolytes again). The god pulled Thane's dead hand from the lock and the heart's door slammed shut on the Queen. The grey-robed Choir cantor fled through the crack before it closed. Across Godbones every marrow lamp flared gold and the greying of the bones stopped. The Skull, a day north, unsealed.",
+          "timestamp": "2026-11-24T20:30:35.582665+00:00"
         }
       ],
       "player_choices": [
@@ -380,7 +464,38 @@
           "fact": "Pip prayed to Aldrumm for all the hearths of Godbones, asked him for guidance, and offered himself to wake the god when he reaches the heart.",
           "timestamp": "2026-11-24T20:27:27.247391+00:00"
         }
+      ],
+      "plot_world": [
+        {
+          "fact": "Aldrumm the Hearthfather is awake, or one eye of him is: a vast amber light now burns in the eye-socket of the Skull, visible from every street in Godbones. He has not moved. Nobody knows what he wants yet.",
+          "timestamp": "2026-11-24T20:30:35.678493+00:00"
+        },
+        {
+          "fact": "Aldrumm cannot wake further than one eye without moving, and if he moves, Godbones dies. He asks that the Heartstone (held by the Chapel of the Long Wake) be brought to his heart's door: set in the hand-shaped lock, it will seal the door against the Carrion Queen forever.",
+          "timestamp": "2026-11-24T20:34:21.290394+00:00"
+        }
       ]
+    },
+    "plots.json": {
+      "The Last Heartbeat": {
+        "type": "main",
+        "status": "active",
+        "description": "Bring the Heartstone from the Chapel of the Long Wake down to the door of Aldrumm's heart and set it in the hand-shaped lock to seal the Carrion Queen out forever, before she forces the door.",
+        "npcs": [
+          "Aldrumm the Hearthfather"
+        ],
+        "locations": [
+          "The Chapel of the Long Wake"
+        ],
+        "objectives": [],
+        "events": [
+          {
+            "event": "Thread seeded",
+            "timestamp": "2026-11-24T20:34:21.377415+00:00"
+          }
+        ],
+        "created": "2026-11-24T20:34:21.377436+00:00"
+      }
     },
     "consequences.json": {
       "active": [
@@ -391,10 +506,10 @@
           "created": "2026-11-24T19:24:34.890842+00:00"
         },
         {
-          "id": "ec94dc49",
-          "consequence": "Aldrumm, god of kept promises, holds Pip to his offer: at the heart, the god will try to wake THROUGH Pip. Waking him that way will push the Stirring to 6 and cost Pip dearly (the Toll of a god's waking, unless shared).",
-          "trigger": "Pip reaches Aldrumm's heart or the door with the hand-shaped lock",
-          "created": "2026-11-24T20:27:27.338004+00:00"
+          "id": "9263225d",
+          "consequence": "[Clock — The Stirring] Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)",
+          "trigger": "the The Stirring clock ran out",
+          "created": "2026-11-24T20:30:35.195947+00:00"
         }
       ],
       "resolved": [
@@ -425,6 +540,13 @@
           "trigger": "the The Hollow Choir claims Aldrumm's heart clock ran out",
           "created": "2026-11-24T20:23:56.106554+00:00",
           "resolved": "2026-11-24T20:24:18.091897+00:00"
+        },
+        {
+          "id": "ec94dc49",
+          "consequence": "Aldrumm, god of kept promises, holds Pip to his offer: at the heart, the god will try to wake THROUGH Pip. Waking him that way will push the Stirring to 6 and cost Pip dearly (the Toll of a god's waking, unless shared).",
+          "trigger": "Pip reaches Aldrumm's heart or the door with the hand-shaped lock",
+          "created": "2026-11-24T20:27:27.338004+00:00",
+          "resolved": "2026-11-24T20:30:35.296373+00:00"
         }
       ]
     },
@@ -815,16 +937,17 @@
     },
     "threat-clocks.json": {
       "The Stirring": {
-        "current": 5,
+        "current": 6,
         "max": 6,
         "advance_on": "event",
-        "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)"
+        "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)",
+        "consequence_fired": "9263225d"
       },
-      "The Carrion Queen devours Aldrumm's heart": {
+      "The Carrion Queen forces the door again": {
         "current": 0,
-        "max": 4,
+        "max": 6,
         "advance_on": "time",
-        "consequence": "Aldrumm dies for good. The marrow goes dark, the bones of the Ribcage begin to crumble, and Godbones dies with its god."
+        "consequence": "The Queen, starved and furious, breaks the heart's door from the far side. No hand needed this time."
       }
     },
     "campaign-memory.json": {
@@ -848,8 +971,8 @@
         "race": "Human",
         "class": "Gutter Dreamer",
         "hp": {
-          "current": 9,
-          "max": 9
+          "current": 1,
+          "max": 15
         },
         "ac": 13,
         "stats": {
@@ -860,7 +983,7 @@
           "wis": 15,
           "cha": 13
         },
-        "level": 1,
+        "level": 2,
         "gold": 0,
         "equipment": [
           "Scraping knife (1d4+3 piercing, finesse)",
@@ -874,8 +997,8 @@
         "background": "Rib Row street kid and part-time marrow-thief",
         "concept": "An eleven-year-old street kid who dreams the dead god's dreams and speaks his words without being taught",
         "xp": {
-          "current": 0,
-          "next_level": 300
+          "current": 400,
+          "next_level": 900
         },
         "speed": 30,
         "proficiency_bonus": 2,
@@ -903,7 +1026,9 @@
           "Natural Speaker: dreams words of Marrowtongue untaught. Knows the hearth-word (UNTUTORED: +3 Toll severity). Casts with WIS (+2), no proficiency yet.",
           "Dream-map: knows the way through the god's body to the door with the hand-shaped lock, from a month of drawing it. Can find it awake, in the dark, by feel.",
           "Small and Quick: fits through gaps adults cannot; advantage on Stealth in crowds and on Rib Row.",
-          "Gutter Knowledge: knows every alley, drain, rooftop, and fence on Rib Row, and who will buy stolen marrow."
+          "Gutter Knowledge: knows every alley, drain, rooftop, and fence on Rib Row, and who will buy stolen marrow.",
+          "The waking-word (rise / stand / open your eyes), UNTUTORED: spoken once, at the heart, to wake Aldrumm. Rouse the sleeping, steady the dying, shake off a spell. Near the bones it can move the Stirring.",
+          "Woke the God: Aldrumm knows Pip by name and owes him a kept promise."
         ],
         "silver": 0,
         "copper": 7,
@@ -921,7 +1046,7 @@
           "demeanor": "wary, quick, brave in short bursts",
           "size": "small and underfed"
         },
-        "current_location": "The Marrow Vein (beneath the Chapel)"
+        "current_location": "The Heart-Cavity"
       }
     },
     "fallen/thane-hearthless.json": {

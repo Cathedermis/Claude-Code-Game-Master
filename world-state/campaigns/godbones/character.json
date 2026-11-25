@@ -25,7 +25,8 @@
     "Chalk stub",
     "Stolen thumb-vial of raw marrow (worth ~5 sp)",
     "Oversized patched coat with too many pockets",
-    "Rag foot-wraps"
+    "Rag foot-wraps",
+    "Thane's Lamp (never goes out; true hearth-light: burns the Carrion hymn out of anyone in its glow; the Hollow-sung cannot abide it)"
   ],
   "conditions": [],
   "id": "pip-haddersley",
@@ -63,7 +64,7 @@
     "Small and Quick: fits through gaps adults cannot; advantage on Stealth in crowds and on Rib Row.",
     "Gutter Knowledge: knows every alley, drain, rooftop, and fence on Rib Row, and who will buy stolen marrow.",
     "The waking-word (rise / stand / open your eyes), UNTUTORED: spoken once, at the heart, to wake Aldrumm. Rouse the sleeping, steady the dying, shake off a spell. Near the bones it can move the Stirring.",
-    "Woke the God: Aldrumm knows Pip by name and owes him a kept promise."
+    "Woke the God: Aldrumm knows Pip by name. (His promise to Pip is SPENT: he kept Thane.)"
   ],
   "silver": 0,
   "copper": 7,

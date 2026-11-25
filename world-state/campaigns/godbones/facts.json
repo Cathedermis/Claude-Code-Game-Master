@@ -29,6 +29,10 @@
     {
       "fact": "Pip's word is a Marrowtongue hearth-word (kindling / home-fire). Mother Gristle's cheek scar is the same word, burned in when she learned it.",
       "timestamp": "2026-11-24T19:12:57.242823+00:00"
+    },
+    {
+      "fact": "Thane's Lamp: Thane Hearthless's cracked marrow lamp, now kept by Aldrumm's promise. It never goes out (not for wind, water, or the Carrion Queen). Its light is true hearth-light: the Queen's hymn burns out of anyone standing in it, and the Hollow-sung cannot abide it. Every hearth-fire in Godbones now crackles with Thane's name.",
+      "timestamp": "2026-11-25T07:50:38.762814+00:00"
     }
   ],
   "session_events": [
@@ -85,6 +89,10 @@
     {
       "fact": "Pip prayed to Aldrumm for all the hearths of Godbones, asked him for guidance, and offered himself to wake the god when he reaches the heart.",
       "timestamp": "2026-11-24T20:27:27.247391+00:00"
+    },
+    {
+      "fact": "Pip spent the god's promise on Thane: 'Keep the lamp man. Give him his grandson, who died to get me out.' Aldrumm kept it.",
+      "timestamp": "2026-11-25T07:50:38.677929+00:00"
     }
   ],
   "plot_world": [
