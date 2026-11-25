@@ -117,9 +117,9 @@
       ],
       "quests": []
     },
-    "goal": "Get Pip inside the Chapel today, quietly, with the town's blessing",
+    "goal": "Get the Heartstone before anyone takes it down to the door; use Benedek as leverage; make the little hearth pay",
     "secret": "She belongs to the Hollow Choir. She sings the Carrion Queen's hymn under her breath when she thinks no one is near, and her shadow is a half-second late",
-    "current_mood": "shaken, furious, and bound; smiling anyway",
+    "current_mood": "burned, exposed, cornered, and very dangerous",
     "voice": "Soft, kind, unhurried; uses 'we' and 'together'; never once raises her voice, even when threatening",
     "visual_appearance": {
       "sex": "female",
@@ -158,6 +158,10 @@
       {
         "event": "Dawn on the 5th: the Choir opened the heart's door a crack with Thane's dead hand. She is still bound to return Pip home, whole and himself, by supper.",
         "timestamp": "2026-11-24T20:24:18.608971+00:00"
+      },
+      {
+        "event": "Broke her bound oath at the supper bell (Pip never came home). The binding burned her: shadow on fire, the Carrion hymn torn out of her mouth in front of Brannoc Tull and the Guild crews at Pit Nine. Exposed as Hollow Choir. Badly burned, fled into the Chapel. Holds Acolyte Benedek Thrupp prisoner in the Quiet Rooms. Knows Pip is in the heart-cavity with Thane's Lamp.",
+        "timestamp": "2026-11-25T08:00:29.305744+00:00"
       }
     ]
   },
@@ -165,7 +169,12 @@
     "description": "Young Chapel acolyte, one of the four Hollow-sung freed when Aldrumm woke. Remembers nothing of the last month except the tune. Stabilized Pip with shaking hands.",
     "attitude": "friendly",
     "created": "2026-11-24T20:30:35.767293+00:00",
-    "events": [],
+    "events": [
+      {
+        "event": "Sent by Pip to find the Heartstone. Caught by Deacon Vane almost at once and told her where Pip was. Now locked in the Quiet Rooms (Pip's old cell), ashamed and frightened.",
+        "timestamp": "2026-11-25T08:00:29.521135+00:00"
+      }
+    ],
     "visual_appearance": {
       "sex": "",
       "age": "",
@@ -181,7 +190,7 @@
     },
     "tags": {
       "locations": [
-        "The Heart-Cavity"
+        "The Quiet Rooms"
       ],
       "quests": []
     }
