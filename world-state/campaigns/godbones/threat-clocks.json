@@ -7,7 +7,7 @@
     "consequence_fired": "9263225d"
   },
   "The Carrion Queen forces the door again": {
-    "current": 2,
+    "current": 3,
     "max": 6,
     "advance_on": "time",
     "consequence": "The Queen, starved and furious, breaks the heart's door from the far side. No hand needed this time."
