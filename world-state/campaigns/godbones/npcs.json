@@ -263,6 +263,10 @@
       {
         "event": "Came to Gristle's shop at Pip's invitation. Pip told him everything: Thane, the god's waking, the Carrion Queen at the door, the Heartstone, Vane's ransom note for Benedek. He believed every word (he watched Vane burn). Told them Wenna says at least a dozen more Guild children are still Hollow-sung in the Quiet Rooms.",
         "timestamp": "2026-11-25T08:14:10.760269+00:00"
+      },
+      {
+        "event": "Watched Pip burn the hymn out of Orla Coyle of Fourth Pit, missing forty years, instead of killing her. Saw all fourteen Guild children in the ward wake. Will follow the thief anywhere now.",
+        "timestamp": "2026-11-25T08:32:03.700797+00:00"
       }
     ],
     "visual_appearance": {
@@ -314,10 +318,15 @@
     }
   },
   "Sister Orla Coyle": {
-    "description": "A true disciple of the Hollow Choir (not Hollow-sung), Vane's second, keeper of the Quiet Rooms. Thin, grey-veiled, with a bone tuning fork. Sits at the end of the long ward singing the Carrion hymn to keep a dozen sleeping Guild children empty.",
-    "attitude": "hostile",
+    "description": "Orla Coyle of Fourth Pit. Taken into the Chapel's Quiet Rooms with 'the fever' forty years ago, made into a Hollow Choir disciple and keeper of the Quiet Rooms. On the night of the 5th Pip held Thane's Lamp over her and the hearth-light burned the Carrion hymn out of her. She is herself again: an old Guild woman with a ruined throat, 1 HP, forty years missing.",
+    "attitude": "friendly",
     "created": "2026-11-25T08:17:47.015075+00:00",
-    "events": [],
+    "events": [
+      {
+        "event": "Pip spared her and burned the hymn out of her with Thane's Lamp. Brannoc Tull recognized her. She told Pip, in a whisper, that Vane wears the Heartstone strapped under the bandages on her burned arm.",
+        "timestamp": "2026-11-25T08:32:03.593878+00:00"
+      }
+    ],
     "visual_appearance": {
       "sex": "",
       "age": "",
@@ -337,9 +346,9 @@
       ],
       "quests": []
     },
-    "goal": "Keep the children Hollow until Vane returns; never let hearth-light into the ward",
-    "secret": "She was a Guild child herself, forty years ago, from the first Quiet Rooms",
-    "current_mood": "absorbed in the hymn, has not noticed Pip",
+    "goal": "Undo what she did; get Vane",
+    "secret": "She knows Vane carries the Heartstone on her body, under the burn bandages on her arm, meaning to carry it through the heart's door to the Queen herself",
+    "current_mood": "freed, shattered, forty years of horror arriving all at once",
     "voice": "Barely speaks; hums; when she does speak it is in a child's sing-song"
   }
 }

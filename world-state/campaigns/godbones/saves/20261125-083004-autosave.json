@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-25T08:22:34.547608+00:00",
+  "created": "2026-11-25T08:30:04.479725+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -617,6 +617,14 @@
         {
           "fact": "Before midnight Gristle taught Pip the Stopping (19 vs 12). At midnight: Gristle went alone to the Chapel steps and kept Deacon Vane talking (Deception 14 vs Insight 11; Vane believes Pip is coming). Twenty Guild men under Brannoc went quiet into the upper pits for the old ash-chute. Pip went up the marrow vein into his old cell (Stealth 24), found Benedek, and held Thane's Lamp to the door grille: the Hollow-sung guard's hymn burned out of him and, weeping and confused, he unlocked the door.",
           "timestamp": "2026-11-25T08:17:46.888702+00:00"
+        },
+        {
+          "fact": "Fight in the Quiet Rooms ward: Pip rigged a drying-line snare (nat 20). His hearth-word at Coyle's grey lamp failed (11 vs 13); he used the Stopping (dull ache, no Toll). Sister Coyle charged at the sound, hit the line at the throat (14 vs 25), went down prone and lost her tuning fork. Thane's Lamp burned her (4) but she resisted blinding (15 vs 12). Pip cut her throat (17 vs AC 12, 6 dmg): wounded, not dead, voice ruined. Her rasped hymn-note failed on him (save 18). Coyle 12/22. The children's humming is faltering without the fork.",
+          "timestamp": "2026-11-25T08:26:08.495994+00:00"
+        },
+        {
+          "fact": "Round 2: Pip clubbed Sister Coyle across the head with Thane's Lamp (15 vs AC 12; 2 bludgeoning + 2 hearth-burn). The lamp's glow burned her again (6). She clawed Pip's face (14 vs AC 13, 3 dmg). Coyle is at 2/22, barely conscious, the hymn guttering in her. Pip 5/15. The Guild broke through the kitchen ash-chute wall at the end of the round.",
+          "timestamp": "2026-11-25T08:29:40.786291+00:00"
         }
       ],
       "player_choices": [
@@ -1135,6 +1143,26 @@
       "style": "In the style of a classic 1980s oil-painted fantasy paperback cover, thick visible brushstrokes and warm hand-painted figures, but lit from below by the sickly amber-and-ivory glow of living god-marrow, with deep violet shadows pooling between colossal curved rib bones that frame every scene like cathedral arches.",
       "persona": "Illuminator-in-residence to the Chapel of the Long Wake, paid by the canvas and paid badly. Earnest, devout, flatters whoever commissioned the piece, adds a halo to anyone who tips, and signs every work with a small apologetic note about the varnish."
     },
+    "combat_state.json": {
+      "active": true,
+      "round": 1,
+      "turn_index": 0,
+      "combatants": [
+        {
+          "name": "Sister Orla Coyle",
+          "hp_current": 2,
+          "hp_max": 22,
+          "ac": 12,
+          "conditions": [
+            "prone",
+            "throat cut (hymn at disadvantage)",
+            "disarmed (tuning fork on floor 10 ft away)"
+          ],
+          "initiative": 0,
+          "side": "enemy"
+        }
+      ]
+    },
     "rules.md": "# Godbones: House Rules\n\nCore: d20 + stat mod (+ proficiency where it fits) vs DC (10 easy, 15 moderate, 20 hard, 25 brutal). D&D-style HP, AC, death saves.\n\n## Marrowtongue (magic)\n- Speak the true name of a thing in the dead god's tongue and it obeys. Any effect is possible; the cost scales with ambition.\n- **Know the word first.** Casting needs the right words. Words come from a Lantern Tutor (safe, slow, expensive) or from guessing (INT or WIS check, DC by how obscure the word is; on a fail the word means something else).\n- **Casting check:** INT (studied) or WIS (instinctive) vs DC set by the effect's scale.\n- **Spell tier (severity for the Toll):**\n  - 0 Cantrip-scale: light a wick, warm your hands, find a dropped key.\n  - 2 Minor: shove a person, mend a bone-crack, silence a room.\n  - 5 Major: hurl someone across a street, heal a mortal wound, put out a house fire.\n  - 9 Grand: bend a rib, still a crowd, speak to the dead god.\n  - 14 Mythic: anything a god would hesitate over.\n- **Untutored:** +3 severity until a Tutor has taught you at least the basics of the word.\n- **Near the bones:** a Major-or-larger working inside the Ribcage advances The Stirring by 1 (Grand or larger by 2).\n- **The Toll:** after the working, roll the Toll (price roll) with severity = tier (+3 if untutored). Read the ladder. An ally who knows even one word can take half the cost.\n\n## The Stirring (0-6)\nTown-wide meter of how close Aldrumm is to waking. Rises from big magic near the bones, desecration, and Choir rites. Thresholds: 2 shared dreams, 4 bone-quake, 6 an eye opens.\n\n## Bearer Standing\nOpening reaction of townsfolk: 2d6 + standing (-3 to +3). Bearer's Ring or a known kindness to the old families raises it; a known slight lowers it.\n\n## Marrow\nCommon currency of the trade alongside coin. A thumb-vial of raw marrow sells for about 5 sp; refined lamp-marrow about 2 gp.\n\n## Carrion Rot (0-6, PC vital `rot`)\nStolen Choir power rots the thief.\n- **Harvest:** when you kill a Choir disciple you may eat their last breath to take one of their powers. +1 Rot, and a CON save DC 13 or +1 more.\n- **Using a stolen power:** +1 Rot per use unless the power says otherwise.\n- **Thresholds:** 2 cravings · 4 visible rot, Choir can sense you within a street · 6 Hollow-sung (character lost).\n- **Lowering Rot:** not yet known. Rumor says the Chapel, the Tutors, and the Hearthfather himself each have an answer, and each answer costs something.\n",
     "session-log.md": "# Session Log - Godbones\n\n*A new adventure begins...*\n\n---\n\n## World Summary\nThree hundred years ago the god Aldrumm the Hearthfather was killed by the Carrion Queen and fell across the Weeping Valley. Twelve Bearer families dragged the body into place and built the town of Godbones inside the ribcage. The Chapel of the Long Wake insists he is only sleeping. Marrow yields are dropping, the town shares dreams, and the Hollow Choir has arrived.\n\n- **Starting location:** Rib Row, market lane along the seventh rib. Midday, market day, 3rd of Harvestwane, Year 302 of the Bearing.\n- **On stage:** Mother Gristle (Lantern Tutor, pickle shop), Pip Haddersley (street kid speaking Marrowtongue in his sleep), Deacon Ilsabet Vane (Chapel, secretly Hollow Choir).\n- **Hook:** Pip collapses mid-street and speaks a word of the god's tongue; lamps flare, a window shatters. Vane wants to carry him to the Chapel \"for care.\" Gristle has gone very still.\n- **Threat clock:** The Hollow Choir claims Aldrumm's heart (0/4).\n\n---\n",
     "characters": {
@@ -1146,7 +1174,7 @@
         "race": "Human",
         "class": "Gutter Dreamer",
         "hp": {
-          "current": 8,
+          "current": 5,
           "max": 15
         },
         "ac": 13,
