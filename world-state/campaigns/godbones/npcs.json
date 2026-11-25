@@ -234,5 +234,38 @@
     "secret": "If he wakes any further than one eye, he cannot help but move, and the town inside him dies",
     "current_mood": "grieving, but no longer alone; fiercely grateful to the little hearth",
     "voice": "Slow, enormous, few words; calls people by what they are to him (little hearth, child-who-kept-faith); never lies"
+  },
+  "Brannoc Tull": {
+    "description": "Foreman of the Marrow Guild, built like a door, organizing a strike nobody is supposed to call a strike. Running the dig-out at collapsed Pit Nine after the bone-quake.",
+    "attitude": "neutral",
+    "created": "2026-11-25T08:00:45.561140+00:00",
+    "events": [
+      {
+        "event": "At supper bell, while digging out the quake-trapped at Pit Nine, he and forty Guild scrapers watched the Chapel's beloved Deacon Vane catch fire and scream the Carrion Queen's hymn. Now he knows the Chapel is rotten.",
+        "timestamp": "2026-11-25T08:00:45.670941+00:00"
+      }
+    ],
+    "visual_appearance": {
+      "sex": "male",
+      "age": "late forties",
+      "race": "human",
+      "species": "human",
+      "hair": "close-cropped grey-black, bald patch on top",
+      "face": "broad, flat-nosed, a jaw like a shovel blade, marrow-dust in every line",
+      "eyes": "small, dark, steady",
+      "clothing": "leather pit-apron over a sweat-dark undershirt, sleeves gone",
+      "gear": "a long-handled bone pick, a coil of rope, a foreman's whistle on a cord",
+      "demeanor": "immovable, patient, slow to anger and slower to stop",
+      "size": "huge, built like a door"
+    },
+    "tags": {
+      "locations": [
+        "The Marrow Pits"
+      ],
+      "quests": []
+    },
+    "goal": "Get his trapped scrapers out of Pit Nine alive; find out what in the god's name is going on under the Chapel",
+    "current_mood": "exhausted, furious, and suddenly very interested in the Chapel",
+    "voice": "Slow, flat, few words; calls everyone 'lad' or 'missus'; thinks out loud in tonnage and shoring"
   }
 }
