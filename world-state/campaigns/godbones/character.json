@@ -64,7 +64,8 @@
     "Small and Quick: fits through gaps adults cannot; advantage on Stealth in crowds and on Rib Row.",
     "Gutter Knowledge: knows every alley, drain, rooftop, and fence on Rib Row, and who will buy stolen marrow.",
     "The waking-word (rise / stand / open your eyes), UNTUTORED: spoken once, at the heart, to wake Aldrumm. Rouse the sleeping, steady the dying, shake off a spell. Near the bones it can move the Stirring.",
-    "Woke the God: Aldrumm knows Pip by name. (His promise to Pip is SPENT: he kept Thane.)"
+    "Woke the God: Aldrumm knows Pip by name. (His promise to Pip is SPENT: he kept Thane.)",
+    "The Stopping (taught by Mother Gristle): once per working, abort a spell before the Toll lands; pay only the first rung (a dull ache) and the spell fails."
   ],
   "silver": 0,
   "copper": 7,
@@ -82,5 +83,5 @@
     "demeanor": "wary, quick, brave in short bursts",
     "size": "small and underfed"
   },
-  "current_location": "Gristle's Pickles & Preserves"
+  "current_location": "The Quiet Rooms"
 }

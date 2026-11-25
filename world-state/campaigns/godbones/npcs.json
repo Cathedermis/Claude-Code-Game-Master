@@ -181,6 +181,10 @@
       {
         "event": "Sent by Pip to find the Heartstone. Caught by Deacon Vane almost at once and told her where Pip was. Now locked in the Quiet Rooms (Pip's old cell), ashamed and frightened.",
         "timestamp": "2026-11-25T08:00:29.521135+00:00"
+      },
+      {
+        "event": "Midnight: Pip came up through the floor of the cell with Thane's Lamp and got him out. He is ashamed he talked, and fiercely grateful.",
+        "timestamp": "2026-11-25T08:17:47.328764+00:00"
       }
     ],
     "visual_appearance": {
@@ -308,5 +312,34 @@
       ],
       "quests": []
     }
+  },
+  "Sister Orla Coyle": {
+    "description": "A true disciple of the Hollow Choir (not Hollow-sung), Vane's second, keeper of the Quiet Rooms. Thin, grey-veiled, with a bone tuning fork. Sits at the end of the long ward singing the Carrion hymn to keep a dozen sleeping Guild children empty.",
+    "attitude": "hostile",
+    "created": "2026-11-25T08:17:47.015075+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [
+        "The Quiet Rooms"
+      ],
+      "quests": []
+    },
+    "goal": "Keep the children Hollow until Vane returns; never let hearth-light into the ward",
+    "secret": "She was a Guild child herself, forty years ago, from the first Quiet Rooms",
+    "current_mood": "absorbed in the hymn, has not noticed Pip",
+    "voice": "Barely speaks; hums; when she does speak it is in a child's sing-song"
   }
 }

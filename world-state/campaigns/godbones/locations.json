@@ -30,6 +30,10 @@
       {
         "to": "The Heart-Cavity",
         "path": "traveled"
+      },
+      {
+        "to": "The Quiet Rooms",
+        "path": "traveled"
       }
     ]
   },
@@ -64,6 +68,10 @@
       },
       {
         "to": "The Marrow Vein (beneath the Chapel)",
+        "path": "traveled"
+      },
+      {
+        "to": "Gristle's Pickles & Preserves",
         "path": "traveled"
       }
     ],
