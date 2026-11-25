@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-25T08:01:21.047286+00:00",
+  "created": "2026-11-25T08:18:20.011027+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -13,11 +13,11 @@
         "drama": 35
       },
       "current_date": "5th of Harvestwane, Year 302 of the Bearing",
-      "time_of_day": "Supper bell",
+      "time_of_day": "Midnight",
       "player_position": {
-        "current_location": "The Heart-Cavity",
-        "previous_location": "The Heart-Cavity",
-        "arrival_time": "2026-11-24 20:34:21 UTC"
+        "current_location": "The Quiet Rooms",
+        "previous_location": "Gristle's Pickles & Preserves",
+        "arrival_time": "2026-11-25 08:17:47 UTC"
       },
       "current_character": "Pip Haddersley",
       "session_count": 0,
@@ -116,6 +116,14 @@
           {
             "event": "Night of the 4th: the Hollow-sung broke in and took Thane's body. She held the back room until she could not. Found at dawn unconscious among the broken jars, alive.",
             "timestamp": "2026-11-24T20:24:18.408864+00:00"
+          },
+          {
+            "event": "Evening of the 5th: Pip came to her ruined shop with Thane's body, Thane's lamp burning, and six Guild men. She took Thane's body in and laid him on the onion barrels.",
+            "timestamp": "2026-11-25T08:09:01.334604+00:00"
+          },
+          {
+            "event": "Met Brannoc Tull in her ruined shop; they agreed the lamp must never be handed over. She proposed a decoy at the Chapel steps while Pip goes up the vein, and offered to teach Pip the Stopping before midnight.",
+            "timestamp": "2026-11-25T08:14:10.855024+00:00"
           }
         ]
       },
@@ -227,6 +235,10 @@
           {
             "event": "Sent by Pip to find the Heartstone. Caught by Deacon Vane almost at once and told her where Pip was. Now locked in the Quiet Rooms (Pip's old cell), ashamed and frightened.",
             "timestamp": "2026-11-25T08:00:29.521135+00:00"
+          },
+          {
+            "event": "Midnight: Pip came up through the floor of the cell with Thane's Lamp and got him out. He is ashamed he talked, and fiercely grateful.",
+            "timestamp": "2026-11-25T08:17:47.328764+00:00"
           }
         ],
         "visual_appearance": {
@@ -297,6 +309,14 @@
           {
             "event": "At supper bell, while digging out the quake-trapped at Pit Nine, he and forty Guild scrapers watched the Chapel's beloved Deacon Vane catch fire and scream the Carrion Queen's hymn. Now he knows the Chapel is rotten.",
             "timestamp": "2026-11-25T08:00:45.670941+00:00"
+          },
+          {
+            "event": "Pip brought his niece Wenna (missing a month in the Quiet Rooms, Hollow-sung) up out of Pit Nine alive and herself again. Warm to Pip; owes him. Sent six Guild men to carry Thane's body to Gristle's shop and escort the boy.",
+            "timestamp": "2026-11-25T08:09:00.669649+00:00"
+          },
+          {
+            "event": "Came to Gristle's shop at Pip's invitation. Pip told him everything: Thane, the god's waking, the Carrion Queen at the door, the Heartstone, Vane's ransom note for Benedek. He believed every word (he watched Vane burn). Told them Wenna says at least a dozen more Guild children are still Hollow-sung in the Quiet Rooms.",
+            "timestamp": "2026-11-25T08:14:10.760269+00:00"
           }
         ],
         "visual_appearance": {
@@ -318,9 +338,63 @@
           ],
           "quests": []
         },
-        "goal": "Get his trapped scrapers out of Pit Nine alive; find out what in the god's name is going on under the Chapel",
-        "current_mood": "exhausted, furious, and suddenly very interested in the Chapel",
+        "goal": "Get every Guild family's child out of the Quiet Rooms; find out what the Chapel did to them",
+        "current_mood": "grateful to the boy, and quietly planning to take the Chapel apart",
         "voice": "Slow, flat, few words; calls everyone 'lad' or 'missus'; thinks out loud in tonnage and shoring"
+      },
+      "Wenna Tull": {
+        "description": "Freed Hollow-sung acolyte, Brannoc Tull's niece, about seventeen. The one who woke crying for her mum. Broke her leg falling in the Pit Nine shaft while carrying Thane's body; Guild ropes caught her.",
+        "attitude": "friendly",
+        "created": "2026-11-25T08:09:00.390953+00:00",
+        "events": [],
+        "visual_appearance": {
+          "sex": "",
+          "age": "",
+          "race": "",
+          "species": "",
+          "hair": "",
+          "face": "",
+          "eyes": "",
+          "clothing": "",
+          "gear": "",
+          "demeanor": "",
+          "size": ""
+        },
+        "tags": {
+          "locations": [
+            "The Marrow Pits"
+          ],
+          "quests": []
+        }
+      },
+      "Sister Orla Coyle": {
+        "description": "A true disciple of the Hollow Choir (not Hollow-sung), Vane's second, keeper of the Quiet Rooms. Thin, grey-veiled, with a bone tuning fork. Sits at the end of the long ward singing the Carrion hymn to keep a dozen sleeping Guild children empty.",
+        "attitude": "hostile",
+        "created": "2026-11-25T08:17:47.015075+00:00",
+        "events": [],
+        "visual_appearance": {
+          "sex": "",
+          "age": "",
+          "race": "",
+          "species": "",
+          "hair": "",
+          "face": "",
+          "eyes": "",
+          "clothing": "",
+          "gear": "",
+          "demeanor": "",
+          "size": ""
+        },
+        "tags": {
+          "locations": [
+            "The Quiet Rooms"
+          ],
+          "quests": []
+        },
+        "goal": "Keep the children Hollow until Vane returns; never let hearth-light into the ward",
+        "secret": "She was a Guild child herself, forty years ago, from the first Quiet Rooms",
+        "current_mood": "absorbed in the hymn, has not noticed Pip",
+        "voice": "Barely speaks; hums; when she does speak it is in a child's sing-song"
       }
     },
     "locations.json": {
@@ -351,6 +425,14 @@
           {
             "to": "Rib Row",
             "path": "visible from here"
+          },
+          {
+            "to": "The Heart-Cavity",
+            "path": "traveled"
+          },
+          {
+            "to": "The Quiet Rooms",
+            "path": "traveled"
           }
         ]
       },
@@ -386,6 +468,10 @@
           {
             "to": "The Marrow Vein (beneath the Chapel)",
             "path": "traveled"
+          },
+          {
+            "to": "Gristle's Pickles & Preserves",
+            "path": "traveled"
           }
         ],
         "description": "",
@@ -416,6 +502,10 @@
           {
             "to": "The Heart-Cavity",
             "path": "traveled"
+          },
+          {
+            "to": "Gristle's Pickles & Preserves",
+            "path": "traveled"
           }
         ],
         "description": "",
@@ -443,6 +533,14 @@
         {
           "fact": "CHOIR CLOCK FULL (dawn, 5th of Harvestwane): the Hollow Choir went down the collapsed shaft of Pit Nine to the heart's door and pressed Thane's dead Hearthblood hand to the lock. The door opened a crack. The Carrion Queen has begun to feed. Across Godbones every marrow lamp is dimming and the bones have begun, very slowly, to grey.",
           "timestamp": "2026-11-24T20:24:18.236491+00:00"
+        },
+        {
+          "fact": "Vane, exposed and burned, moved the Heartstone out of the Chapel reliquary (where to is not yet known) and sent a note to Gristle's shop by a Hollow-sung runner: 'The lamp for the acolyte. Midnight. The Chapel steps. Come alone, little hearth.'",
+          "timestamp": "2026-11-25T08:09:01.214941+00:00"
+        },
+        {
+          "fact": "Wenna Tull says at least twelve more Guild children are still Hollow-sung in the Chapel's Quiet Rooms. Brannoc Tull says the Chapel was built by Guild hands three hundred years ago: there is an old coal-and-ash chute from the Chapel kitchens down into the upper Marrow Pits that nobody in the Chapel remembers.",
+          "timestamp": "2026-11-25T08:14:10.943179+00:00"
         }
       ],
       "lore": [
@@ -511,6 +609,14 @@
         {
           "fact": "SUPPER BELL, 5th of Harvestwane: Vane's bound oath broke. The binding Thane tied with Aldrumm's own hand burned her: hearth-fire ran out of her wrist and set her late shadow alight, and the Carrion hymn screamed out of her mouth in front of Brannoc Tull and forty Guild scrapers at the mouth of Pit Nine. Her cover is gone. Badly burned, she fled toward the Chapel.",
           "timestamp": "2026-11-25T08:00:29.215622+00:00"
+        },
+        {
+          "fact": "Evening of the 5th: Pip led three freed acolytes carrying Thane's body up the collapsed shaft of Pit Nine by Thane's Lamp. Wenna Tull slipped and broke her leg (carry check failed); Guild ropes caught her and the body. Brannoc Tull, seeing his missing niece come up out of the god's heart by hearth-light, was warm to Pip (reaction 11) and sent six scrapers with him and Thane's body to Gristle's shop.",
+          "timestamp": "2026-11-25T08:09:00.583401+00:00"
+        },
+        {
+          "fact": "Before midnight Gristle taught Pip the Stopping (19 vs 12). At midnight: Gristle went alone to the Chapel steps and kept Deacon Vane talking (Deception 14 vs Insight 11; Vane believes Pip is coming). Twenty Guild men under Brannoc went quiet into the upper pits for the old ash-chute. Pip went up the marrow vein into his old cell (Stealth 24), found Benedek, and held Thane's Lamp to the door grille: the Hollow-sung guard's hymn burned out of him and, weeping and confused, he unlocked the door.",
+          "timestamp": "2026-11-25T08:17:46.888702+00:00"
         }
       ],
       "player_choices": [
@@ -572,12 +678,6 @@
           "consequence": "[Clock — The Stirring] Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)",
           "trigger": "the The Stirring clock ran out",
           "created": "2026-11-24T20:30:35.195947+00:00"
-        },
-        {
-          "id": "3969ea77",
-          "consequence": "Vane, exposed and burned, moves the Heartstone out of the Chapel reliquary to keep it from the little hearth, or tries to use Benedek to bargain for Thane's Lamp.",
-          "trigger": "the next time anyone goes looking for the Heartstone, or Pip leaves the heart-cavity",
-          "created": "2026-11-25T08:00:29.870432+00:00"
         }
       ],
       "resolved": [
@@ -615,6 +715,13 @@
           "trigger": "Pip reaches Aldrumm's heart or the door with the hand-shaped lock",
           "created": "2026-11-24T20:27:27.338004+00:00",
           "resolved": "2026-11-24T20:30:35.296373+00:00"
+        },
+        {
+          "id": "3969ea77",
+          "consequence": "Vane, exposed and burned, moves the Heartstone out of the Chapel reliquary to keep it from the little hearth, or tries to use Benedek to bargain for Thane's Lamp.",
+          "trigger": "the next time anyone goes looking for the Heartstone, or Pip leaves the heart-cavity",
+          "created": "2026-11-25T08:00:29.870432+00:00",
+          "resolved": "2026-11-25T08:09:01.124480+00:00"
         }
       ]
     },
@@ -1097,7 +1204,8 @@
           "Small and Quick: fits through gaps adults cannot; advantage on Stealth in crowds and on Rib Row.",
           "Gutter Knowledge: knows every alley, drain, rooftop, and fence on Rib Row, and who will buy stolen marrow.",
           "The waking-word (rise / stand / open your eyes), UNTUTORED: spoken once, at the heart, to wake Aldrumm. Rouse the sleeping, steady the dying, shake off a spell. Near the bones it can move the Stirring.",
-          "Woke the God: Aldrumm knows Pip by name. (His promise to Pip is SPENT: he kept Thane.)"
+          "Woke the God: Aldrumm knows Pip by name. (His promise to Pip is SPENT: he kept Thane.)",
+          "The Stopping (taught by Mother Gristle): once per working, abort a spell before the Toll lands; pay only the first rung (a dull ache) and the spell fails."
         ],
         "silver": 0,
         "copper": 7,
@@ -1115,7 +1223,7 @@
           "demeanor": "wary, quick, brave in short bursts",
           "size": "small and underfed"
         },
-        "current_location": "The Heart-Cavity"
+        "current_location": "The Quiet Rooms"
       }
     },
     "fallen/thane-hearthless.json": {
