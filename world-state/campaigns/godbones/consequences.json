@@ -11,6 +11,24 @@
       "consequence": "[Clock — The Stirring] Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)",
       "trigger": "the The Stirring clock ran out",
       "created": "2026-11-24T20:30:35.195947+00:00"
+    },
+    {
+      "id": "5b7040dd",
+      "consequence": "The High Warden calls an emergency council of the twelve Bearer families about the dead deacon, the missing Heartstone, and the eye in the Skull. Someone will be named responsible.",
+      "trigger": "Pip returns to the surface or goes anywhere near the Chapel or the Wardens",
+      "created": "2026-11-25T08:49:21.916351+00:00"
+    },
+    {
+      "id": "cbee7ecb",
+      "consequence": "Brother Pellam Smudge has painted the night of the sealing from rumor: a heroic oil of a tall golden boy with a sword, very little resemblance to Pip, already hanging in the Chapel nave.",
+      "trigger": "Pip visits the Chapel of the Long Wake",
+      "created": "2026-11-25T08:49:21.917494+00:00"
+    },
+    {
+      "id": "89782e1a",
+      "consequence": "The Marrow Guild calls its strike after all, refusing to dig another ounce of marrow for the Chapel until every Quiet Room is opened and accounted for.",
+      "trigger": "next time Brannoc Tull or the Marrow Pits come into play",
+      "created": "2026-11-25T08:49:21.918235+00:00"
     }
   ],
   "resolved": [

@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-25T08:39:01.424129+00:00",
+  "created": "2026-11-25T08:47:00.392981+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -12,8 +12,8 @@
         "comedy": 40,
         "drama": 35
       },
-      "current_date": "5th of Harvestwane, Year 302 of the Bearing",
-      "time_of_day": "Midnight",
+      "current_date": "7th of Harvestwane, Year 302 of the Bearing",
+      "time_of_day": "Dawn",
       "player_position": {
         "current_location": "The Heart-Cavity",
         "previous_location": "The Quiet Rooms",
@@ -65,7 +65,7 @@
         },
         "goal": "Keep Thane's body out of the Choir's hands, get Pip home, and make the Carrion Queen's deacon regret every word of that oath",
         "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
-        "current_mood": "unconscious, then barely holding together",
+        "current_mood": "battered, proud, and pretending not to be",
         "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
         "visual_appearance": {
           "sex": "female",
@@ -128,6 +128,22 @@
           {
             "event": "Midnight on the Chapel steps: kept Vane talking until the ward wall fell, then Vane struck her down with the hymn. Alive, unconscious; Mallow of the Guild is with her.",
             "timestamp": "2026-11-25T08:32:17.991556+00:00"
+          },
+          {
+            "event": "Woke at dawn on the 6th in the Guild's care, sore, furious, and alive. Has been told the boy did it.",
+            "timestamp": "2026-11-25T08:41:44.499003+00:00"
+          },
+          {
+            "event": "Guided Pip's first attempt to seal the door. It failed; she called the Stopping in time. Insists they try again tomorrow, rested, and not before.",
+            "timestamp": "2026-11-25T08:44:06.523785+00:00"
+          },
+          {
+            "event": "Spent the 6th teaching Pip the hearth-word in the god's heart. He's tutored in it now, by a hair. She wrote 'Pip. Hearth. Took.' in chalk on the heart-cavity wall.",
+            "timestamp": "2026-11-25T08:45:43.910072+00:00"
+          },
+          {
+            "event": "Shared the sealing Toll with Pip at dawn on the 7th. Paid with the last feeling in her right hand (now entirely numb). Stabilized Pip on the second try. Wrote on the heart-cavity wall: 'Pip. Shut the door. Read the bill. Paid it. Lived.'",
+            "timestamp": "2026-11-25T08:46:23.599909+00:00"
           }
         ]
       },
@@ -175,11 +191,10 @@
       "Deacon Ilsabet Vane": {
         "name": "Deacon Ilsabet Vane",
         "description": "Rising star of the Chapel of the Long Wake. Warm, attentive, remembers everyone's name and their children's names. Beloved on Rib Row.",
-        "attitude": "neutral",
+        "attitude": "hostile",
         "tags": {
           "locations": [
-            "Rib Row",
-            "Gristle's Pickles & Preserves"
+            "The Heart-Cavity"
           ],
           "quests": []
         },
@@ -232,8 +247,14 @@
           {
             "event": "Midnight: realized the steps were a decoy when the ward wall fell. Struck Gristle down and ran for Pit Nine with the Heartstone strapped to her arm, to carry it to the Carrion Queen through the heart's door.",
             "timestamp": "2026-11-25T08:32:18.075911+00:00"
+          },
+          {
+            "event": "DEAD. Pip held Thane's Lamp over her as she lay dying (roll 2): there was nothing under the hymn left to save. She burned to grey ash at the foot of the door she tried to open. Her shadow faded last.",
+            "timestamp": "2026-11-25T08:41:43.798848+00:00"
           }
-        ]
+        ],
+        "status": "dead",
+        "died": "Night of the 5th/6th of Harvestwane, Year 302, at the door of Aldrumm's heart. Burned out by the hearth-light of Thane's Lamp. Nothing left but grey ash and her late shadow, which faded last."
       },
       "Acolyte Benedek Thrupp": {
         "description": "Young Chapel acolyte, one of the four Hollow-sung freed when Aldrumm woke. Remembers nothing of the last month except the tune. Stabilized Pip with shaking hands.",
@@ -285,6 +306,10 @@
           {
             "event": "Pip asked him to keep Thane: 'give him his grandson, who died to get me out.' He kept it. Thane's lamp will never go out, and every hearth in Godbones knows Thane's name. He is grateful to Pip beyond words, and less alone.",
             "timestamp": "2026-11-25T07:50:38.985885+00:00"
+          },
+          {
+            "event": "Shared the bill when Pip sealed his heart's door at dawn on the 7th. The Queen cannot come in. He is at peace for the first time in three hundred years, and very fond of the little hearth.",
+            "timestamp": "2026-11-25T08:46:23.699549+00:00"
           }
         ],
         "visual_appearance": {
@@ -306,7 +331,7 @@
         },
         "goal": "Keep his house (the town in his ribs) standing; shut the Carrion Queen out for good with his last heartbeat, the Heartstone; keep every promise he owes",
         "secret": "If he wakes any further than one eye, he cannot help but move, and the town inside him dies",
-        "current_mood": "grieving, but no longer alone; fiercely grateful to the little hearth",
+        "current_mood": "at peace, grateful, keeping watch from the Skull with one eye",
         "voice": "Slow, enormous, few words; calls people by what they are to him (little hearth, child-who-kept-faith); never lies"
       },
       "Brannoc Tull": {
@@ -674,6 +699,22 @@
         {
           "fact": "At the heart's door: Pip held Thane's Lamp on Vane. Round 2 she burned (6) but held the hymn (19): rite at 2/3. Round 3 Pip ran in to tear the Heartstone out of the lock (7 vs 13, failed: the half-sung lock gripped it and seared his palm, 1 dmg). Then, at point-blank in the lamp's glow, the hearth-light burned Vane for 11 and she fell at 0 HP before the third verse. The rite is broken. The Heartstone is still in the lock, flickering red and grey. Vane is down and dying. The Guild is one round away.",
           "timestamp": "2026-11-25T08:38:28.185087+00:00"
+        },
+        {
+          "fact": "Deacon Ilsabet Vane died at the heart's door, burned to grey ash by the light of Thane's Lamp when Pip held it over her (roll 2: nothing left under the hymn). The Guild came down Pit Nine and set a watch on the door. The Heartstone stays in the lock, unsealed, until Gristle can share the bill. Pip slept by the door with the lamp.",
+          "timestamp": "2026-11-25T08:41:43.892940+00:00"
+        },
+        {
+          "fact": "Mid-morning, 6th of Harvestwane: Pip tried to seal the heart's door, speaking the hearth-word over the Heartstone with Gristle guiding his hand and ready to share the bill. Cast failed badly (5 vs 15). Gristle shouted STOP; Pip used the Stopping (dull ache, no Toll for either). The half-spoken word rattled the door, and the Queen felt it and pushed back hard (Queen clock 2/6). Gristle says not twice in one day: they try again tomorrow, rested.",
+          "timestamp": "2026-11-25T08:44:06.435822+00:00"
+        },
+        {
+          "fact": "6th of Harvestwane: Pip spent the day in the heart-cavity learning the hearth-word properly from Gristle (12 vs 12). He is now tutored in it.",
+          "timestamp": "2026-11-25T08:45:43.814930+00:00"
+        },
+        {
+          "fact": "The sealing: Pip's tutored hearth-word, Gristle's hand on his (cast 21 vs 15). Toll came due in full; Gristle and Aldrumm each took a share. Pip took 25 and dropped to 0, made two death saves (18, 18), and Gristle stabilized him (18). Gristle paid her half with the last feeling in her right hand.",
+          "timestamp": "2026-11-25T08:46:23.501018+00:00"
         }
       ],
       "player_choices": [
@@ -698,13 +739,17 @@
         {
           "fact": "Aldrumm cannot wake further than one eye without moving, and if he moves, Godbones dies. He asks that the Heartstone (held by the Chapel of the Long Wake) be brought to his heart's door: set in the hand-shaped lock, it will seal the door against the Carrion Queen forever.",
           "timestamp": "2026-11-24T20:34:21.290394+00:00"
+        },
+        {
+          "fact": "THE HEART'S DOOR IS SEALED FOREVER (dawn, 7th of Harvestwane, Year 302). The Heartstone sits in the hand-shaped lock, burning a steady hearth-red. The Carrion Queen cannot enter Aldrumm's heart. She is not destroyed, and her grey cantor is with her on the far side.",
+          "timestamp": "2026-11-25T08:46:23.420820+00:00"
         }
       ]
     },
     "plots.json": {
       "The Last Heartbeat": {
         "type": "main",
-        "status": "active",
+        "status": "completed",
         "description": "Bring the Heartstone from the Chapel of the Long Wake down to the door of Aldrumm's heart and set it in the hand-shaped lock to seal the Carrion Queen out forever, before she forces the door.",
         "npcs": [
           "Aldrumm the Hearthfather"
@@ -717,9 +762,14 @@
           {
             "event": "Thread seeded",
             "timestamp": "2026-11-24T20:34:21.377415+00:00"
+          },
+          {
+            "event": "COMPLETED: Dawn, 7th of Harvestwane: Pip spoke the tutored hearth-word over the Heartstone in the hand-shaped lock, with Gristle sharing the bill and Aldrumm sharing it too. The heart's door is sealed forever. The Carrion Queen can never come in that way again.",
+            "timestamp": "2026-11-25T08:46:23.323035+00:00"
           }
         ],
-        "created": "2026-11-24T20:34:21.377436+00:00"
+        "created": "2026-11-24T20:34:21.377436+00:00",
+        "completed_at": "2026-11-25T08:46:23.323002+00:00"
       }
     },
     "consequences.json": {
@@ -1174,12 +1224,6 @@
         "advance_on": "event",
         "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)",
         "consequence_fired": "9263225d"
-      },
-      "The Carrion Queen forces the door again": {
-        "current": 0,
-        "max": 6,
-        "advance_on": "time",
-        "consequence": "The Queen, starved and furious, breaks the heart's door from the far side. No hand needed this time."
       }
     },
     "campaign-memory.json": {
@@ -1192,38 +1236,20 @@
       "style": "In the style of a classic 1980s oil-painted fantasy paperback cover, thick visible brushstrokes and warm hand-painted figures, but lit from below by the sickly amber-and-ivory glow of living god-marrow, with deep violet shadows pooling between colossal curved rib bones that frame every scene like cathedral arches.",
       "persona": "Illuminator-in-residence to the Chapel of the Long Wake, paid by the canvas and paid badly. Earnest, devout, flatters whoever commissioned the piece, adds a halo to anyone who tips, and signs every work with a small apologetic note about the varnish."
     },
-    "combat_state.json": {
-      "active": true,
-      "round": 1,
-      "turn_index": 0,
-      "combatants": [
-        {
-          "name": "Deacon Ilsabet Vane",
-          "hp_current": 0,
-          "hp_max": 38,
-          "ac": 13,
-          "conditions": [
-            "burned (oath): arm bandaged, one-handed",
-            "DOWN at 0 HP, dying; hearth-burned"
-          ],
-          "initiative": 0,
-          "side": "enemy"
-        }
-      ]
-    },
+    "combat_state.json": {},
     "rules.md": "# Godbones: House Rules\n\nCore: d20 + stat mod (+ proficiency where it fits) vs DC (10 easy, 15 moderate, 20 hard, 25 brutal). D&D-style HP, AC, death saves.\n\n## Marrowtongue (magic)\n- Speak the true name of a thing in the dead god's tongue and it obeys. Any effect is possible; the cost scales with ambition.\n- **Know the word first.** Casting needs the right words. Words come from a Lantern Tutor (safe, slow, expensive) or from guessing (INT or WIS check, DC by how obscure the word is; on a fail the word means something else).\n- **Casting check:** INT (studied) or WIS (instinctive) vs DC set by the effect's scale.\n- **Spell tier (severity for the Toll):**\n  - 0 Cantrip-scale: light a wick, warm your hands, find a dropped key.\n  - 2 Minor: shove a person, mend a bone-crack, silence a room.\n  - 5 Major: hurl someone across a street, heal a mortal wound, put out a house fire.\n  - 9 Grand: bend a rib, still a crowd, speak to the dead god.\n  - 14 Mythic: anything a god would hesitate over.\n- **Untutored:** +3 severity until a Tutor has taught you at least the basics of the word.\n- **Near the bones:** a Major-or-larger working inside the Ribcage advances The Stirring by 1 (Grand or larger by 2).\n- **The Toll:** after the working, roll the Toll (price roll) with severity = tier (+3 if untutored). Read the ladder. An ally who knows even one word can take half the cost.\n\n## The Stirring (0-6)\nTown-wide meter of how close Aldrumm is to waking. Rises from big magic near the bones, desecration, and Choir rites. Thresholds: 2 shared dreams, 4 bone-quake, 6 an eye opens.\n\n## Bearer Standing\nOpening reaction of townsfolk: 2d6 + standing (-3 to +3). Bearer's Ring or a known kindness to the old families raises it; a known slight lowers it.\n\n## Marrow\nCommon currency of the trade alongside coin. A thumb-vial of raw marrow sells for about 5 sp; refined lamp-marrow about 2 gp.\n\n## Carrion Rot (0-6, PC vital `rot`)\nStolen Choir power rots the thief.\n- **Harvest:** when you kill a Choir disciple you may eat their last breath to take one of their powers. +1 Rot, and a CON save DC 13 or +1 more.\n- **Using a stolen power:** +1 Rot per use unless the power says otherwise.\n- **Thresholds:** 2 cravings · 4 visible rot, Choir can sense you within a street · 6 Hollow-sung (character lost).\n- **Lowering Rot:** not yet known. Rumor says the Chapel, the Tutors, and the Hearthfather himself each have an answer, and each answer costs something.\n",
     "session-log.md": "# Session Log - Godbones\n\n*A new adventure begins...*\n\n---\n\n## World Summary\nThree hundred years ago the god Aldrumm the Hearthfather was killed by the Carrion Queen and fell across the Weeping Valley. Twelve Bearer families dragged the body into place and built the town of Godbones inside the ribcage. The Chapel of the Long Wake insists he is only sleeping. Marrow yields are dropping, the town shares dreams, and the Hollow Choir has arrived.\n\n- **Starting location:** Rib Row, market lane along the seventh rib. Midday, market day, 3rd of Harvestwane, Year 302 of the Bearing.\n- **On stage:** Mother Gristle (Lantern Tutor, pickle shop), Pip Haddersley (street kid speaking Marrowtongue in his sleep), Deacon Ilsabet Vane (Chapel, secretly Hollow Choir).\n- **Hook:** Pip collapses mid-street and speaks a word of the god's tongue; lamps flare, a window shatters. Vane wants to carry him to the Chapel \"for care.\" Gristle has gone very still.\n- **Threat clock:** The Hollow Choir claims Aldrumm's heart (0/4).\n\n---\n",
     "characters": {
       "character": {
-        "status": "alive",
+        "status": "dying",
         "voice": [],
         "origin": "canon",
         "name": "Pip Haddersley",
         "race": "Human",
         "class": "Gutter Dreamer",
         "hp": {
-          "current": 4,
-          "max": 15
+          "current": 0,
+          "max": 21
         },
         "ac": 13,
         "stats": {
@@ -1234,7 +1260,7 @@
           "wis": 15,
           "cha": 13
         },
-        "level": 2,
+        "level": 3,
         "gold": 0,
         "equipment": [
           "Scraping knife (1d4+3 piercing, finesse)",
@@ -1244,13 +1270,16 @@
           "Rag foot-wraps",
           "Thane's Lamp (never goes out; true hearth-light: burns the Carrion hymn out of anyone in its glow; the Hollow-sung cannot abide it)"
         ],
-        "conditions": [],
+        "conditions": [
+          "unconscious (stable at 0 HP; stabilized by Gristle; wakes with 1 HP in 1d4 hours)",
+          "exhaustion 1 (the Toll of the sealing)"
+        ],
         "id": "pip-haddersley",
         "background": "Rib Row street kid and part-time marrow-thief",
         "concept": "An eleven-year-old street kid who dreams the dead god's dreams and speaks his words without being taught",
         "xp": {
-          "current": 650,
-          "next_level": 900
+          "current": 1200,
+          "next_level": 2700
         },
         "speed": 30,
         "proficiency_bonus": 2,
@@ -1275,7 +1304,7 @@
           "max": 6
         },
         "features": [
-          "Natural Speaker: dreams words of Marrowtongue untaught. Knows the hearth-word (UNTUTORED: +3 Toll severity). Casts with WIS (+2), no proficiency yet.",
+          "Natural Speaker: dreams words of Marrowtongue untaught. Hearth-word now TUTORED by Mother Gristle (no +3 Toll). Casts with WIS (+2), no proficiency yet.",
           "Dream-map: knows the way through the god's body to the door with the hand-shaped lock, from a month of drawing it. Can find it awake, in the dark, by feel.",
           "Small and Quick: fits through gaps adults cannot; advantage on Stealth in crowds and on Rib Row.",
           "Gutter Knowledge: knows every alley, drain, rooftop, and fence on Rib Row, and who will buy stolen marrow.",

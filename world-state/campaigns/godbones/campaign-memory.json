@@ -1,5 +1,29 @@
 {
   "entries": [],
   "entries_hash": "d41d8cd98f00b204e9800998ecf8427e",
-  "embeddings": []
+  "embeddings": [],
+  "arcs": [
+    {
+      "summary": "Thane Hearthless, the god Aldrumm's grandson, died paying the Toll in full to bind the Hollow Choir's deacon and stir the god; the street kid Pip Haddersley took up the story, woke Aldrumm through himself, spent the god's promise keeping Thane (Thane's Lamp, his name in every hearth), freed the Quiet Rooms, burned Deacon Vane to ash, and sealed the heart's door against the Carrion Queen forever with Mother Gristle.",
+      "who_matters": [
+        "Pip Haddersley (PC, the little hearth)",
+        "Thane Hearthless (dead; kept by the god)",
+        "Mother Gristle (tutor; paid twice)",
+        "Aldrumm the Hearthfather (awake, one eye, at peace)",
+        "Brannoc Tull (Guild foreman; owes Pip)",
+        "Orla Coyle (freed after forty years)",
+        "Wenna Tull",
+        "Benedek Thrupp"
+      ],
+      "open_debts": [
+        "Thane is unburied",
+        "The Chapel and the Wardens will demand answers",
+        "The grey cantor is with the Queen",
+        "The Skull is open",
+        "The Queen is shut out, not destroyed",
+        "Gristle has paid two halves and has no feeling left in her right hand"
+      ],
+      "at": "2026-11-25T08:49:17.196690+00:00"
+    }
+  ]
 }
