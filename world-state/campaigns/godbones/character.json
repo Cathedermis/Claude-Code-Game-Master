@@ -6,7 +6,7 @@
   "race": "Human",
   "class": "Gutter Dreamer",
   "hp": {
-    "current": 4,
+    "current": 15,
     "max": 15
   },
   "ac": 13,
@@ -33,7 +33,7 @@
   "background": "Rib Row street kid and part-time marrow-thief",
   "concept": "An eleven-year-old street kid who dreams the dead god's dreams and speaks his words without being taught",
   "xp": {
-    "current": 650,
+    "current": 800,
     "next_level": 900
   },
   "speed": 30,

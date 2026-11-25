@@ -11,7 +11,7 @@
     },
     "goal": "Keep Thane's body out of the Choir's hands, get Pip home, and make the Carrion Queen's deacon regret every word of that oath",
     "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
-    "current_mood": "unconscious, then barely holding together",
+    "current_mood": "battered, proud, and pretending not to be",
     "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
     "visual_appearance": {
       "sex": "female",
@@ -74,6 +74,10 @@
       {
         "event": "Midnight on the Chapel steps: kept Vane talking until the ward wall fell, then Vane struck her down with the hymn. Alive, unconscious; Mallow of the Guild is with her.",
         "timestamp": "2026-11-25T08:32:17.991556+00:00"
+      },
+      {
+        "event": "Woke at dawn on the 6th in the Guild's care, sore, furious, and alive. Has been told the boy did it.",
+        "timestamp": "2026-11-25T08:41:44.499003+00:00"
       }
     ]
   },
@@ -121,11 +125,10 @@
   "Deacon Ilsabet Vane": {
     "name": "Deacon Ilsabet Vane",
     "description": "Rising star of the Chapel of the Long Wake. Warm, attentive, remembers everyone's name and their children's names. Beloved on Rib Row.",
-    "attitude": "neutral",
+    "attitude": "hostile",
     "tags": {
       "locations": [
-        "Rib Row",
-        "Gristle's Pickles & Preserves"
+        "The Heart-Cavity"
       ],
       "quests": []
     },
@@ -178,8 +181,14 @@
       {
         "event": "Midnight: realized the steps were a decoy when the ward wall fell. Struck Gristle down and ran for Pit Nine with the Heartstone strapped to her arm, to carry it to the Carrion Queen through the heart's door.",
         "timestamp": "2026-11-25T08:32:18.075911+00:00"
+      },
+      {
+        "event": "DEAD. Pip held Thane's Lamp over her as she lay dying (roll 2): there was nothing under the hymn left to save. She burned to grey ash at the foot of the door she tried to open. Her shadow faded last.",
+        "timestamp": "2026-11-25T08:41:43.798848+00:00"
       }
-    ]
+    ],
+    "status": "dead",
+    "died": "Night of the 5th/6th of Harvestwane, Year 302, at the door of Aldrumm's heart. Burned out by the hearth-light of Thane's Lamp. Nothing left but grey ash and her late shadow, which faded last."
   },
   "Acolyte Benedek Thrupp": {
     "description": "Young Chapel acolyte, one of the four Hollow-sung freed when Aldrumm woke. Remembers nothing of the last month except the tune. Stabilized Pip with shaking hands.",
