@@ -1,12 +1,12 @@
 {
-  "status": "alive",
+  "status": "dying",
   "voice": [],
   "origin": "canon",
   "name": "Pip Haddersley",
   "race": "Human",
   "class": "Gutter Dreamer",
   "hp": {
-    "current": 15,
+    "current": 0,
     "max": 15
   },
   "ac": 13,
@@ -18,7 +18,7 @@
     "wis": 15,
     "cha": 13
   },
-  "level": 2,
+  "level": 3,
   "gold": 0,
   "equipment": [
     "Scraping knife (1d4+3 piercing, finesse)",
@@ -28,13 +28,16 @@
     "Rag foot-wraps",
     "Thane's Lamp (never goes out; true hearth-light: burns the Carrion hymn out of anyone in its glow; the Hollow-sung cannot abide it)"
   ],
-  "conditions": [],
+  "conditions": [
+    "unconscious (stable at 0 HP; stabilized by Gristle; wakes with 1 HP in 1d4 hours)",
+    "exhaustion 1 (the Toll of the sealing)"
+  ],
   "id": "pip-haddersley",
   "background": "Rib Row street kid and part-time marrow-thief",
   "concept": "An eleven-year-old street kid who dreams the dead god's dreams and speaks his words without being taught",
   "xp": {
-    "current": 800,
-    "next_level": 900
+    "current": 1200,
+    "next_level": 2700
   },
   "speed": 30,
   "proficiency_bonus": 2,

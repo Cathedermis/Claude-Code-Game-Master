@@ -1,7 +1,7 @@
 {
   "The Last Heartbeat": {
     "type": "main",
-    "status": "active",
+    "status": "completed",
     "description": "Bring the Heartstone from the Chapel of the Long Wake down to the door of Aldrumm's heart and set it in the hand-shaped lock to seal the Carrion Queen out forever, before she forces the door.",
     "npcs": [
       "Aldrumm the Hearthfather"
@@ -14,8 +14,13 @@
       {
         "event": "Thread seeded",
         "timestamp": "2026-11-24T20:34:21.377415+00:00"
+      },
+      {
+        "event": "COMPLETED: Dawn, 7th of Harvestwane: Pip spoke the tutored hearth-word over the Heartstone in the hand-shaped lock, with Gristle sharing the bill and Aldrumm sharing it too. The heart's door is sealed forever. The Carrion Queen can never come in that way again.",
+        "timestamp": "2026-11-25T08:46:23.323035+00:00"
       }
     ],
-    "created": "2026-11-24T20:34:21.377436+00:00"
+    "created": "2026-11-24T20:34:21.377436+00:00",
+    "completed_at": "2026-11-25T08:46:23.323002+00:00"
   }
 }

@@ -147,6 +147,10 @@
     {
       "fact": "6th of Harvestwane: Pip spent the day in the heart-cavity learning the hearth-word properly from Gristle (12 vs 12). He is now tutored in it.",
       "timestamp": "2026-11-25T08:45:43.814930+00:00"
+    },
+    {
+      "fact": "The sealing: Pip's tutored hearth-word, Gristle's hand on his (cast 21 vs 15). Toll came due in full; Gristle and Aldrumm each took a share. Pip took 25 and dropped to 0, made two death saves (18, 18), and Gristle stabilized him (18). Gristle paid her half with the last feeling in her right hand.",
+      "timestamp": "2026-11-25T08:46:23.501018+00:00"
     }
   ],
   "player_choices": [
@@ -171,6 +175,10 @@
     {
       "fact": "Aldrumm cannot wake further than one eye without moving, and if he moves, Godbones dies. He asks that the Heartstone (held by the Chapel of the Long Wake) be brought to his heart's door: set in the hand-shaped lock, it will seal the door against the Carrion Queen forever.",
       "timestamp": "2026-11-24T20:34:21.290394+00:00"
+    },
+    {
+      "fact": "THE HEART'S DOOR IS SEALED FOREVER (dawn, 7th of Harvestwane, Year 302). The Heartstone sits in the hand-shaped lock, burning a steady hearth-red. The Carrion Queen cannot enter Aldrumm's heart. She is not destroyed, and her grey cantor is with her on the far side.",
+      "timestamp": "2026-11-25T08:46:23.420820+00:00"
     }
   ]
 }

@@ -5,11 +5,5 @@
     "advance_on": "event",
     "consequence": "Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)",
     "consequence_fired": "9263225d"
-  },
-  "The Carrion Queen forces the door again": {
-    "current": 3,
-    "max": 6,
-    "advance_on": "time",
-    "consequence": "The Queen, starved and furious, breaks the heart's door from the far side. No hand needed this time."
   }
 }

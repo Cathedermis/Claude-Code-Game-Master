@@ -86,6 +86,10 @@
       {
         "event": "Spent the 6th teaching Pip the hearth-word in the god's heart. He's tutored in it now, by a hair. She wrote 'Pip. Hearth. Took.' in chalk on the heart-cavity wall.",
         "timestamp": "2026-11-25T08:45:43.910072+00:00"
+      },
+      {
+        "event": "Shared the sealing Toll with Pip at dawn on the 7th. Paid with the last feeling in her right hand (now entirely numb). Stabilized Pip on the second try. Wrote on the heart-cavity wall: 'Pip. Shut the door. Read the bill. Paid it. Lived.'",
+        "timestamp": "2026-11-25T08:46:23.599909+00:00"
       }
     ]
   },
@@ -248,6 +252,10 @@
       {
         "event": "Pip asked him to keep Thane: 'give him his grandson, who died to get me out.' He kept it. Thane's lamp will never go out, and every hearth in Godbones knows Thane's name. He is grateful to Pip beyond words, and less alone.",
         "timestamp": "2026-11-25T07:50:38.985885+00:00"
+      },
+      {
+        "event": "Shared the bill when Pip sealed his heart's door at dawn on the 7th. The Queen cannot come in. He is at peace for the first time in three hundred years, and very fond of the little hearth.",
+        "timestamp": "2026-11-25T08:46:23.699549+00:00"
       }
     ],
     "visual_appearance": {
@@ -269,7 +277,7 @@
     },
     "goal": "Keep his house (the town in his ribs) standing; shut the Carrion Queen out for good with his last heartbeat, the Heartstone; keep every promise he owes",
     "secret": "If he wakes any further than one eye, he cannot help but move, and the town inside him dies",
-    "current_mood": "grieving, but no longer alone; fiercely grateful to the little hearth",
+    "current_mood": "at peace, grateful, keeping watch from the Skull with one eye",
     "voice": "Slow, enormous, few words; calls people by what they are to him (little hearth, child-who-kept-faith); never lies"
   },
   "Brannoc Tull": {
