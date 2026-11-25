@@ -73,6 +73,10 @@
       {
         "to": "Gristle's Pickles & Preserves",
         "path": "traveled"
+      },
+      {
+        "to": "The Heart-Cavity",
+        "path": "traveled"
       }
     ],
     "description": "",
@@ -106,6 +110,10 @@
       },
       {
         "to": "Gristle's Pickles & Preserves",
+        "path": "traveled"
+      },
+      {
+        "to": "The Quiet Rooms",
         "path": "traveled"
       }
     ],

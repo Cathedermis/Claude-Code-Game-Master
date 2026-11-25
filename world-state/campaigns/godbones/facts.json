@@ -45,6 +45,10 @@
     {
       "fact": "Thane's Lamp: Thane Hearthless's cracked marrow lamp, now kept by Aldrumm's promise. It never goes out (not for wind, water, or the Carrion Queen). Its light is true hearth-light: the Queen's hymn burns out of anyone standing in it, and the Hollow-sung cannot abide it. Every hearth-fire in Godbones now crackles with Thane's name.",
       "timestamp": "2026-11-25T07:50:38.762814+00:00"
+    },
+    {
+      "fact": "The Heartstone in the hand-shaped lock: set with Aldrumm's word (hearth or waking), it SEALS the heart's door forever. Set with the Carrion hymn, sung through to the end (a three-round rite), it opens the door forever and the Queen walks in.",
+      "timestamp": "2026-11-25T08:34:29.764268+00:00"
     }
   ],
   "session_events": [
@@ -123,6 +127,10 @@
     {
       "fact": "When the Guild brought down the ward wall, Vane knew she'd been played. She struck Mother Gristle down on the Chapel steps with the Carrion hymn (Gristle alive, unconscious, Mallow with her) and ran for Pit Nine with the Heartstone, now that the Guild has left the shaft and Thane's Lamp is no longer below.",
       "timestamp": "2026-11-25T08:32:17.903959+00:00"
+    },
+    {
+      "fact": "The race to the heart's door: Vane, one-armed and burned, got down Pit Nine (12) before Pip came out of the marrow vein (7; stuck at the fat bit). When Pip arrived she had already pressed the Heartstone into the hand-shaped lock and begun the three-round Carrion rite to open the door forever (one round sung). The Guild is about three rounds behind.",
+      "timestamp": "2026-11-25T08:34:29.848758+00:00"
     }
   ],
   "player_choices": [

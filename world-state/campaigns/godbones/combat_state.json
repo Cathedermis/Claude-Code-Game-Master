@@ -1,1 +1,19 @@
-{}
+{
+  "active": true,
+  "round": 1,
+  "turn_index": 0,
+  "combatants": [
+    {
+      "name": "Deacon Ilsabet Vane",
+      "hp_current": 16,
+      "hp_max": 38,
+      "ac": 13,
+      "conditions": [
+        "burned (oath): arm bandaged, one-handed",
+        "singing the Opening rite (1/3 rounds done) - Heartstone in the lock"
+      ],
+      "initiative": 0,
+      "side": "enemy"
+    }
+  ]
+}

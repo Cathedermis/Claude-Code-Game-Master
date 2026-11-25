@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-25T08:22:51.618160+00:00",
+  "created": "2026-11-25T08:32:44.743982+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -124,6 +124,10 @@
           {
             "event": "Met Brannoc Tull in her ruined shop; they agreed the lamp must never be handed over. She proposed a decoy at the Chapel steps while Pip goes up the vein, and offered to teach Pip the Stopping before midnight.",
             "timestamp": "2026-11-25T08:14:10.855024+00:00"
+          },
+          {
+            "event": "Midnight on the Chapel steps: kept Vane talking until the ward wall fell, then Vane struck her down with the hymn. Alive, unconscious; Mallow of the Guild is with her.",
+            "timestamp": "2026-11-25T08:32:17.991556+00:00"
           }
         ]
       },
@@ -179,9 +183,9 @@
           ],
           "quests": []
         },
-        "goal": "Get the Heartstone before anyone takes it down to the door; use Benedek as leverage; make the little hearth pay",
+        "goal": "Get down Pit Nine to the heart's door and give the Heartstone to the Carrion Queen before the little hearth catches her",
         "secret": "She belongs to the Hollow Choir. She sings the Carrion Queen's hymn under her breath when she thinks no one is near, and her shadow is a half-second late",
-        "current_mood": "burned, exposed, cornered, and very dangerous",
+        "current_mood": "burned, desperate, racing",
         "voice": "Soft, kind, unhurried; uses 'we' and 'together'; never once raises her voice, even when threatening",
         "visual_appearance": {
           "sex": "female",
@@ -224,6 +228,10 @@
           {
             "event": "Broke her bound oath at the supper bell (Pip never came home). The binding burned her: shadow on fire, the Carrion hymn torn out of her mouth in front of Brannoc Tull and the Guild crews at Pit Nine. Exposed as Hollow Choir. Badly burned, fled into the Chapel. Holds Acolyte Benedek Thrupp prisoner in the Quiet Rooms. Knows Pip is in the heart-cavity with Thane's Lamp.",
             "timestamp": "2026-11-25T08:00:29.305744+00:00"
+          },
+          {
+            "event": "Midnight: realized the steps were a decoy when the ward wall fell. Struck Gristle down and ran for Pit Nine with the Heartstone strapped to her arm, to carry it to the Carrion Queen through the heart's door.",
+            "timestamp": "2026-11-25T08:32:18.075911+00:00"
           }
         ]
       },
@@ -317,6 +325,10 @@
           {
             "event": "Came to Gristle's shop at Pip's invitation. Pip told him everything: Thane, the god's waking, the Carrion Queen at the door, the Heartstone, Vane's ransom note for Benedek. He believed every word (he watched Vane burn). Told them Wenna says at least a dozen more Guild children are still Hollow-sung in the Quiet Rooms.",
             "timestamp": "2026-11-25T08:14:10.760269+00:00"
+          },
+          {
+            "event": "Watched Pip burn the hymn out of Orla Coyle of Fourth Pit, missing forty years, instead of killing her. Saw all fourteen Guild children in the ward wake. Will follow the thief anywhere now.",
+            "timestamp": "2026-11-25T08:32:03.700797+00:00"
           }
         ],
         "visual_appearance": {
@@ -368,10 +380,15 @@
         }
       },
       "Sister Orla Coyle": {
-        "description": "A true disciple of the Hollow Choir (not Hollow-sung), Vane's second, keeper of the Quiet Rooms. Thin, grey-veiled, with a bone tuning fork. Sits at the end of the long ward singing the Carrion hymn to keep a dozen sleeping Guild children empty.",
-        "attitude": "hostile",
+        "description": "Orla Coyle of Fourth Pit. Taken into the Chapel's Quiet Rooms with 'the fever' forty years ago, made into a Hollow Choir disciple and keeper of the Quiet Rooms. On the night of the 5th Pip held Thane's Lamp over her and the hearth-light burned the Carrion hymn out of her. She is herself again: an old Guild woman with a ruined throat, 1 HP, forty years missing.",
+        "attitude": "friendly",
         "created": "2026-11-25T08:17:47.015075+00:00",
-        "events": [],
+        "events": [
+          {
+            "event": "Pip spared her and burned the hymn out of her with Thane's Lamp. Brannoc Tull recognized her. She told Pip, in a whisper, that Vane wears the Heartstone strapped under the bandages on her burned arm.",
+            "timestamp": "2026-11-25T08:32:03.593878+00:00"
+          }
+        ],
         "visual_appearance": {
           "sex": "",
           "age": "",
@@ -391,9 +408,9 @@
           ],
           "quests": []
         },
-        "goal": "Keep the children Hollow until Vane returns; never let hearth-light into the ward",
-        "secret": "She was a Guild child herself, forty years ago, from the first Quiet Rooms",
-        "current_mood": "absorbed in the hymn, has not noticed Pip",
+        "goal": "Undo what she did; get Vane",
+        "secret": "She knows Vane carries the Heartstone on her body, under the burn bandages on her arm, meaning to carry it through the heart's door to the Queen herself",
+        "current_mood": "freed, shattered, forty years of horror arriving all at once",
         "voice": "Barely speaks; hums; when she does speak it is in a child's sing-song"
       }
     },
@@ -541,6 +558,10 @@
         {
           "fact": "Wenna Tull says at least twelve more Guild children are still Hollow-sung in the Chapel's Quiet Rooms. Brannoc Tull says the Chapel was built by Guild hands three hundred years ago: there is an old coal-and-ash chute from the Chapel kitchens down into the upper Marrow Pits that nobody in the Chapel remembers.",
           "timestamp": "2026-11-25T08:14:10.943179+00:00"
+        },
+        {
+          "fact": "The Heartstone is on Deacon Vane's body, strapped under the burn bandages on her arm. She means to carry it through the heart's door to the Carrion Queen herself.",
+          "timestamp": "2026-11-25T08:32:03.859873+00:00"
         }
       ],
       "lore": [
@@ -617,6 +638,22 @@
         {
           "fact": "Before midnight Gristle taught Pip the Stopping (19 vs 12). At midnight: Gristle went alone to the Chapel steps and kept Deacon Vane talking (Deception 14 vs Insight 11; Vane believes Pip is coming). Twenty Guild men under Brannoc went quiet into the upper pits for the old ash-chute. Pip went up the marrow vein into his old cell (Stealth 24), found Benedek, and held Thane's Lamp to the door grille: the Hollow-sung guard's hymn burned out of him and, weeping and confused, he unlocked the door.",
           "timestamp": "2026-11-25T08:17:46.888702+00:00"
+        },
+        {
+          "fact": "Fight in the Quiet Rooms ward: Pip rigged a drying-line snare (nat 20). His hearth-word at Coyle's grey lamp failed (11 vs 13); he used the Stopping (dull ache, no Toll). Sister Coyle charged at the sound, hit the line at the throat (14 vs 25), went down prone and lost her tuning fork. Thane's Lamp burned her (4) but she resisted blinding (15 vs 12). Pip cut her throat (17 vs AC 12, 6 dmg): wounded, not dead, voice ruined. Her rasped hymn-note failed on him (save 18). Coyle 12/22. The children's humming is faltering without the fork.",
+          "timestamp": "2026-11-25T08:26:08.495994+00:00"
+        },
+        {
+          "fact": "Round 2: Pip clubbed Sister Coyle across the head with Thane's Lamp (15 vs AC 12; 2 bludgeoning + 2 hearth-burn). The lamp's glow burned her again (6). She clawed Pip's face (14 vs AC 13, 3 dmg). Coyle is at 2/22, barely conscious, the hymn guttering in her. Pip 5/15. The Guild broke through the kitchen ash-chute wall at the end of the round.",
+          "timestamp": "2026-11-25T08:29:40.786291+00:00"
+        },
+        {
+          "fact": "Pip held Thane's Lamp over the dying Sister Coyle (roll 20): the hymn burned out of her and Orla Coyle of Fourth Pit, gone forty years, came back as herself at 1 HP. Pip raised the lamp over the ward and all fourteen Guild children woke from the hymn. The Guild carried them out through the ash-chute. Orla whispered: Vane has the Heartstone strapped under the bandages on her burned arm.",
+          "timestamp": "2026-11-25T08:32:03.784975+00:00"
+        },
+        {
+          "fact": "When the Guild brought down the ward wall, Vane knew she'd been played. She struck Mother Gristle down on the Chapel steps with the Carrion hymn (Gristle alive, unconscious, Mallow with her) and ran for Pit Nine with the Heartstone, now that the Guild has left the shaft and Thane's Lamp is no longer below.",
+          "timestamp": "2026-11-25T08:32:17.903959+00:00"
         }
       ],
       "player_choices": [
@@ -1135,6 +1172,7 @@
       "style": "In the style of a classic 1980s oil-painted fantasy paperback cover, thick visible brushstrokes and warm hand-painted figures, but lit from below by the sickly amber-and-ivory glow of living god-marrow, with deep violet shadows pooling between colossal curved rib bones that frame every scene like cathedral arches.",
       "persona": "Illuminator-in-residence to the Chapel of the Long Wake, paid by the canvas and paid badly. Earnest, devout, flatters whoever commissioned the piece, adds a halo to anyone who tips, and signs every work with a small apologetic note about the varnish."
     },
+    "combat_state.json": {},
     "rules.md": "# Godbones: House Rules\n\nCore: d20 + stat mod (+ proficiency where it fits) vs DC (10 easy, 15 moderate, 20 hard, 25 brutal). D&D-style HP, AC, death saves.\n\n## Marrowtongue (magic)\n- Speak the true name of a thing in the dead god's tongue and it obeys. Any effect is possible; the cost scales with ambition.\n- **Know the word first.** Casting needs the right words. Words come from a Lantern Tutor (safe, slow, expensive) or from guessing (INT or WIS check, DC by how obscure the word is; on a fail the word means something else).\n- **Casting check:** INT (studied) or WIS (instinctive) vs DC set by the effect's scale.\n- **Spell tier (severity for the Toll):**\n  - 0 Cantrip-scale: light a wick, warm your hands, find a dropped key.\n  - 2 Minor: shove a person, mend a bone-crack, silence a room.\n  - 5 Major: hurl someone across a street, heal a mortal wound, put out a house fire.\n  - 9 Grand: bend a rib, still a crowd, speak to the dead god.\n  - 14 Mythic: anything a god would hesitate over.\n- **Untutored:** +3 severity until a Tutor has taught you at least the basics of the word.\n- **Near the bones:** a Major-or-larger working inside the Ribcage advances The Stirring by 1 (Grand or larger by 2).\n- **The Toll:** after the working, roll the Toll (price roll) with severity = tier (+3 if untutored). Read the ladder. An ally who knows even one word can take half the cost.\n\n## The Stirring (0-6)\nTown-wide meter of how close Aldrumm is to waking. Rises from big magic near the bones, desecration, and Choir rites. Thresholds: 2 shared dreams, 4 bone-quake, 6 an eye opens.\n\n## Bearer Standing\nOpening reaction of townsfolk: 2d6 + standing (-3 to +3). Bearer's Ring or a known kindness to the old families raises it; a known slight lowers it.\n\n## Marrow\nCommon currency of the trade alongside coin. A thumb-vial of raw marrow sells for about 5 sp; refined lamp-marrow about 2 gp.\n\n## Carrion Rot (0-6, PC vital `rot`)\nStolen Choir power rots the thief.\n- **Harvest:** when you kill a Choir disciple you may eat their last breath to take one of their powers. +1 Rot, and a CON save DC 13 or +1 more.\n- **Using a stolen power:** +1 Rot per use unless the power says otherwise.\n- **Thresholds:** 2 cravings · 4 visible rot, Choir can sense you within a street · 6 Hollow-sung (character lost).\n- **Lowering Rot:** not yet known. Rumor says the Chapel, the Tutors, and the Hearthfather himself each have an answer, and each answer costs something.\n",
     "session-log.md": "# Session Log - Godbones\n\n*A new adventure begins...*\n\n---\n\n## World Summary\nThree hundred years ago the god Aldrumm the Hearthfather was killed by the Carrion Queen and fell across the Weeping Valley. Twelve Bearer families dragged the body into place and built the town of Godbones inside the ribcage. The Chapel of the Long Wake insists he is only sleeping. Marrow yields are dropping, the town shares dreams, and the Hollow Choir has arrived.\n\n- **Starting location:** Rib Row, market lane along the seventh rib. Midday, market day, 3rd of Harvestwane, Year 302 of the Bearing.\n- **On stage:** Mother Gristle (Lantern Tutor, pickle shop), Pip Haddersley (street kid speaking Marrowtongue in his sleep), Deacon Ilsabet Vane (Chapel, secretly Hollow Choir).\n- **Hook:** Pip collapses mid-street and speaks a word of the god's tongue; lamps flare, a window shatters. Vane wants to carry him to the Chapel \"for care.\" Gristle has gone very still.\n- **Threat clock:** The Hollow Choir claims Aldrumm's heart (0/4).\n\n---\n",
     "characters": {
@@ -1146,7 +1184,7 @@
         "race": "Human",
         "class": "Gutter Dreamer",
         "hp": {
-          "current": 8,
+          "current": 5,
           "max": 15
         },
         "ac": 13,
@@ -1173,7 +1211,7 @@
         "background": "Rib Row street kid and part-time marrow-thief",
         "concept": "An eleven-year-old street kid who dreams the dead god's dreams and speaks his words without being taught",
         "xp": {
-          "current": 400,
+          "current": 650,
           "next_level": 900
         },
         "speed": 30,
