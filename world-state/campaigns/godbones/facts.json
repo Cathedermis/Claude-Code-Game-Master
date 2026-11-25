@@ -19,6 +19,10 @@
     {
       "fact": "CHOIR CLOCK FULL (dawn, 5th of Harvestwane): the Hollow Choir went down the collapsed shaft of Pit Nine to the heart's door and pressed Thane's dead Hearthblood hand to the lock. The door opened a crack. The Carrion Queen has begun to feed. Across Godbones every marrow lamp is dimming and the bones have begun, very slowly, to grey.",
       "timestamp": "2026-11-24T20:24:18.236491+00:00"
+    },
+    {
+      "fact": "Vane, exposed and burned, moved the Heartstone out of the Chapel reliquary (where to is not yet known) and sent a note to Gristle's shop by a Hollow-sung runner: 'The lamp for the acolyte. Midnight. The Chapel steps. Come alone, little hearth.'",
+      "timestamp": "2026-11-25T08:09:01.214941+00:00"
     }
   ],
   "lore": [
@@ -87,6 +91,10 @@
     {
       "fact": "SUPPER BELL, 5th of Harvestwane: Vane's bound oath broke. The binding Thane tied with Aldrumm's own hand burned her: hearth-fire ran out of her wrist and set her late shadow alight, and the Carrion hymn screamed out of her mouth in front of Brannoc Tull and forty Guild scrapers at the mouth of Pit Nine. Her cover is gone. Badly burned, she fled toward the Chapel.",
       "timestamp": "2026-11-25T08:00:29.215622+00:00"
+    },
+    {
+      "fact": "Evening of the 5th: Pip led three freed acolytes carrying Thane's body up the collapsed shaft of Pit Nine by Thane's Lamp. Wenna Tull slipped and broke her leg (carry check failed); Guild ropes caught her and the body. Brannoc Tull, seeing his missing niece come up out of the god's heart by hearth-light, was warm to Pip (reaction 11) and sent six scrapers with him and Thane's body to Gristle's shop.",
+      "timestamp": "2026-11-25T08:09:00.583401+00:00"
     }
   ],
   "player_choices": [

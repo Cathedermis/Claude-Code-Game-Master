@@ -11,12 +11,6 @@
       "consequence": "[Clock — The Stirring] Aldrumm opens one eye. The Skull unseals. Everything changes. (Thresholds: 2 shared dreams, 4 bone-quake.)",
       "trigger": "the The Stirring clock ran out",
       "created": "2026-11-24T20:30:35.195947+00:00"
-    },
-    {
-      "id": "3969ea77",
-      "consequence": "Vane, exposed and burned, moves the Heartstone out of the Chapel reliquary to keep it from the little hearth, or tries to use Benedek to bargain for Thane's Lamp.",
-      "trigger": "the next time anyone goes looking for the Heartstone, or Pip leaves the heart-cavity",
-      "created": "2026-11-25T08:00:29.870432+00:00"
     }
   ],
   "resolved": [
@@ -54,6 +48,13 @@
       "trigger": "Pip reaches Aldrumm's heart or the door with the hand-shaped lock",
       "created": "2026-11-24T20:27:27.338004+00:00",
       "resolved": "2026-11-24T20:30:35.296373+00:00"
+    },
+    {
+      "id": "3969ea77",
+      "consequence": "Vane, exposed and burned, moves the Heartstone out of the Chapel reliquary to keep it from the little hearth, or tries to use Benedek to bargain for Thane's Lamp.",
+      "trigger": "the next time anyone goes looking for the Heartstone, or Pip leaves the heart-cavity",
+      "created": "2026-11-25T08:00:29.870432+00:00",
+      "resolved": "2026-11-25T08:09:01.124480+00:00"
     }
   ]
 }

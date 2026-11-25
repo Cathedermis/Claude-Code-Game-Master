@@ -26,6 +26,10 @@
       {
         "to": "Rib Row",
         "path": "visible from here"
+      },
+      {
+        "to": "The Heart-Cavity",
+        "path": "traveled"
       }
     ]
   },
@@ -90,6 +94,10 @@
       },
       {
         "to": "The Heart-Cavity",
+        "path": "traveled"
+      },
+      {
+        "to": "Gristle's Pickles & Preserves",
         "path": "traveled"
       }
     ],
