@@ -66,6 +66,10 @@
       {
         "event": "Evening of the 5th: Pip came to her ruined shop with Thane's body, Thane's lamp burning, and six Guild men. She took Thane's body in and laid him on the onion barrels.",
         "timestamp": "2026-11-25T08:09:01.334604+00:00"
+      },
+      {
+        "event": "Met Brannoc Tull in her ruined shop; they agreed the lamp must never be handed over. She proposed a decoy at the Chapel steps while Pip goes up the vein, and offered to teach Pip the Stopping before midnight.",
+        "timestamp": "2026-11-25T08:14:10.855024+00:00"
       }
     ]
   },
@@ -251,6 +255,10 @@
       {
         "event": "Pip brought his niece Wenna (missing a month in the Quiet Rooms, Hollow-sung) up out of Pit Nine alive and herself again. Warm to Pip; owes him. Sent six Guild men to carry Thane's body to Gristle's shop and escort the boy.",
         "timestamp": "2026-11-25T08:09:00.669649+00:00"
+      },
+      {
+        "event": "Came to Gristle's shop at Pip's invitation. Pip told him everything: Thane, the god's waking, the Carrion Queen at the door, the Heartstone, Vane's ransom note for Benedek. He believed every word (he watched Vane burn). Told them Wenna says at least a dozen more Guild children are still Hollow-sung in the Quiet Rooms.",
+        "timestamp": "2026-11-25T08:14:10.760269+00:00"
       }
     ],
     "visual_appearance": {
