@@ -1,7 +1,7 @@
 {
   "save_version": 1,
   "name": "autosave",
-  "created": "2026-11-25T08:32:44.743982+00:00",
+  "created": "2026-11-25T08:42:16.829694+00:00",
   "session_number": 0,
   "snapshot": {
     "campaign-overview.json": {
@@ -12,12 +12,12 @@
         "comedy": 40,
         "drama": 35
       },
-      "current_date": "5th of Harvestwane, Year 302 of the Bearing",
-      "time_of_day": "Midnight",
+      "current_date": "6th of Harvestwane, Year 302 of the Bearing",
+      "time_of_day": "Mid-morning",
       "player_position": {
-        "current_location": "The Quiet Rooms",
-        "previous_location": "Gristle's Pickles & Preserves",
-        "arrival_time": "2026-11-25 08:17:47 UTC"
+        "current_location": "The Heart-Cavity",
+        "previous_location": "The Quiet Rooms",
+        "arrival_time": "2026-11-25 08:34:30 UTC"
       },
       "current_character": "Pip Haddersley",
       "session_count": 0,
@@ -65,7 +65,7 @@
         },
         "goal": "Keep Thane's body out of the Choir's hands, get Pip home, and make the Carrion Queen's deacon regret every word of that oath",
         "secret": "She has known for a year that Choir agents are inside the Chapel, and told no one, because the Wardens would ban the Tutors outright in the panic",
-        "current_mood": "unconscious, then barely holding together",
+        "current_mood": "battered, proud, and pretending not to be",
         "voice": "Blunt, short sentences, pickling metaphors, calls everyone 'duck' including people she is threatening",
         "visual_appearance": {
           "sex": "female",
@@ -128,6 +128,10 @@
           {
             "event": "Midnight on the Chapel steps: kept Vane talking until the ward wall fell, then Vane struck her down with the hymn. Alive, unconscious; Mallow of the Guild is with her.",
             "timestamp": "2026-11-25T08:32:17.991556+00:00"
+          },
+          {
+            "event": "Woke at dawn on the 6th in the Guild's care, sore, furious, and alive. Has been told the boy did it.",
+            "timestamp": "2026-11-25T08:41:44.499003+00:00"
           }
         ]
       },
@@ -175,11 +179,10 @@
       "Deacon Ilsabet Vane": {
         "name": "Deacon Ilsabet Vane",
         "description": "Rising star of the Chapel of the Long Wake. Warm, attentive, remembers everyone's name and their children's names. Beloved on Rib Row.",
-        "attitude": "neutral",
+        "attitude": "hostile",
         "tags": {
           "locations": [
-            "Rib Row",
-            "Gristle's Pickles & Preserves"
+            "The Heart-Cavity"
           ],
           "quests": []
         },
@@ -232,8 +235,14 @@
           {
             "event": "Midnight: realized the steps were a decoy when the ward wall fell. Struck Gristle down and ran for Pit Nine with the Heartstone strapped to her arm, to carry it to the Carrion Queen through the heart's door.",
             "timestamp": "2026-11-25T08:32:18.075911+00:00"
+          },
+          {
+            "event": "DEAD. Pip held Thane's Lamp over her as she lay dying (roll 2): there was nothing under the hymn left to save. She burned to grey ash at the foot of the door she tried to open. Her shadow faded last.",
+            "timestamp": "2026-11-25T08:41:43.798848+00:00"
           }
-        ]
+        ],
+        "status": "dead",
+        "died": "Night of the 5th/6th of Harvestwane, Year 302, at the door of Aldrumm's heart. Burned out by the hearth-light of Thane's Lamp. Nothing left but grey ash and her late shadow, which faded last."
       },
       "Acolyte Benedek Thrupp": {
         "description": "Young Chapel acolyte, one of the four Hollow-sung freed when Aldrumm woke. Remembers nothing of the last month except the tune. Stabilized Pip with shaking hands.",
@@ -489,6 +498,10 @@
           {
             "to": "Gristle's Pickles & Preserves",
             "path": "traveled"
+          },
+          {
+            "to": "The Heart-Cavity",
+            "path": "traveled"
           }
         ],
         "description": "",
@@ -522,6 +535,10 @@
           },
           {
             "to": "Gristle's Pickles & Preserves",
+            "path": "traveled"
+          },
+          {
+            "to": "The Quiet Rooms",
             "path": "traveled"
           }
         ],
@@ -576,6 +593,10 @@
         {
           "fact": "Thane's Lamp: Thane Hearthless's cracked marrow lamp, now kept by Aldrumm's promise. It never goes out (not for wind, water, or the Carrion Queen). Its light is true hearth-light: the Queen's hymn burns out of anyone standing in it, and the Hollow-sung cannot abide it. Every hearth-fire in Godbones now crackles with Thane's name.",
           "timestamp": "2026-11-25T07:50:38.762814+00:00"
+        },
+        {
+          "fact": "The Heartstone in the hand-shaped lock: set with Aldrumm's word (hearth or waking), it SEALS the heart's door forever. Set with the Carrion hymn, sung through to the end (a three-round rite), it opens the door forever and the Queen walks in.",
+          "timestamp": "2026-11-25T08:34:29.764268+00:00"
         }
       ],
       "session_events": [
@@ -654,6 +675,18 @@
         {
           "fact": "When the Guild brought down the ward wall, Vane knew she'd been played. She struck Mother Gristle down on the Chapel steps with the Carrion hymn (Gristle alive, unconscious, Mallow with her) and ran for Pit Nine with the Heartstone, now that the Guild has left the shaft and Thane's Lamp is no longer below.",
           "timestamp": "2026-11-25T08:32:17.903959+00:00"
+        },
+        {
+          "fact": "The race to the heart's door: Vane, one-armed and burned, got down Pit Nine (12) before Pip came out of the marrow vein (7; stuck at the fat bit). When Pip arrived she had already pressed the Heartstone into the hand-shaped lock and begun the three-round Carrion rite to open the door forever (one round sung). The Guild is about three rounds behind.",
+          "timestamp": "2026-11-25T08:34:29.848758+00:00"
+        },
+        {
+          "fact": "At the heart's door: Pip held Thane's Lamp on Vane. Round 2 she burned (6) but held the hymn (19): rite at 2/3. Round 3 Pip ran in to tear the Heartstone out of the lock (7 vs 13, failed: the half-sung lock gripped it and seared his palm, 1 dmg). Then, at point-blank in the lamp's glow, the hearth-light burned Vane for 11 and she fell at 0 HP before the third verse. The rite is broken. The Heartstone is still in the lock, flickering red and grey. Vane is down and dying. The Guild is one round away.",
+          "timestamp": "2026-11-25T08:38:28.185087+00:00"
+        },
+        {
+          "fact": "Deacon Ilsabet Vane died at the heart's door, burned to grey ash by the light of Thane's Lamp when Pip held it over her (roll 2: nothing left under the hymn). The Guild came down Pit Nine and set a watch on the door. The Heartstone stays in the lock, unsealed, until Gristle can share the bill. Pip slept by the door with the lamp.",
+          "timestamp": "2026-11-25T08:41:43.892940+00:00"
         }
       ],
       "player_choices": [
@@ -1156,7 +1189,7 @@
         "consequence_fired": "9263225d"
       },
       "The Carrion Queen forces the door again": {
-        "current": 0,
+        "current": 1,
         "max": 6,
         "advance_on": "time",
         "consequence": "The Queen, starved and furious, breaks the heart's door from the far side. No hand needed this time."
@@ -1184,7 +1217,7 @@
         "race": "Human",
         "class": "Gutter Dreamer",
         "hp": {
-          "current": 5,
+          "current": 15,
           "max": 15
         },
         "ac": 13,
@@ -1211,7 +1244,7 @@
         "background": "Rib Row street kid and part-time marrow-thief",
         "concept": "An eleven-year-old street kid who dreams the dead god's dreams and speaks his words without being taught",
         "xp": {
-          "current": 650,
+          "current": 800,
           "next_level": 900
         },
         "speed": 30,
@@ -1261,7 +1294,7 @@
           "demeanor": "wary, quick, brave in short bursts",
           "size": "small and underfed"
         },
-        "current_location": "The Quiet Rooms"
+        "current_location": "The Heart-Cavity"
       }
     },
     "fallen/thane-hearthless.json": {
