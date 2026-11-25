@@ -70,6 +70,10 @@
       {
         "event": "Met Brannoc Tull in her ruined shop; they agreed the lamp must never be handed over. She proposed a decoy at the Chapel steps while Pip goes up the vein, and offered to teach Pip the Stopping before midnight.",
         "timestamp": "2026-11-25T08:14:10.855024+00:00"
+      },
+      {
+        "event": "Midnight on the Chapel steps: kept Vane talking until the ward wall fell, then Vane struck her down with the hymn. Alive, unconscious; Mallow of the Guild is with her.",
+        "timestamp": "2026-11-25T08:32:17.991556+00:00"
       }
     ]
   },
@@ -125,9 +129,9 @@
       ],
       "quests": []
     },
-    "goal": "Get the Heartstone before anyone takes it down to the door; use Benedek as leverage; make the little hearth pay",
+    "goal": "Get down Pit Nine to the heart's door and give the Heartstone to the Carrion Queen before the little hearth catches her",
     "secret": "She belongs to the Hollow Choir. She sings the Carrion Queen's hymn under her breath when she thinks no one is near, and her shadow is a half-second late",
-    "current_mood": "burned, exposed, cornered, and very dangerous",
+    "current_mood": "burned, desperate, racing",
     "voice": "Soft, kind, unhurried; uses 'we' and 'together'; never once raises her voice, even when threatening",
     "visual_appearance": {
       "sex": "female",
@@ -170,6 +174,10 @@
       {
         "event": "Broke her bound oath at the supper bell (Pip never came home). The binding burned her: shadow on fire, the Carrion hymn torn out of her mouth in front of Brannoc Tull and the Guild crews at Pit Nine. Exposed as Hollow Choir. Badly burned, fled into the Chapel. Holds Acolyte Benedek Thrupp prisoner in the Quiet Rooms. Knows Pip is in the heart-cavity with Thane's Lamp.",
         "timestamp": "2026-11-25T08:00:29.305744+00:00"
+      },
+      {
+        "event": "Midnight: realized the steps were a decoy when the ward wall fell. Struck Gristle down and ran for Pit Nine with the Heartstone strapped to her arm, to carry it to the Carrion Queen through the heart's door.",
+        "timestamp": "2026-11-25T08:32:18.075911+00:00"
       }
     ]
   },
