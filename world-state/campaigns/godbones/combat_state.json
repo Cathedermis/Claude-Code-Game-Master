@@ -5,7 +5,7 @@
   "combatants": [
     {
       "name": "Sister Orla Coyle",
-      "hp_current": 12,
+      "hp_current": 2,
       "hp_max": 22,
       "ac": 12,
       "conditions": [
